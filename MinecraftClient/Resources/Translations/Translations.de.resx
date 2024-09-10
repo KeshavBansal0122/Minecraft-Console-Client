@@ -1,0 +1,2130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" id="root">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace"/>
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string"/>
+              <xsd:attribute name="type" type="xsd:string"/>
+              <xsd:attribute name="mimetype" type="xsd:string"/>
+              <xsd:attribute ref="xml:space"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string"/>
+              <xsd:attribute name="name" type="xsd:string"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1"/>
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3"/>
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4"/>
+              <xsd:attribute ref="xml:space"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required"/>
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="bot.alerts.end_rain" xml:space="preserve">
+    <value>Wetteränderung: Es regnet nicht mehr.</value>
+  </data>
+  <data name="bot.alerts.end_thunderstorm" xml:space="preserve">
+    <value>Wetteränderung: Es gewittert nicht mehr.</value>
+  </data>
+  <data name="bot.alerts.start_rain" xml:space="preserve">
+    <value>Wetteränderung: Es regnet jetzt.</value>
+  </data>
+  <data name="bot.alerts.start_thunderstorm" xml:space="preserve">
+    <value>Wetteränderung: Es gewittert jetzt.</value>
+  </data>
+  <data name="bot.antiafk.invalid_walk_range" xml:space="preserve">
+    <value>Ungültiger Laufbereich angegeben, muss eine positive ganze Zahl größer als 0 sein, mit einem Standardwert von 5!</value>
+  </data>
+  <data name="bot.antiafk.not_using_terrain_handling" xml:space="preserve">
+    <value>Das Geländehandling ist in den Einstellungen des Clients nicht aktiviert, aktivieren Sie es, wenn Sie es mit diesem Bot verwenden möchten. Verwendung einer alternativen (Befehl) Methode.</value>
+  </data>
+  <data name="bot.antiafk.swapping" xml:space="preserve">
+    <value>Die Zeitspanne beginnt mit einem größeren Wert, die beiden Werte wurden vertauscht.</value>
+  </data>
+  <data name="bot.autoAttack.invalidcooldown" xml:space="preserve">
+    <value>Angriffscooldown kann nicht kleiner als 0 sein. Benutze Auto als Standard.</value>
+  </data>
+  <data name="bot.autoCraft.aborted" xml:space="preserve">
+    <value>Crafting abgebrochen! Überprüfe die vorhandenen Materialien.</value>
+  </data>
+  <data name="bot.autoCraft.alias" xml:space="preserve">
+    <value>Auto-Crafting ChatBot-Befehl Alias</value>
+  </data>
+  <data name="bot.autoCraft.available_cmd" xml:space="preserve">
+    <value>Verfügbare Befehle: {0}. Verwenden Sie "/autocraft help &lt;cmd name&gt;" für weitere Informationen.</value>
+  </data>
+  <data name="bot.autoCraft.close_inventory" xml:space="preserve">
+    <value>Inventar #{0} wurde nicht von AutoCraft geschlossen.</value>
+  </data>
+  <data name="bot.autoCraft.cmd" xml:space="preserve">
+    <value>Auto-Crafting ChatBot-Befehl</value>
+  </data>
+  <data name="bot.autoCraft.cmd.list" xml:space="preserve">
+    <value>Insgesamt {0} Rezepte geladen: {1}</value>
+  </data>
+  <data name="bot.autoCraft.craft_fail" xml:space="preserve">
+    <value>Crafting fehlgeschlagen! Warte auf weitere Materialien...</value>
+  </data>
+  <data name="bot.autoCraft.exception.duplicate" xml:space="preserve">
+    <value>Doppelter Rezeptname angegeben: {0}</value>
+  </data>
+  <data name="bot.autoCraft.exception.name_miss" xml:space="preserve">
+    <value>Fehlender Rezeptname während der Rezeptübergabe</value>
+  </data>
+  <data name="bot.autoCraft.help.help" xml:space="preserve">
+    <value>Sieh dir die Beschreibung der Befehle an. Benutzung: /autocraft help &lt;command name&gt;</value>
+  </data>
+  <data name="bot.autoCraft.help.list" xml:space="preserve">
+    <value>Liste Namen der geladenen Rezepte.</value>
+  </data>
+  <data name="bot.autoCraft.help.load" xml:space="preserve">
+    <value>Lade Config-Datei.</value>
+  </data>
+  <data name="bot.autoCraft.help.reload" xml:space="preserve">
+    <value>Lade Config-Datei neu.</value>
+  </data>
+  <data name="bot.autoCraft.help.resetcfg" xml:space="preserve">
+    <value>Schreibe die normale Beispiel-Config in den Standardpfad.</value>
+  </data>
+  <data name="bot.autoCraft.help.start" xml:space="preserve">
+    <value>Starte crafting. Benutzung: /autocraft start &lt;recipe name&gt;</value>
+  </data>
+  <data name="bot.autoCraft.help.stop" xml:space="preserve">
+    <value>Stoppe den aktuell laufenden Crafting-Prozess</value>
+  </data>
+  <data name="bot.autocraft.invaild_result" xml:space="preserve">
+    <value>Ungültiges Ergebnis-Element!</value>
+  </data>
+  <data name="bot.autocraft.invaild_slots" xml:space="preserve">
+    <value>Die Anzahl der Plätze stimmt nicht überein und wurde automatisch angepasst.</value>
+  </data>
+  <data name="bot.autoCraft.missing_material" xml:space="preserve">
+    <value>Fehlende Materialien: {0}</value>
+  </data>
+  <data name="bot.autoCraft.no_recipe_name" xml:space="preserve">
+    <value>Bitte gebe den Namen des Rezepts an, welches du craften willst.</value>
+  </data>
+  <data name="bot.autoCraft.recipe_not_exist" xml:space="preserve">
+    <value>Der angegebene Rezeptname existiert nicht. Überprüfe deine Config-Datei.</value>
+  </data>
+  <data name="bot.autoCraft.start" xml:space="preserve">
+    <value>Starte AutoCraft: {0}</value>
+  </data>
+  <data name="bot.autoCraft.start_fail" xml:space="preserve">
+    <value>AutoCraft konnte nicht gestartet werden. Überprüfe die Verfügbaren Materialien für das Crafting {0}</value>
+  </data>
+  <data name="bot.autoCraft.stop" xml:space="preserve">
+    <value>AutoCraft angehalten</value>
+  </data>
+  <data name="bot.autoCraft.table_not_found" xml:space="preserve">
+    <value>Table nicht gefunden</value>
+  </data>
+  <data name="bot.autoCraft.timeout" xml:space="preserve">
+    <value>Aktion timeout! Grund: {0}</value>
+  </data>
+  <data name="bot.autodig.available_cmd" xml:space="preserve">
+    <value>Verfügbare Befehle: {0}. Verwenden Sie "/autodig help &lt;cmd name&gt;" für weitere Informationen.</value>
+  </data>
+  <data name="bot.autodig.cmd" xml:space="preserve">
+    <value>Auto-digging Chatbot Befehl</value>
+  </data>
+  <data name="bot.autodig.dig_timeout" xml:space="preserve">
+    <value>Block-Abbau Timeout, erneut versuchen.</value>
+  </data>
+  <data name="bot.autodig.help.help" xml:space="preserve">
+    <value>Beschreibung des Befehls abrufen. Verwendung: /autodig help &lt;command name&gt;</value>
+  </data>
+  <data name="bot.autodig.help.start" xml:space="preserve">
+    <value>Startet den automatischen Abbaubot.</value>
+  </data>
+  <data name="bot.autodig.help.stop" xml:space="preserve">
+    <value>Deaktiviert den automatischen Abbaubot.</value>
+  </data>
+  <data name="bot.autodig.not_allow" xml:space="preserve">
+    <value>Der Block, den du gerade anschaust, ist nicht in der Liste der erlaubten Blöcke.</value>
+  </data>
+  <data name="bot.autodig.no_inv_handle" xml:space="preserve">
+    <value>Inventar-Handling ist nicht aktiviert. Automatisches Wechseln von Werkzeugen nicht möglich.</value>
+  </data>
+  <data name="bot.autodig.start" xml:space="preserve">
+    <value>Automatisches Abbauen wurde gestartet.</value>
+  </data>
+  <data name="bot.autodig.start_delay" xml:space="preserve">
+    <value>Abbauen beginnt in {0:0.0} Sekunde(n).</value>
+  </data>
+  <data name="bot.autodig.stop" xml:space="preserve">
+    <value>Automatischer Abbau wurde gestoppt.</value>
+  </data>
+  <data name="bot.autoDrop.added" xml:space="preserve">
+    <value>Item hinzugefügt: {0}</value>
+  </data>
+  <data name="bot.autoDrop.alias" xml:space="preserve">
+    <value>AutoDrop ChatBot Befehl alias</value>
+  </data>
+  <data name="bot.autoDrop.cmd" xml:space="preserve">
+    <value>AutoDrop ChatBot Befehl</value>
+  </data>
+  <data name="bot.autoDrop.incorrect_name" xml:space="preserve">
+    <value>Falscher item Name {0}. Bitte versuche es erneut!</value>
+  </data>
+  <data name="bot.autoDrop.list" xml:space="preserve">
+    <value>Insgesamt {0} in der Liste:
+ {1}</value>
+  </data>
+  <data name="bot.autoDrop.not_in_list" xml:space="preserve">
+    <value>Item ist nicht in der Liste.</value>
+  </data>
+  <data name="bot.autoDrop.no_inventory" xml:space="preserve">
+    <value>Konnte Inventar nicht finden {0}!</value>
+  </data>
+  <data name="bot.autoDrop.no_item" xml:space="preserve">
+    <value>Kein Item in der Liste.</value>
+  </data>
+  <data name="bot.autoDrop.no_mode" xml:space="preserve">
+    <value>Kann drop Modus nicht aus Config Datei lesen. Benutze include Modus.</value>
+  </data>
+  <data name="bot.autoDrop.off" xml:space="preserve">
+    <value>AutoDrop deaktiviert</value>
+  </data>
+  <data name="bot.autoDrop.on" xml:space="preserve">
+    <value>AutoDrop aktiviert</value>
+  </data>
+  <data name="bot.autoDrop.removed" xml:space="preserve">
+    <value>Item entfernt: {0}</value>
+  </data>
+  <data name="bot.autoDrop.switched" xml:space="preserve">
+    <value>Ändere zu {0} mode.</value>
+  </data>
+  <data name="bot.autoDrop.unknown_mode" xml:space="preserve">
+    <value>Unbekannter Modus. Verfügbare Modi: Include, Exclude, Everything</value>
+  </data>
+  <data name="bot.autoFish.available_cmd" xml:space="preserve">
+    <value>Verfügbare Befehle: {0}. Benutze /fish help &lt;cmd name&gt; für weitere Informationen.</value>
+  </data>
+  <data name="bot.autoFish.cast_timeout" xml:space="preserve">
+    <value>Angelauswurf Timeout. Wird erneut versucht. (Verzögerung erhöht auf {0:0.0} Sekunden).</value>
+  </data>
+  <data name="bot.autoFish.caught" xml:space="preserve">
+    <value>Fisch gefangen! (Anzahl: {0})</value>
+  </data>
+  <data name="bot.autoFish.caught_at" xml:space="preserve">
+    <value>Angelrute wird eingeholt bei ({0:0.0},{1:0.0},{2:0.0})! (Anzahl: {3})</value>
+  </data>
+  <data name="bot.autoFish.cmd" xml:space="preserve">
+    <value>Auto-Angeln ChatBot Befehl</value>
+  </data>
+  <data name="bot.autoFish.despawn" xml:space="preserve">
+    <value>Der Schwimmer ist verschwunden, wird erneut ausgeworfen.</value>
+  </data>
+  <data name="bot.autoFish.fishing_timeout" xml:space="preserve">
+    <value>Angel Timeout. Angelrute wird bald erneut ausgeworfen.</value>
+  </data>
+  <data name="bot.autoFish.got" xml:space="preserve">
+    <value>{0} wurde gefangen</value>
+  </data>
+  <data name="bot.autoFish.help.help" xml:space="preserve">
+    <value>Erhalte die Befehlsbeschreibung. Benutzung: /fish help &lt;command name&gt;</value>
+  </data>
+  <data name="bot.autoFish.help.start" xml:space="preserve">
+    <value>Starte Auto-Angeln.</value>
+  </data>
+  <data name="bot.autoFish.help.status" xml:space="preserve">
+    <value>Listet alle erhaltenen Gegenstände. Oder benutze "/fish status clear" um die Liste zurückzusetzen.</value>
+  </data>
+  <data name="bot.autoFish.help.stop" xml:space="preserve">
+    <value>Stoppe Auto-Angeln.</value>
+  </data>
+  <data name="bot.autoFish.no_inv_handle" xml:space="preserve">
+    <value>Inventarhandling ist nicht aktiviert. Haltbarkeit der Angel kann nicht überprüft werden und Angel kann nicht getauscht werden.</value>
+  </data>
+  <data name="bot.autoFish.no_rod" xml:space="preserve">
+    <value>Keine Angelrute in der Hand. Ist sie kaputt?</value>
+  </data>
+  <data name="bot.autoFish.start" xml:space="preserve">
+    <value>Starte Auto-Angeln.</value>
+  </data>
+  <data name="bot.autoFish.start_at" xml:space="preserve">
+    <value>Angeln wird gestartet in {0:0.0} Sekunde(n).</value>
+  </data>
+  <data name="bot.autoFish.status_clear" xml:space="preserve">
+    <value>Die Liste der erhaltenen Gegenstände wurde gelöscht.</value>
+  </data>
+  <data name="bot.autoFish.status_info" xml:space="preserve">
+    <value>Alle vom Angeln erhaltenen Gegenstände (nicht ganz genau):</value>
+  </data>
+  <data name="bot.autoFish.stop" xml:space="preserve">
+    <value>Stoppe Auto-Angeln.</value>
+  </data>
+  <data name="bot.autoFish.switch" xml:space="preserve">
+    <value>Wechsel zur Angel in Slot {0}, Haltbarkeit {1}/64.</value>
+  </data>
+  <data name="bot.autoFish.throw" xml:space="preserve">
+    <value>Angel ausgeworfen!</value>
+  </data>
+  <data name="bot.autoFish.update_lookat" xml:space="preserve">
+    <value>Aktualisiere yaw = {0:0.00}, pitch = {1:0.00}.</value>
+  </data>
+  <data name="bot.autoRelog.curr_dir" xml:space="preserve">
+    <value>Aktuelles Verzeichnis war: {0}</value>
+  </data>
+  <data name="bot.autoRelog.disconnect_msg" xml:space="preserve">
+    <value>Verbindung wurde mit folgender Nachricht unterbrochen: {0}</value>
+  </data>
+  <data name="bot.autoRelog.ignore_user_logout" xml:space="preserve">
+    <value>Disconnect wurde von User oder Bot ausgelöst. Wird ignoriert!</value>
+  </data>
+  <data name="bot.autoRelog.launch" xml:space="preserve">
+    <value>Starte mit {0} reconnect Versuchen</value>
+  </data>
+  <data name="bot.autoRelog.no_kick_msg" xml:space="preserve">
+    <value>Initialisierung ohne Kick Nachricht Datei.</value>
+  </data>
+  <data name="bot.autoRelog.reconnect" xml:space="preserve">
+    <value>Nachricht enhält '{0}'. Verbinde erneut.</value>
+  </data>
+  <data name="bot.autoRelog.reconnect_always" xml:space="preserve">
+    <value>Ignoriere Kick Nachricht und verbinde erneut.</value>
+  </data>
+  <data name="bot.autoRelog.reconnect_ignore" xml:space="preserve">
+    <value>Kick Nachricht enthält keine Schlüsselwörter. Wird ignoriert!</value>
+  </data>
+  <data name="bot.autoRelog.wait" xml:space="preserve">
+    <value>Warte {0:0.000} Sekunden vor erneuter Verbindung...</value>
+  </data>
+  <data name="bot.autoRespond.file_not_found" xml:space="preserve">
+    <value>Datei nicht gefunden: '{0}'</value>
+  </data>
+  <data name="bot.autoRespond.loaded_match" xml:space="preserve">
+    <value>Lade Übereinstimmung:
+{0}</value>
+  </data>
+  <data name="bot.autoRespond.loading" xml:space="preserve">
+    <value>Lade Übereinstimmungen von '{0}'</value>
+  </data>
+  <data name="bot.autoRespond.match" xml:space="preserve">
+    <value>übereinstimmung: {0}
+ Regex: {1}
+ Aktion: {2}
+ Private Aktion: {3}
+ Andere Aktion: {4}
+ Nur für Eigentümer: {5}
+ Abklingzeit: {6}</value>
+  </data>
+  <data name="bot.autoRespond.match_run" xml:space="preserve">
+    <value>Laufende Überprüfung: {0}</value>
+  </data>
+  <data name="bot.autoRespond.no_action" xml:space="preserve">
+    <value>Keine Aktion für Übereinstimmung gefunden:
+{0}</value>
+  </data>
+  <data name="bot.autoRespond.no_trigger" xml:space="preserve">
+    <value>Diese Regel wird nie ausgelöst werden:
+{0}</value>
+  </data>
+  <data name="bot.chatLog.invalid_file" xml:space="preserve">
+    <value>Pfad '{0}' enthält ungültige Zeichen.</value>
+  </data>
+  <data name="bot.DiscordBridge.canceled_sending" xml:space="preserve">
+    <value>Nachricht an Discord senden wurde abgebrochen aufgrund von einem aufgetretenen Fehler. Für mehr Informationen den Debugmodus aktivieren.</value>
+  </data>
+  <data name="bot.DiscordBridge.channel_not_found" xml:space="preserve">
+    <value>Der angegebene Kanal mit der ID '{0}' wurde nicht gefunden!</value>
+  </data>
+  <data name="bot.DiscordBridge.command_executed" xml:space="preserve">
+    <value>Der Befehl wurde mit folgendem Ergebnis ausgeführt</value>
+  </data>
+  <data name="bot.DiscordBridge.connected" xml:space="preserve">
+    <value>Erfolgreich verbunden mit MCC!</value>
+  </data>
+  <data name="bot.DiscordBridge.desc" xml:space="preserve">
+    <value>Dieser Befehl erlaubt dir, die Richtung anzugeben, in die die Nachrichten über den Discord Bridge Chat-Bot weitergeleitet werden soll.</value>
+  </data>
+  <data name="bot.DiscordBridge.direction" xml:space="preserve">
+    <value>Die Richtung der Discord Bridge wurde auf '{0}' umgestellt!</value>
+  </data>
+  <data name="bot.DiscordBridge.direction.both" xml:space="preserve">
+    <value>Beide</value>
+  </data>
+  <data name="bot.DiscordBridge.direction.discord" xml:space="preserve">
+    <value>Discord</value>
+  </data>
+  <data name="bot.DiscordBridge.direction.minecraft" xml:space="preserve">
+    <value>Minecraft</value>
+  </data>
+  <data name="bot.DiscordBridge.disconnected" xml:space="preserve">
+    <value>Erfolgreich von MCC getrennt!</value>
+  </data>
+  <data name="bot.DiscordBridge.guild_not_found" xml:space="preserve">
+    <value>Der/Die angegebene Server/Gilde mit der ID '{0}' wurde nicht gefunden!</value>
+  </data>
+  <data name="bot.DiscordBridge.invalid_direction" xml:space="preserve">
+    <value>Ungültige Richtung angegeben! Verfügbare Richtungen: beide | b, Minecraft | mc, Discord | dsc. Beispiel: "dscbridge direction mc"</value>
+  </data>
+  <data name="bot.DiscordBridge.missing_token" xml:space="preserve">
+    <value>Bitte einen gültigen Token angeben!</value>
+  </data>
+  <data name="bot.DiscordBridge.unknown_error" xml:space="preserve">
+    <value>Ein unbekannter Fehler ist aufgetreten!</value>
+  </data>
+  <data name="bot.farmer.already_running" xml:space="preserve">
+    <value>Der Bot ist bereits am farmen!</value>
+  </data>
+  <data name="bot.farmer.already_stopped" xml:space="preserve">
+    <value>Der Bot hat bereits aufgehört zu farmen!</value>
+  </data>
+  <data name="bot.farmer.crop_type" xml:space="preserve">
+    <value>Pflanzenart</value>
+  </data>
+  <data name="bot.farmer.desc" xml:space="preserve">
+    <value>Farm Bot</value>
+  </data>
+  <data name="bot.farmer.invalid_crop_type" xml:space="preserve">
+    <value>Ungültige Pflanzenart angegeben (Arten die benutzt werden können: RoteBete, Karotte, Melone, Netherwarzen, Kürbis, Kartoffel, Weizen)!</value>
+  </data>
+  <data name="bot.farmer.invalid_radius" xml:space="preserve">
+    <value>Ungültiger Radius angegeben. Du musst eine ganze Zahl größer als 0 angeben!</value>
+  </data>
+  <data name="bot.farmer.needs_inventory" xml:space="preserve">
+    <value>Der Farm Bot benötigt Inventory Handling um zu funktionieren. Bitte aktivieren!</value>
+  </data>
+  <data name="bot.farmer.needs_terrain" xml:space="preserve">
+    <value>Der Farm Bot benötigt Terrain Handling um zu funktionieren. Bitte aktivieren!</value>
+  </data>
+  <data name="bot.farmer.not_implemented" xml:space="preserve">
+    <value>Nicht implementiert in Versionen niedriger als 1.13!</value>
+  </data>
+  <data name="bot.farmer.radius" xml:space="preserve">
+    <value>Radius</value>
+  </data>
+  <data name="bot.farmer.started" xml:space="preserve">
+    <value>Farmen gestartet!</value>
+  </data>
+  <data name="bot.farmer.stopped" xml:space="preserve">
+    <value>Farmen gestoppt!</value>
+  </data>
+  <data name="bot.farmer.stopping" xml:space="preserve">
+    <value>Farmen wird gestoppt. Dies könnte eine Sekunde dauern...</value>
+  </data>
+  <data name="bot.farmer.warining_allow_teleport" xml:space="preserve">
+    <value>Du hast Teleportation aktiviert. Dies könnte zu einem Kick führen oder im schlimmsten Fall zu einem Ban. Bei Benutzung aufpassen!</value>
+  </data>
+  <data name="bot.farmer.warining_force_unsafe" xml:space="preserve">
+    <value>Du hast unsichere Bewegungen aktiviert. Der Bot könnte Schaden nehmen!</value>
+  </data>
+  <data name="bot.farmer.warining_invalid_parameter" xml:space="preserve">
+    <value>Ungültiger Parameter "{0}" angegeben (Benutze Format: "key:value")!</value>
+  </data>
+  <data name="bot.mailer.cmd" xml:space="preserve">
+    <value>Mailer-Befehl</value>
+  </data>
+  <data name="bot.mailer.cmd.getignored" xml:space="preserve">
+    <value>--- Ignore Liste ---
+{0}</value>
+  </data>
+  <data name="bot.mailer.cmd.getmails" xml:space="preserve">
+    <value>--- Mails in Datenbank ---
+{0}</value>
+  </data>
+  <data name="bot.mailer.cmd.help" xml:space="preserve">
+    <value>Siehe Benutzung</value>
+  </data>
+  <data name="bot.mailer.cmd.ignore.added" xml:space="preserve">
+    <value>Füge {0} zur Ignore-Liste hinzu!</value>
+  </data>
+  <data name="bot.mailer.cmd.ignore.invalid" xml:space="preserve">
+    <value>Fehlender oder ungültiger Name. Benutzung: {0} &lt;username&gt;</value>
+  </data>
+  <data name="bot.mailer.cmd.ignore.removed" xml:space="preserve">
+    <value>Entferne {0} von der Ignore Liste!</value>
+  </data>
+  <data name="bot.mailer.create.db" xml:space="preserve">
+    <value>Erstelle neue Datenbank: {0}</value>
+  </data>
+  <data name="bot.mailer.create.ignore" xml:space="preserve">
+    <value>Erstelle neue Ignore-Liste: {0}</value>
+  </data>
+  <data name="bot.mailer.delivered" xml:space="preserve">
+    <value>Mail ausgestellt: {0}</value>
+  </data>
+  <data name="bot.mailer.init" xml:space="preserve">
+    <value>Starte Mailer mit folgenden Einstellungen:</value>
+  </data>
+  <data name="bot.mailer.init.db" xml:space="preserve">
+    <value> - Datenbank Datei: {0}</value>
+  </data>
+  <data name="bot.mailer.init.db_size" xml:space="preserve">
+    <value> - Maximale Größe der Datenbank: {0}</value>
+  </data>
+  <data name="bot.mailer.init.ignore" xml:space="preserve">
+    <value> - Ignore Liste: {0}</value>
+  </data>
+  <data name="bot.mailer.init.mail_retention" xml:space="preserve">
+    <value> - Auslaufzeit einer Mail: {0}</value>
+  </data>
+  <data name="bot.mailer.init.max_mails" xml:space="preserve">
+    <value> - Maximale Mails eines Spielers: {0}</value>
+  </data>
+  <data name="bot.mailer.init.public" xml:space="preserve">
+    <value> - Öffentliche Interaktionen: {0}</value>
+  </data>
+  <data name="bot.mailer.init_fail.db_size" xml:space="preserve">
+    <value>Konnte Mailer nicht aktivieren: Die maximale Größe der Datenbank muss größer als 0 sein. Bitte überprüfe die Einstellungen.</value>
+  </data>
+  <data name="bot.mailer.init_fail.mail_retention" xml:space="preserve">
+    <value>Konnte Mailer nicht aktivieren: Die Auslaufzeit einer Mail muss größer als 0 sein. Bitte überprüfe die Einstellungen.</value>
+  </data>
+  <data name="bot.mailer.init_fail.max_mails" xml:space="preserve">
+    <value>Konnte Mailer nicht aktivieren: Die maximalen Mails eines Spielers müssen größer als 0 sein. Bitte überprüfe die Einstellungen.</value>
+  </data>
+  <data name="bot.mailer.load.db" xml:space="preserve">
+    <value>Lade Datenbank-Datei: {0}</value>
+  </data>
+  <data name="bot.mailer.load.ignore" xml:space="preserve">
+    <value>Lade Ignore-Liste:</value>
+  </data>
+  <data name="bot.mailer.process_mails" xml:space="preserve">
+    <value>Schaue nach Mails, die abgeschickt werden können @ {0}</value>
+  </data>
+  <data name="bot.mailer.saving" xml:space="preserve">
+    <value>Speichere Nachricht: {0}</value>
+  </data>
+  <data name="bot.mailer.user_ignored" xml:space="preserve">
+    <value>{0} wurde ignoriert!</value>
+  </data>
+  <data name="bot.map.cmd.desc" xml:space="preserve">
+    <value>Render von Karten (Gegenstandskarten)</value>
+  </data>
+  <data name="bot.map.cmd.invalid_id" xml:space="preserve">
+    <value>Ungültige ID angegeben. Diese muss eine Nummer sein!</value>
+  </data>
+  <data name="bot.map.cmd.not_found" xml:space="preserve">
+    <value>Eine Karte mit der ID '{0}' existiert nicht!</value>
+  </data>
+  <data name="bot.map.failed_to_render" xml:space="preserve">
+    <value>Fehler beim rendern der Karte mit der ID: '{0}'</value>
+  </data>
+  <data name="bot.map.list_item" xml:space="preserve">
+    <value>- Karten-Id: {0} (Zuletzt aktualisiert: {1})</value>
+  </data>
+  <data name="bot.map.no_maps" xml:space="preserve">
+    <value>Keine Karten empfangen!</value>
+  </data>
+  <data name="bot.map.received" xml:space="preserve">
+    <value>Die Liste der empfangenen Karten vom Server:</value>
+  </data>
+  <data name="bot.map.received_map" xml:space="preserve">
+    <value>Neue Karte erhalten mit der ID: {0}</value>
+  </data>
+  <data name="bot.map.rendered" xml:space="preserve">
+    <value>Karte mit der Id '{0}' erfolgreich auf '{1}' gerendert.</value>
+  </data>
+  <data name="bot.map.resized_rendered_image" xml:space="preserve">
+    <value>Größe des gerenderten Bildes der Karte mit der Id '{0}' wurde auf {1}x{1} geändert.</value>
+  </data>
+  <data name="bot.map.scale" xml:space="preserve">
+    <value>Die Größe der Karte wird aufgrund der Größenbeschränkung des aktuellen Terminals von ({0}x{1}) auf ({2}x{3}) reduziert.</value>
+  </data>
+  <data name="bot.map.sent_to_discord" xml:space="preserve">
+    <value>Ein gerendertes Bild einer Karte mit der Id '{0}' wurde über den Discord-Bridge-Chat-Bot erfolgreich an Discord gesendet!</value>
+  </data>
+  <data name="bot.map.sent_to_telegram" xml:space="preserve">
+    <value>Ein gerendertes Bild einer Karte mit der Id '{0}' wurde über den Telegram-Bridge-Chat-Bot erfolgreich an Telegram gesendet!</value>
+  </data>
+  <data name="bot.replayCapture.cmd" xml:space="preserve">
+    <value>replay Befehl</value>
+  </data>
+  <data name="bot.replayCapture.created" xml:space="preserve">
+    <value>Replay-Datei erstellt.</value>
+  </data>
+  <data name="bot.replayCapture.restart" xml:space="preserve">
+    <value>Aufnahme wurde angehalten. Starte das Programm neu um eine neue Aufnahme zu erstellen.</value>
+  </data>
+  <data name="bot.replayCapture.stopped" xml:space="preserve">
+    <value>Record angehalten.</value>
+  </data>
+  <data name="bot.script.fail" xml:space="preserve">
+    <value>Konnte Skript '{0}' nicht starten ({1}).</value>
+  </data>
+  <data name="bot.script.file_not_found" xml:space="preserve">
+    <value>Datei nicht gefunden: '{0}'</value>
+  </data>
+  <data name="bot.script.not_found" xml:space="preserve">
+    <value>[MCC] [{0}] Konnte Skriptdatei nicht finden: {1}</value>
+  </data>
+  <data name="bot.script.pm.loaded" xml:space="preserve">
+    <value>Skript '{0}' geladen.</value>
+  </data>
+  <data name="bot.scriptScheduler.loaded_task" xml:space="preserve">
+    <value>Lade Aufgabe:
+{0}</value>
+  </data>
+  <data name="bot.scriptScheduler.no_action" xml:space="preserve">
+    <value>Keine Aktion für diese Aufgabe:
+{0}</value>
+  </data>
+  <data name="bot.scriptScheduler.no_trigger" xml:space="preserve">
+    <value>Diese Aufgabe wird niemals ausgelöst:
+{0}</value>
+  </data>
+  <data name="bot.scriptScheduler.running_inverval" xml:space="preserve">
+    <value>Intervall / Laufende Aufgabe: {0}</value>
+  </data>
+  <data name="bot.scriptScheduler.running_login" xml:space="preserve">
+    <value>Login / Laufende Aufgabe: {0}</value>
+  </data>
+  <data name="bot.scriptScheduler.running_time" xml:space="preserve">
+    <value>Zeit / Laufende Aktion: {0}</value>
+  </data>
+  <data name="bot.scriptScheduler.task" xml:space="preserve">
+    <value>beim ersten Login auslösen: {0}
+Beim Login auslösen: {1}
+Zur angegebenen Zeit auslösen: {2}
+In bestimmten Intervallen auslösen: {3}
+Zeitwert: {4}
+Zeitintervall: {5}
+Aktion: {6}</value>
+  </data>
+  <data name="bot.TelegramBridge.canceled_sending" xml:space="preserve">
+    <value>Das Senden einer Nachricht an Telegram wurde aufgrund eines Fehlers abgebrochen. Aktivieren Sie den Debug-Modus, um weitere Informationen zu erhalten.</value>
+  </data>
+  <data name="bot.TelegramBridge.command_executed" xml:space="preserve">
+    <value>Der Befehl wurde mit folgendem Ergebnis ausgeführt</value>
+  </data>
+  <data name="bot.TelegramBridge.connected" xml:space="preserve">
+    <value>Erfolgreich verbunden mit dem MCC!</value>
+  </data>
+  <data name="bot.TelegramBridge.desc" xml:space="preserve">
+    <value>Dieser Befehl ermöglicht es Ihnen, anzugeben, in welche Richtung die Nachrichten über den Telegramm-Bridge-Chat-Bot weitergeleitet werden sollen.</value>
+  </data>
+  <data name="bot.TelegramBridge.direction" xml:space="preserve">
+    <value>Die Richtung der Telegramm-Bridge wurde auf '{0}' umgestellt!</value>
+  </data>
+  <data name="bot.TelegramBridge.direction.both" xml:space="preserve">
+    <value>Beide</value>
+  </data>
+  <data name="bot.TelegramBridge.direction.minecraft" xml:space="preserve">
+    <value>Minecraft</value>
+  </data>
+  <data name="bot.TelegramBridge.direction.Telegram" xml:space="preserve">
+    <value>Telegram</value>
+  </data>
+  <data name="bot.TelegramBridge.disconnected" xml:space="preserve">
+    <value>Verbindung mit dem MCC wurde getrennt!</value>
+  </data>
+  <data name="bot.TelegramBridge.invalid_direction" xml:space="preserve">
+    <value>Ungültige Richtung angegeben! Verfügbare Richtungen: both|b, minecraft|mc, telegram|tg|t. Beispiel: "tgbridge direction mc"</value>
+  </data>
+  <data name="bot.TelegramBridge.missing_authorized_channels" xml:space="preserve">
+    <value>[WARNING] Sie haben keine Kanal-IDs für das Feld "Authorized_Chat_Ids" angegeben. Jeder, der Ihren Bot findet, kann Nachrichten und Befehle an ihn senden!</value>
+  </data>
+  <data name="bot.TelegramBridge.missing_channel_id" xml:space="preserve">
+    <value>[WARNING] Sie haben keine Kanal-ID angegeben. Sie erhalten nur Antworten auf Befehle, die von Telegram gesendet wurden!</value>
+  </data>
+  <data name="bot.TelegramBridge.missing_token" xml:space="preserve">
+    <value>Bitte geben Sie einen gültigen Bot-Token ein!</value>
+  </data>
+  <data name="bot.TelegramBridge.unauthorized" xml:space="preserve">
+    <value>Fügen Sie die ID dieses Chats zum Feld "Authorized_Chat_Ids" in der Konfigurationsdatei hinzu, um Zugriff zu erhalten!**</value>
+  </data>
+  <data name="bot.TelegramBridge.unknown_error" xml:space="preserve">
+    <value>Ein unbekannter Fehler ist aufgetreten!</value>
+  </data>
+  <data name="bot.testBot.said" xml:space="preserve">
+    <value>Bot {0} sagte: {1}</value>
+  </data>
+  <data name="bot.testBot.told" xml:space="preserve">
+    <value>Bot {0} sagte mir : {1}</value>
+  </data>
+  <data name="botname.Alerts" xml:space="preserve">
+    <value>Warnungen</value>
+  </data>
+  <data name="botname.AntiAFK" xml:space="preserve">
+    <value>AntiAFK</value>
+  </data>
+  <data name="botname.AutoAttack" xml:space="preserve">
+    <value>Autoattack</value>
+  </data>
+  <data name="botname.AutoCraft" xml:space="preserve">
+    <value>AutoCraft</value>
+  </data>
+  <data name="botname.AutoDig" xml:space="preserve">
+    <value>AutoDig</value>
+  </data>
+  <data name="botname.AutoDrop" xml:space="preserve">
+    <value>AutoDrop</value>
+  </data>
+  <data name="botname.AutoEat" xml:space="preserve">
+    <value>AutoEat</value>
+  </data>
+  <data name="botname.AutoFishing" xml:space="preserve">
+    <value>Autofishing</value>
+  </data>
+  <data name="botname.AutoRelog" xml:space="preserve">
+    <value>AutoRelog</value>
+  </data>
+  <data name="botname.AutoRespond" xml:space="preserve">
+    <value>Automatisch Antworten</value>
+  </data>
+  <data name="botname.ChatLog" xml:space="preserve">
+    <value>Chatverlauf</value>
+  </data>
+  <data name="botname.DiscordBridge" xml:space="preserve">
+    <value>DiscordBridge</value>
+  </data>
+  <data name="botname.Farmer" xml:space="preserve">
+    <value>Farmer</value>
+  </data>
+  <data name="botname.FollowPlayer" xml:space="preserve">
+    <value>FollowPlayer</value>
+  </data>
+  <data name="botname.HangmanGame" xml:space="preserve">
+    <value>HangmanGame</value>
+  </data>
+  <data name="botname.Mailer" xml:space="preserve">
+    <value>Mailer</value>
+  </data>
+  <data name="botname.Map" xml:space="preserve">
+    <value>Karte</value>
+  </data>
+  <data name="botname.PlayerListLogger" xml:space="preserve">
+    <value>Spieler Logger</value>
+  </data>
+  <data name="botname.RemoteControl" xml:space="preserve">
+    <value>RemoteControl</value>
+  </data>
+  <data name="botname.ReplayCapture" xml:space="preserve">
+    <value>ReplayCapture</value>
+  </data>
+  <data name="botname.Script" xml:space="preserve">
+    <value>Skript</value>
+  </data>
+  <data name="botname.ScriptScheduler" xml:space="preserve">
+    <value>ScriptScheduler</value>
+  </data>
+  <data name="botname.TelegramBridge" xml:space="preserve">
+    <value>TelegramBridge</value>
+  </data>
+  <data name="botname.TestBot" xml:space="preserve">
+    <value>TestBot</value>
+  </data>
+  <data name="cache.converting" xml:space="preserve">
+    <value>Konvertiere Sitzungscache vom Speicher: {0}</value>
+  </data>
+  <data name="cache.ignore_line" xml:space="preserve">
+    <value>Ignoriere ungültigen Sitzungstoken Zeile: {0}</value>
+  </data>
+  <data name="cache.ignore_line_keys" xml:space="preserve">
+    <value>Ungültige Profilschlüssel-Tokenzeile wird ignoriert: {0}</value>
+  </data>
+  <data name="cache.ignore_string" xml:space="preserve">
+    <value>Ignoriere Sitzungstoken String '{0}': {1}</value>
+  </data>
+  <data name="cache.ignore_string_keys" xml:space="preserve">
+    <value>Profil-Schlüssel-Token-String '{0}' wird ignoriert: {1}</value>
+  </data>
+  <data name="cache.loaded" xml:space="preserve">
+    <value>Lade Sitzung: {0}:{1}</value>
+  </data>
+  <data name="cache.loaded_keys" xml:space="preserve">
+    <value>Profil-Schlüssel geladen, er wird am {0} aktualisiert.</value>
+  </data>
+  <data name="cache.loading" xml:space="preserve">
+    <value>Lade Minecraft-Profile: {0}</value>
+  </data>
+  <data name="cache.loading_keys" xml:space="preserve">
+    <value>Lade Profil-Schlüssel-Cache von der Festplatte: {0}</value>
+  </data>
+  <data name="cache.loading_session" xml:space="preserve">
+    <value>Lade Sitzungscache vom Speicher: {0}</value>
+  </data>
+  <data name="cache.malformed" xml:space="preserve">
+    <value>Es traten verformte Daten beim Auslesen des serialisierten Sitzungscaches auf: {0}</value>
+  </data>
+  <data name="cache.read_fail" xml:space="preserve">
+    <value>Konnte serialisierten Sitzungscache nicht vom Speicher lesen: {0}</value>
+  </data>
+  <data name="cache.read_fail_plain" xml:space="preserve">
+    <value>Konnte Sitzungscache nicht vom Speicher lesen: {0}</value>
+  </data>
+  <data name="cache.read_fail_plain_keys" xml:space="preserve">
+    <value>Fehler beim Lesen des Profil-Schlüssel-Caches von der Festplatte: {0}</value>
+  </data>
+  <data name="cache.save_fail" xml:space="preserve">
+    <value>Konnte Sitzungscache auf keine Festplatte schreiben: {0}</value>
+  </data>
+  <data name="cache.save_fail_keys" xml:space="preserve">
+    <value>Fehler beim Schreiben des Profil-Schlüssel-Caches auf die Festplatte: {0}</value>
+  </data>
+  <data name="cache.saving" xml:space="preserve">
+    <value>Speichere Sitzungscache auf Festplatte</value>
+  </data>
+  <data name="cache.saving_keys" xml:space="preserve">
+    <value>Speichere Profilschlüssel-Cache auf Festplatte</value>
+  </data>
+  <data name="chat.done" xml:space="preserve">
+    <value>Fertig. Datei gespeichert als '{0}'</value>
+  </data>
+  <data name="chat.download" xml:space="preserve">
+    <value>Lade '{0}.json' von den Mojang-Servern herunter...</value>
+  </data>
+  <data name="chat.fail" xml:space="preserve">
+    <value>Konnte Datei nicht herunterladen.</value>
+  </data>
+  <data name="chat.loaded" xml:space="preserve">
+    <value>Übersetzungsdatei geladen.</value>
+  </data>
+  <data name="chat.message_chain_broken" xml:space="preserve">
+    <value>Die Nachrichtenkette des Spielers {0} ist unterbrochen!</value>
+  </data>
+  <data name="chat.not_found" xml:space="preserve">
+    <value>Übersetzungsdatei konnte nicht gefunden werden: '{0}'
+Einige Nachrichten können ohne diese Datei nicht korrekt angezeigt werden.</value>
+  </data>
+  <data name="chat.request" xml:space="preserve">
+    <value>Mache eine Anfrage zu {0}</value>
+  </data>
+  <data name="chat.save_fail" xml:space="preserve">
+    <value>Fehler beim Speichern der Datei {0}.</value>
+  </data>
+  <data name="chat.use_default" xml:space="preserve">
+    <value>Wechseln Sie zur Verwendung der Standard-Sprachressource von Minecraft "en_us.json".</value>
+  </data>
+  <data name="chatbot.reconnect" xml:space="preserve">
+    <value>[{0}] Beende die aktuelle Verbindung zum Server und verbinde erneut.</value>
+  </data>
+  <data name="cmd.animation.desc" xml:space="preserve">
+    <value>Schwinge deinen Arm.</value>
+  </data>
+  <data name="cmd.bed.bed_not_found" xml:space="preserve">
+    <value>Es konnte kein Bett gefunden werden!</value>
+  </data>
+  <data name="cmd.bed.cant_reach_safely" xml:space="preserve">
+    <value>Das Bett kann nicht sicher erreicht werden!</value>
+  </data>
+  <data name="cmd.bed.desc" xml:space="preserve">
+    <value>Wird benutzt um in einem Bett zu schlafen oder dies zu verlassen.</value>
+  </data>
+  <data name="cmd.bed.failed_to_reach_in_time" xml:space="preserve">
+    <value>Konnte die Bettposition (X: {0:0.0}, Y: {1:0.0}, Z: {2:0.0}) nicht innerhalb der Zeit erreichen (30 Sekunden). Wird aufgegeben!</value>
+  </data>
+  <data name="cmd.bed.found_a_bed_at" xml:space="preserve">
+    <value>Ein Bett wurde gefunden bei (X: {0:0.0}, Y: {1:0.0}, Z: {2:0.0}).</value>
+  </data>
+  <data name="cmd.bed.in" xml:space="preserve">
+    <value>Erfolgreich ins Bett gelegt!</value>
+  </data>
+  <data name="cmd.bed.leaving" xml:space="preserve">
+    <value>Sende einen Befehl an den Server, um das Bett zu verlassen.</value>
+  </data>
+  <data name="cmd.bed.moving" xml:space="preserve">
+    <value>Bewege mich zu (X: {0:0.0}, Y: {1:0.0}, Z: {2:0.0}), wo das Bett steht.</value>
+  </data>
+  <data name="cmd.bed.not_a_bed" xml:space="preserve">
+    <value>Der Block auf (X: {0:0.0}, Y: {1:0.0}, Z: {2:0.0}) ist kein Bett!</value>
+  </data>
+  <data name="cmd.bed.not_in" xml:space="preserve">
+    <value>Konnte nicht schlafen. Versuchen Sie, in einem Bett zu schlafen? (PS: Sie müssen die Kopfblock-Koordinaten des Betts verwenden)</value>
+  </data>
+  <data name="cmd.bed.searching" xml:space="preserve">
+    <value>Suche nach einem Bett im Radius von {0:0.00}...</value>
+  </data>
+  <data name="cmd.bed.trying_to_use" xml:space="preserve">
+    <value>Versuche, in einem Bett an der Position (X: {0:0.0}, Y: {1:0.0}, Z: {2:0.0}) zu schlafen. Ergebnis: {3}</value>
+  </data>
+  <data name="cmd.blockinfo.BlocksAround" xml:space="preserve">
+    <value>Blöcke in der Nähe</value>
+  </data>
+  <data name="cmd.blockinfo.BlockType" xml:space="preserve">
+    <value>Blocktyp</value>
+  </data>
+  <data name="cmd.blockinfo.desc" xml:space="preserve">
+    <value>Gibt den Typ des Blocks an den angegebenen Koordinaten zurück. (-s verwenden, um Blöcke um den Zielblock zu melden).</value>
+  </data>
+  <data name="cmd.blockinfo.Negative" xml:space="preserve">
+    <value>Negativ</value>
+  </data>
+  <data name="cmd.blockinfo.Positive" xml:space="preserve">
+    <value>Positiv</value>
+  </data>
+  <data name="cmd.bots.desc" xml:space="preserve">
+    <value>Bots auflisten, einen Bot oder alle Bots entladen.</value>
+  </data>
+  <data name="cmd.bots.list" xml:space="preserve">
+    <value>Geladene Bots</value>
+  </data>
+  <data name="cmd.bots.noloaded" xml:space="preserve">
+    <value>Keine Bots geladen!</value>
+  </data>
+  <data name="cmd.bots.notfound" xml:space="preserve">
+    <value>Bot {0} ist nicht geladen. Überprüfen Sie, ob Sie einen Tippfehler gemacht haben!</value>
+  </data>
+  <data name="cmd.bots.unloaded" xml:space="preserve">
+    <value>Bot erfolgreich entladen: {0}</value>
+  </data>
+  <data name="cmd.bots.unloaded_all" xml:space="preserve">
+    <value>Alle Bots erfolgreich entladen!</value>
+  </data>
+  <data name="cmd.changeSlot.changed" xml:space="preserve">
+    <value>Slot geändert auf {0}</value>
+  </data>
+  <data name="cmd.changeSlot.desc" xml:space="preserve">
+    <value>Ändere deine Hotbar</value>
+  </data>
+  <data name="cmd.changeSlot.fail" xml:space="preserve">
+    <value>Konnte Slot nicht ändern.</value>
+  </data>
+  <data name="cmd.changeSlot.nan" xml:space="preserve">
+    <value>Konnte Slot nicht ändern: Dies ist keine Nummer.</value>
+  </data>
+  <data name="cmd.chunk.chunk_pos" xml:space="preserve">
+    <value>chunk: ({0}, {1}).</value>
+  </data>
+  <data name="cmd.chunk.current" xml:space="preserve">
+    <value>Aktuelle Position: {0}, Chunk: ({1}, {2}).</value>
+  </data>
+  <data name="cmd.chunk.desc" xml:space="preserve">
+    <value>Zeigt den Status des Chunk-Ladens an.
+Ändern Sie "EnableEmoji=false" in den Einstellungen, wenn die Anzeige verwirrend ist.</value>
+  </data>
+  <data name="cmd.chunk.for_debug" xml:space="preserve">
+    <value>Dieser Befehl dient zum Debuggen. Stellen Sie sicher, dass Sie wissen, was Sie tun.</value>
+  </data>
+  <data name="cmd.chunk.icon" xml:space="preserve">
+    <value>Spieler: {0}, Markierter Chunk: {1}, Nicht erhalten: {2}, Laden: {3}, Geladen: {4}</value>
+  </data>
+  <data name="cmd.chunk.marked" xml:space="preserve">
+    <value>Markierte Position: </value>
+  </data>
+  <data name="cmd.chunk.outside" xml:space="preserve">
+    <value>Da der markierte Chunk außerhalb des Graphen liegt, wird er nicht angezeigt!</value>
+  </data>
+  <data name="cmd.connect.desc" xml:space="preserve">
+    <value>Verbinde zum angegebenen Server.</value>
+  </data>
+  <data name="cmd.connect.invalid_ip" xml:space="preserve">
+    <value>Ungültige Server-IP '{0}'.</value>
+  </data>
+  <data name="cmd.connect.unknown" xml:space="preserve">
+    <value>Unbekannter Account '{0}'.</value>
+  </data>
+  <data name="cmd.debug.desc" xml:space="preserve">
+    <value>Aktiviere/Deaktiviere Debug-Nachrichten.</value>
+  </data>
+  <data name="cmd.debug.state_off" xml:space="preserve">
+    <value>Debug-Nachrichten sind nun ausgeschaltet.</value>
+  </data>
+  <data name="cmd.debug.state_on" xml:space="preserve">
+    <value>Debug-Nachrichten sind nun eingeschaltet.</value>
+  </data>
+  <data name="cmd.dig.desc" xml:space="preserve">
+    <value>Versuche Block abzubauen...</value>
+  </data>
+  <data name="cmd.dig.dig" xml:space="preserve">
+    <value>Versuche Block bei {0} {1} {2} ({3}) abzubauen...</value>
+  </data>
+  <data name="cmd.dig.fail" xml:space="preserve">
+    <value>Konnte Abbauprozess nicht starten.</value>
+  </data>
+  <data name="cmd.dig.no_block" xml:space="preserve">
+    <value>Auf dieser Position ist kein Block! (Luft)</value>
+  </data>
+  <data name="cmd.dig.too_far" xml:space="preserve">
+    <value>Du bist zu weit von diesem Block entfernt.</value>
+  </data>
+  <data name="cmd.dropItem.desc" xml:space="preserve">
+    <value>Geben Sie einen bestimmten Typ von Gegenständen aus dem Inventar des Spielers oder dem geöffneten Container ab.</value>
+  </data>
+  <data name="cmd.dropItem.dropped" xml:space="preserve">
+    <value>Alle {0} aus Inventar #{1} fallen gelassen.</value>
+  </data>
+  <data name="cmd.dropItem.unknown_item" xml:space="preserve">
+    <value>Unbekannter Gegenstand {0}.</value>
+  </data>
+  <data name="cmd.enchant.clicked" xml:space="preserve">
+    <value>Ein Klick wurde an den Server gesendet. Wenn Sie genügend Level haben und die Gegenstände in den richtigen Slots platziert haben, sollte der Gegenstand verzaubert werden!</value>
+  </data>
+  <data name="cmd.enchant.desc" xml:space="preserve">
+    <value>Verzaubern Sie einen Gegenstand, wenn Sie den Verzauberungstisch geöffnet und die Liste der erhaltenen Verzauberungen haben.</value>
+  </data>
+  <data name="cmd.enchant.enchanting_no_item" xml:space="preserve">
+    <value>Sie müssen einen Gegenstand in den Verzauberungstisch in Slot 0 legen!</value>
+  </data>
+  <data name="cmd.enchant.enchanting_no_lapis" xml:space="preserve">
+    <value>Sie müssen mindestens 3 Lapislazuli in den Verzauberungstisch in Slot 1 legen!</value>
+  </data>
+  <data name="cmd.enchant.enchanting_table_not_opened" xml:space="preserve">
+    <value>Du musst einen Zaubertisch öffnen, um diese Option nutzen zu können!</value>
+  </data>
+  <data name="cmd.enchant.invalid_slot" xml:space="preserve">
+    <value>Ungültiger Slot angegeben (Verfügbar: top, middle, bottom)!</value>
+  </data>
+  <data name="cmd.enchant.not_clicked" xml:space="preserve">
+    <value>Klicken fehlgeschlagen!</value>
+  </data>
+  <data name="cmd.enchant.no_enchantments" xml:space="preserve">
+    <value>Du musst erst einen Gegenstand zum Verzaubern in den Zaubertisch legen, um Verzauberungen vom Server zu erhalten, danach kannst du diesen Befehl ausführen!</value>
+  </data>
+  <data name="cmd.enchant.no_levels" xml:space="preserve">
+    <value>Deine Erfahrungsstufe ist zu niedrig um zu verzaubern! (Deine aktuelle Erfahrungsstufe ist {0}, du musst aber mindestens Erfahrungsstufe {1} sein).</value>
+  </data>
+  <data name="cmd.entityCmd.attacked" xml:space="preserve">
+    <value>Greife Entity an</value>
+  </data>
+  <data name="cmd.entityCmd.boots" xml:space="preserve">
+    <value>Schuhe</value>
+  </data>
+  <data name="cmd.entityCmd.chestplate" xml:space="preserve">
+    <value>Brustplatte</value>
+  </data>
+  <data name="cmd.entityCmd.customname" xml:space="preserve">
+    <value>Benutzerdefinierter Name</value>
+  </data>
+  <data name="cmd.entityCmd.distance" xml:space="preserve">
+    <value>Entfernung</value>
+  </data>
+  <data name="cmd.entityCmd.entities" xml:space="preserve">
+    <value>Entities</value>
+  </data>
+  <data name="cmd.entityCmd.entity" xml:space="preserve">
+    <value>Entity</value>
+  </data>
+  <data name="cmd.entityCmd.equipment" xml:space="preserve">
+    <value>Ausrüstung</value>
+  </data>
+  <data name="cmd.entityCmd.health" xml:space="preserve">
+    <value>Gesundheit</value>
+  </data>
+  <data name="cmd.entityCmd.helmet" xml:space="preserve">
+    <value>Helm</value>
+  </data>
+  <data name="cmd.entityCmd.item" xml:space="preserve">
+    <value>Gegenstand</value>
+  </data>
+  <data name="cmd.entityCmd.latency" xml:space="preserve">
+    <value>Verzögerung</value>
+  </data>
+  <data name="cmd.entityCmd.leggings" xml:space="preserve">
+    <value>Beinschutz</value>
+  </data>
+  <data name="cmd.entityCmd.location" xml:space="preserve">
+    <value>Position</value>
+  </data>
+  <data name="cmd.entityCmd.mainhand" xml:space="preserve">
+    <value>Haupthand</value>
+  </data>
+  <data name="cmd.entityCmd.nickname" xml:space="preserve">
+    <value>Spitzname</value>
+  </data>
+  <data name="cmd.entityCmd.not_found" xml:space="preserve">
+    <value>Entity nicht gefunden</value>
+  </data>
+  <data name="cmd.entityCmd.offhand" xml:space="preserve">
+    <value>Nebenhand</value>
+  </data>
+  <data name="cmd.entityCmd.pose" xml:space="preserve">
+    <value>Pose</value>
+  </data>
+  <data name="cmd.entityCmd.type" xml:space="preserve">
+    <value>Typ</value>
+  </data>
+  <data name="cmd.entityCmd.used" xml:space="preserve">
+    <value>Benutze Entity</value>
+  </data>
+  <data name="cmd.execif.desc" xml:space="preserve">
+    <value>Erlaubt dir, einen Befehl auszuführen, wenn eine Bedingung erfüllt ist. (Du kannst Variablen von MinecraftClient.ini und dem /set Befehl sowie CSharp Ausdrücke verwenden)</value>
+  </data>
+  <data name="cmd.execif.error" xml:space="preserve">
+    <value>Fehler: {0}</value>
+  </data>
+  <data name="cmd.execif.error_occured" xml:space="preserve">
+    <value>Beim Ausführen des Befehls ist ein Fehler aufgetreten: {0}</value>
+  </data>
+  <data name="cmd.execif.executed" xml:space="preserve">
+    <value>Die Bedingung '{0}' wurde erfüllt, ausgeführter Befehl '{1}' mit Ergebnis '{2}'.</value>
+  </data>
+  <data name="cmd.execif.executed_no_output" xml:space="preserve">
+    <value>Die Bedingung '{0}' wurde erfüllt. Befehl '{1}' wurde ausgeführt, es wurde kein Ergebnis zurückgegeben.</value>
+  </data>
+  <data name="cmd.execmulti.desc" xml:space="preserve">
+    <value>Mehrere Befehle nacheinander ausführen.</value>
+  </data>
+  <data name="cmd.execmulti.executed" xml:space="preserve">
+    <value>Befehl '{0}' mit {1} ausgeführt</value>
+  </data>
+  <data name="cmd.execmulti.no_result" xml:space="preserve">
+    <value>Kein Ergebnis!</value>
+  </data>
+  <data name="cmd.execmulti.prevent" xml:space="preserve">
+    <value>Du kannst nicht execmulti oder execif innerhalb des execmulti-Befehls verwenden!</value>
+  </data>
+  <data name="cmd.execmulti.result" xml:space="preserve">
+    <value>Ergebnis '{0}'!</value>
+  </data>
+  <data name="cmd.exit.desc" xml:space="preserve">
+    <value>Verbindung zum Server verloren.</value>
+  </data>
+  <data name="cmd.follow.already_following" xml:space="preserve">
+    <value>{0} wird bereits gefolgt!</value>
+  </data>
+  <data name="cmd.follow.already_stopped" xml:space="preserve">
+    <value>Bereits gestoppt</value>
+  </data>
+  <data name="cmd.follow.cant_reach_player" xml:space="preserve">
+    <value>Der Spieler kann nicht erreicht werden. Entweder ist er in Chunks die nicht geladen sind, zu weit entfernt oder nicht erreichbar durch den aufgrund von Hindernissen, wie Schluchten oder große Wassermengen!</value>
+  </data>
+  <data name="cmd.follow.desc" xml:space="preserve">
+    <value>Lässt den Bot einem bestimmten Spieler folgen</value>
+  </data>
+  <data name="cmd.follow.invalid_name" xml:space="preserve">
+    <value>Ungültigen oder leeren Spielernamen angegeben!</value>
+  </data>
+  <data name="cmd.follow.invalid_player" xml:space="preserve">
+    <value>Der angegebene Spieler ist entweder nicht mit dem Server verbunden oder außerhalb der Reichweite!</value>
+  </data>
+  <data name="cmd.follow.note" xml:space="preserve">
+    <value>HINWEIS: Der Bot ist ziemlich langsam, du musst langsam und in der Nähe laufen, damit er mithalten kann. Ähnlich wie, wenn du Tiere mit Nahrung zu dir lockst. Dies ist eine Einschränkung aufgrund eines Pfadfinder-Algorithmus, wir arbeiten daran, einen besseren zu entwickeln.</value>
+  </data>
+  <data name="cmd.follow.pausing" xml:space="preserve">
+    <value>Pausieren!</value>
+  </data>
+  <data name="cmd.follow.player_came_to_the_range" xml:space="preserve">
+    <value>Der Spieler {0} ist wieder in Reichweite!</value>
+  </data>
+  <data name="cmd.follow.player_left" xml:space="preserve">
+    <value>Der Spieler {0} hat den Server verlassen!</value>
+  </data>
+  <data name="cmd.follow.player_left_the_range" xml:space="preserve">
+    <value>Der Spieler {0} hat die Reichweite verlassen!</value>
+  </data>
+  <data name="cmd.follow.resuming" xml:space="preserve">
+    <value>Verfolgung wird fortgesetzt!</value>
+  </data>
+  <data name="cmd.follow.started" xml:space="preserve">
+    <value>Verfolgung von {0} gestartet!</value>
+  </data>
+  <data name="cmd.follow.stopping" xml:space="preserve">
+    <value>Verfolgung gestoppt!</value>
+  </data>
+  <data name="cmd.follow.switched" xml:space="preserve">
+    <value>Verfolgung gewechselt auf {0}!</value>
+  </data>
+  <data name="cmd.follow.unsafe_enabled" xml:space="preserve">
+    <value>Unsicheres gehen wurde aktiviert (INFO: Der Bot könnte sterben oder verletzt werden!)</value>
+  </data>
+  <data name="cmd.follow.usage" xml:space="preserve">
+    <value>Folge &lt;player name|stop&gt; [-f] (Benutze -f um unsicheres Gehen zu aktivieren)</value>
+  </data>
+  <data name="cmd.health.desc" xml:space="preserve">
+    <value>Zeige Gesundheit und Sättigung.</value>
+  </data>
+  <data name="cmd.health.response" xml:space="preserve">
+    <value>Gesundheit: {0}, Sättigung: {1}, Level: {2}, TotalExperience: {3}</value>
+  </data>
+  <data name="cmd.inventory.clicking" xml:space="preserve">
+    <value>{0} klicke Slote {1} im Fenster #{2}</value>
+  </data>
+  <data name="cmd.inventory.close" xml:space="preserve">
+    <value>Schließe das Inventar #{0}</value>
+  </data>
+  <data name="cmd.inventory.close_fail" xml:space="preserve">
+    <value>Konnte das Inventar #{0} nicht schließen</value>
+  </data>
+  <data name="cmd.inventory.container_not_found" xml:space="preserve">
+    <value>Konnte Container nicht finden, bitte versuche es erneut mit der expliziten ID.</value>
+  </data>
+  <data name="cmd.inventory.creative_delete" xml:space="preserve">
+    <value>Anfrage zum Leeren des Slots #{0} gesendet</value>
+  </data>
+  <data name="cmd.inventory.creative_done" xml:space="preserve">
+    <value>{0} x{1} im Slot #{2} angefordert.</value>
+  </data>
+  <data name="cmd.inventory.creative_fail" xml:space="preserve">
+    <value>Anfrage für Kreativ-Aktion fehlgeschlagen</value>
+  </data>
+  <data name="cmd.inventory.damage" xml:space="preserve">
+    <value>Schaden</value>
+  </data>
+  <data name="cmd.inventory.desc" xml:space="preserve">
+    <value>Inventar-Befehl</value>
+  </data>
+  <data name="cmd.inventory.drop" xml:space="preserve">
+    <value>Droppe 1 Item aus Slot #{0}</value>
+  </data>
+  <data name="cmd.inventory.drop_stack" xml:space="preserve">
+    <value>Droppe ganzen Item Stack aus Slot #{0}</value>
+  </data>
+  <data name="cmd.inventory.found_items" xml:space="preserve">
+    <value>Gefundene Gegenstände</value>
+  </data>
+  <data name="cmd.inventory.help.available" xml:space="preserve">
+    <value>Verfügbare Aktionen</value>
+  </data>
+  <data name="cmd.inventory.help.basic" xml:space="preserve">
+    <value>Einfache Bedienung</value>
+  </data>
+  <data name="cmd.inventory.help.click" xml:space="preserve">
+    <value>Klicke auf ein Item.</value>
+  </data>
+  <data name="cmd.inventory.help.close" xml:space="preserve">
+    <value>Schließe einen offenen Container.</value>
+  </data>
+  <data name="cmd.inventory.help.creativedelete" xml:space="preserve">
+    <value>Leere Slot im Kreativmodus.</value>
+  </data>
+  <data name="cmd.inventory.help.creativegive" xml:space="preserve">
+    <value>Gebe dir ein Item im Kreativmodus.</value>
+  </data>
+  <data name="cmd.inventory.help.drop" xml:space="preserve">
+    <value>Werfe ein Item aus deinem Inventar.</value>
+  </data>
+  <data name="cmd.inventory.help.help" xml:space="preserve">
+    <value>{0}
+Benutze '/inventory help &lt;action&gt;' für weitere Hilfe.
+'player' und 'container' können mit 'p' und 'c' abgekürzt werden.
+Parameter in '[]' sind optional.</value>
+  </data>
+  <data name="cmd.inventory.help.inventories" xml:space="preserve">
+    <value>Verfügbare Inventare auflisten</value>
+  </data>
+  <data name="cmd.inventory.help.list" xml:space="preserve">
+    <value>Liste deine Inventare auf.</value>
+  </data>
+  <data name="cmd.inventory.help.search" xml:space="preserve">
+    <value>Suche nach einem Gegenstand in verfügbaren Inventaren</value>
+  </data>
+  <data name="cmd.inventory.help.shiftclick" xml:space="preserve">
+    <value>Shift-Klick einen Gegenstand.</value>
+  </data>
+  <data name="cmd.inventory.help.unknown" xml:space="preserve">
+    <value>Unbekannte Aktion.</value>
+  </data>
+  <data name="cmd.inventory.help.usage" xml:space="preserve">
+    <value>Benutzung</value>
+  </data>
+  <data name="cmd.inventory.hotbar" xml:space="preserve">
+    <value>Deine ausgewählte Hotbar ist {0}</value>
+  </data>
+  <data name="cmd.inventory.inventories" xml:space="preserve">
+    <value>Inventare</value>
+  </data>
+  <data name="cmd.inventory.inventories_available" xml:space="preserve">
+    <value>Verfügbare Inventare</value>
+  </data>
+  <data name="cmd.inventory.inventory" xml:space="preserve">
+    <value>Inventar</value>
+  </data>
+  <data name="cmd.inventory.left" xml:space="preserve">
+    <value>Links</value>
+  </data>
+  <data name="cmd.inventory.middle" xml:space="preserve">
+    <value>Mittel</value>
+  </data>
+  <data name="cmd.inventory.need_creative" xml:space="preserve">
+    <value>Du musst im Kreativmodus sein!</value>
+  </data>
+  <data name="cmd.inventory.not_exist" xml:space="preserve">
+    <value>Inventar #{0} existiert nicht.</value>
+  </data>
+  <data name="cmd.inventory.no_found_items" xml:space="preserve">
+    <value>Der angegebene Gegenstand konnte in keinem verfügbaren Inventar gefunden werden!</value>
+  </data>
+  <data name="cmd.inventory.no_item" xml:space="preserve">
+    <value>Kein Item im Slot #{0}</value>
+  </data>
+  <data name="cmd.inventory.right" xml:space="preserve">
+    <value>Rechts</value>
+  </data>
+  <data name="cmd.inventory.shiftclick" xml:space="preserve">
+    <value>Shift-Klick auf Slot {0} in Fenster #{1}</value>
+  </data>
+  <data name="cmd.inventory.shiftclick_fail" xml:space="preserve">
+    <value>Shift-Klick fehlgeschlagen, dies kann daran liegen, dass dieser Containertyp nicht unterstützt wird</value>
+  </data>
+  <data name="cmd.list.desc" xml:space="preserve">
+    <value>Liste alle Spieler auf.</value>
+  </data>
+  <data name="cmd.list.players" xml:space="preserve">
+    <value>SpielerListe: {0}</value>
+  </data>
+  <data name="cmd.log.desc" xml:space="preserve">
+    <value>Logge Text in die Konsole.</value>
+  </data>
+  <data name="cmd.look.at" xml:space="preserve">
+    <value>Schaue nach YAW: {0} PITCH: {1}</value>
+  </data>
+  <data name="cmd.look.block" xml:space="preserve">
+    <value>Schaue auf {0}</value>
+  </data>
+  <data name="cmd.look.desc" xml:space="preserve">
+    <value>Schaue in eine Richtung oder auf Koordinaten.</value>
+  </data>
+  <data name="cmd.look.inspection" xml:space="preserve">
+    <value>Der Block, der die Sichtlinie durchquert, ist {0} ({1:0}, {2:0}, {3:0}), Entfernung ist {4:0.0}({5:0.0}).</value>
+  </data>
+  <data name="cmd.look.noinspection" xml:space="preserve">
+    <value>Innerhalb von {0} Metern gibt es keinen Block, der sich mit der Sichtlinie kreuzt.</value>
+  </data>
+  <data name="cmd.look.unknown" xml:space="preserve">
+    <value>Unbekannte Richtung '{0}'</value>
+  </data>
+  <data name="cmd.move.chunk_loading_status" xml:space="preserve">
+    <value>Chunk Ladestatus: {0:P} - {1} von {2} fertig geladen.</value>
+  </data>
+  <data name="cmd.move.chunk_not_loaded" xml:space="preserve">
+    <value>Der Chunk, in dem sich der Zielort befindet, wurde noch nicht geladen.
+Du kannst "/chunk status {0:0.0} {1:0.0} {2:0.0}" verwenden, um den Chunk Ladestatus zu überprüfen.</value>
+  </data>
+  <data name="cmd.move.desc" xml:space="preserve">
+    <value>Laufe oder fange an zu laufen.</value>
+  </data>
+  <data name="cmd.move.desc_force" xml:space="preserve">
+    <value>erzwinge unsicheres Gehen wie fallen oder berühren von Feuer</value>
+  </data>
+  <data name="cmd.move.dir_fail" xml:space="preserve">
+    <value>Kann nicht in diese Richtung laufen.</value>
+  </data>
+  <data name="cmd.move.disable" xml:space="preserve">
+    <value>Deaktiviere Terrain und Bewegung.</value>
+  </data>
+  <data name="cmd.move.enable" xml:space="preserve">
+    <value>Aktiviere Terrain und Bewegung beim nächsten Login, Respawn oder World change.</value>
+  </data>
+  <data name="cmd.move.fail" xml:space="preserve">
+    <value>Konnte Pfad nach {0} nicht berechnen.</value>
+  </data>
+  <data name="cmd.move.gravity.disabled" xml:space="preserve">
+    <value>Gravitation ist deaktiviert.</value>
+  </data>
+  <data name="cmd.move.gravity.enabled" xml:space="preserve">
+    <value>Gravitation ist aktiv.</value>
+  </data>
+  <data name="cmd.move.moving" xml:space="preserve">
+    <value>Laufe {0}</value>
+  </data>
+  <data name="cmd.move.suggestforce" xml:space="preserve">
+    <value>Weg nach {0} konnte nicht berechnet werden. Benutze den -f Parameter, um unsichere Wege zu aktivieren.</value>
+  </data>
+  <data name="cmd.move.walk" xml:space="preserve">
+    <value>Gehe von {1} nach {0}</value>
+  </data>
+  <data name="cmd.reco.desc" xml:space="preserve">
+    <value>Starte neu und verbinde erneut zum Server.</value>
+  </data>
+  <data name="cmd.reload.desc" xml:space="preserve">
+    <value>Lädt die MCC Einstellungen neu.</value>
+  </data>
+  <data name="cmd.reload.finished" xml:space="preserve">
+    <value>Einstellungen erneut geladen!</value>
+  </data>
+  <data name="cmd.reload.started" xml:space="preserve">
+    <value>Einstellungen werden erneut geladen...</value>
+  </data>
+  <data name="cmd.reload.warning1" xml:space="preserve">
+    <value>Dieser Befehl wirkt sich NICHT auf bestimmte Einstellungen aus, die vor der Verbindung mit einem Server verwendet werden!</value>
+  </data>
+  <data name="cmd.reload.warning2" xml:space="preserve">
+    <value>Einige Einstellungen, die durch die Kommandozeilenparameter übergeben wurden, könnten überschrieben werden!</value>
+  </data>
+  <data name="cmd.reload.warning3" xml:space="preserve">
+    <value>Möglicherweise musst du dich erneut verbinden, damit einige Einstellungen wirksam werden.</value>
+  </data>
+  <data name="cmd.reload.warning4" xml:space="preserve">
+    <value>Replay Chat Bot wird wegen technischer Einschränkungen nicht von Grund auf neu geladen!</value>
+  </data>
+  <data name="cmd.respawn.desc" xml:space="preserve">
+    <value>Benutze dies, um nach deinem Tod zu respawnen.</value>
+  </data>
+  <data name="cmd.respawn.done" xml:space="preserve">
+    <value>Du wurdest respawned.</value>
+  </data>
+  <data name="cmd.script.desc" xml:space="preserve">
+    <value>Lasse eine Skript-Datei laufen.</value>
+  </data>
+  <data name="cmd.send.desc" xml:space="preserve">
+    <value>Sende eine Chatnachricht oder einen Command an den Server.</value>
+  </data>
+  <data name="cmd.set.desc" xml:space="preserve">
+    <value>Setze eine benutzerdefinierte %variable%.</value>
+  </data>
+  <data name="cmd.set.format" xml:space="preserve">
+    <value>Variable muss aus A-Za-z0-9 bestehen.</value>
+  </data>
+  <data name="cmd.setrnd.desc" xml:space="preserve">
+    <value>Setze eine benutzerdefinierte %variable% zufällig auf einen der angegebenen Werte.</value>
+  </data>
+  <data name="cmd.setrnd.format" xml:space="preserve">
+    <value>setrnd Variable -7 bis 17 ODER setrnd Variable string1 "\"string2\" string3"</value>
+  </data>
+  <data name="cmd.setrndnum.format" xml:space="preserve">
+    <value>setrnd Variable -7 bis 17</value>
+  </data>
+  <data name="cmd.setrndstr.format" xml:space="preserve">
+    <value>setrnd Variable string1 "\"string2\" string3"</value>
+  </data>
+  <data name="cmd.sneak.desc" xml:space="preserve">
+    <value>Schaltet Ducken AN/AUS</value>
+  </data>
+  <data name="cmd.sneak.off" xml:space="preserve">
+    <value>Du duckst dich nicht mehr.</value>
+  </data>
+  <data name="cmd.sneak.on" xml:space="preserve">
+    <value>Du duckst dich jetzt.</value>
+  </data>
+  <data name="cmd.tps.current" xml:space="preserve">
+    <value>Aktuelle TPS</value>
+  </data>
+  <data name="cmd.tps.desc" xml:space="preserve">
+    <value>Zeige die aktuellen TPS (tick per second) des Servers an. Nicht wirklich genau!</value>
+  </data>
+  <data name="cmd.useblock.desc" xml:space="preserve">
+    <value>Plaziere einen Block oder öffne eine Kiste</value>
+  </data>
+  <data name="cmd.useblock.use" xml:space="preserve">
+    <value>Useblock bei ({0:0.0}, {1:0.0}, {2:0.0}) {3}.</value>
+  </data>
+  <data name="cmd.useitem.desc" xml:space="preserve">
+    <value>Benutze (links klick) ein Item auf der Hand</value>
+  </data>
+  <data name="cmd.useitem.use" xml:space="preserve">
+    <value>Item wurde benutzt.</value>
+  </data>
+  <data name="config.backup.fail" xml:space="preserve">
+    <value>Fehler beim Schreiben in die Sicherungsdatei {0}</value>
+  </data>
+  <data name="config.commandsuggestion.illegal_color" xml:space="preserve">
+    <value>Der Farbcode {1} in {0} hat ein ungültiges Format, und der Standardwert wurde wiederhergestellt.</value>
+  </data>
+  <data name="config.load" xml:space="preserve">
+    <value>Einstellungen wurden von {0} geladen</value>
+  </data>
+  <data name="config.load.fail" xml:space="preserve">
+    <value>Fehler beim Laden der Einstellungen:</value>
+  </data>
+  <data name="config.Main.Advanced.language.invaild" xml:space="preserve">
+    <value>Sprachcode ist ungültig</value>
+  </data>
+  <data name="config.saving" xml:space="preserve">
+    <value>Die aktuelle Einstellung wurde als {0} gespeichert</value>
+  </data>
+  <data name="config.write.fail" xml:space="preserve">
+    <value>Fehler beim Schreiben in die Einstellungsdatei {0}</value>
+  </data>
+  <data name="debug.color_test" xml:space="preserve">
+    <value>Farbtest: Dein Terminal sollte {0} anzeigen.</value>
+  </data>
+  <data name="debug.crypto" xml:space="preserve">
+    <value>Crypto-Schlüssel &amp; -Hash wurden generiert.</value>
+  </data>
+  <data name="debug.keys_cache_fail" xml:space="preserve">
+    <value>Es konnten keine Profilschlüssel von der Festplatte geladen werden</value>
+  </data>
+  <data name="debug.keys_cache_ok" xml:space="preserve">
+    <value>Profilschlüssel wurden erfolgreich von der Festplatte geladen</value>
+  </data>
+  <data name="debug.request" xml:space="preserve">
+    <value>Mache eine Anfrage zu {0}</value>
+  </data>
+  <data name="debug.session_cache_fail" xml:space="preserve">
+    <value>Es konnten keine Sitzungsdaten vom Speicher geladen werden.</value>
+  </data>
+  <data name="debug.session_cache_ok" xml:space="preserve">
+    <value>Sitzungsdaten wurden erfolgreich vom Speicher geladen.</value>
+  </data>
+  <data name="debug.session_id" xml:space="preserve">
+    <value>Erfolgreich. (session ID: {0})</value>
+  </data>
+  <data name="Enchantment.bottom_slot" xml:space="preserve">
+    <value>Unterer Slot</value>
+  </data>
+  <data name="Enchantment.enchantments_available" xml:space="preserve">
+    <value>Verzauberungen verfügbar</value>
+  </data>
+  <data name="Enchantment.levels" xml:space="preserve">
+    <value>Erfahrungsstufen</value>
+  </data>
+  <data name="Enchantment.middle_slot" xml:space="preserve">
+    <value>Mittlerer Slot</value>
+  </data>
+  <data name="Enchantment.tops_slot" xml:space="preserve">
+    <value>Oberer Slot</value>
+  </data>
+  <data name="error.auth" xml:space="preserve">
+    <value>Es gab einen Fehlercode vom Server, während die Authentication erneuert wurde: {0}</value>
+  </data>
+  <data name="error.connect" xml:space="preserve">
+    <value>Es konnte keine Verbindung zu der IP aufgebaut werden.</value>
+  </data>
+  <data name="error.connection_timeout" xml:space="preserve">
+    <value>Es gab einen Timeout während des Verbindungsaufbaus zu dieser IP.</value>
+  </data>
+  <data name="error.determine" xml:space="preserve">
+    <value>Konnte Server-Version nicht bestimmen.</value>
+  </data>
+  <data name="error.forge" xml:space="preserve">
+    <value>Forge Login Handshake konnte nicht erfolgreich abgeschlossen werden.</value>
+  </data>
+  <data name="error.forgeforce" xml:space="preserve">
+    <value>Der zwangshafte Forge-Support wird für diese Minecraft-Version nicht unterstützt!</value>
+  </data>
+  <data name="error.forge_encrypt" xml:space="preserve">
+    <value>Forge StartEncryption Handshake konnte nicht erfolgreich abgeschlossen werden.</value>
+  </data>
+  <data name="error.generator.invalid" xml:space="preserve">
+    <value>Ungültige Verwendung des Generator-Befehls!</value>
+  </data>
+  <data name="error.generator.json" xml:space="preserve">
+    <value>Der bereitgestellte Pfad muss zu einer Datei im .json-Format führen!</value>
+  </data>
+  <data name="error.generator.path" xml:space="preserve">
+    <value>Ungültiger Dateipfad angegeben! (Der Pfad existiert entweder nicht oder Sie haben einen Tippfehler gemacht)</value>
+  </data>
+  <data name="error.http_code" xml:space="preserve">
+    <value>Es gab einen Fehlercode vom Server: {0}</value>
+  </data>
+  <data name="error.invalid_encrypt" xml:space="preserve">
+    <value>Ungültige Antwort auf das StartEncryption packet.</value>
+  </data>
+  <data name="error.invalid_response" xml:space="preserve">
+    <value>Ungültige Antwort auf das Handshake Packet.</value>
+  </data>
+  <data name="error.inventoryhandling_not_enabled" xml:space="preserve">
+    <value>Diese Funktion erfordert, dass Inventar Verarbeitung aktiviert ist, um zu funktionieren!</value>
+  </data>
+  <data name="error.join" xml:space="preserve">
+    <value>Konnte dem Server nicht beitreten.</value>
+  </data>
+  <data name="error.login" xml:space="preserve">
+    <value>Minecraft Login fehlgeschlagen :</value>
+  </data>
+  <data name="error.login.blocked" xml:space="preserve">
+    <value>Falsches Passwort, gesperrte IP oder zu viele Logins.</value>
+  </data>
+  <data name="error.login.cancel" xml:space="preserve">
+    <value>Benutzer gecancelled.</value>
+  </data>
+  <data name="error.login.migrated" xml:space="preserve">
+    <value>Account wurde migriert, benutze eine E-Mail als Nutzername.</value>
+  </data>
+  <data name="error.login.network" xml:space="preserve">
+    <value>Netzwerkfehler.</value>
+  </data>
+  <data name="error.login.premium" xml:space="preserve">
+    <value>Dies ist kein Premium-Benutzer.</value>
+  </data>
+  <data name="error.login.response" xml:space="preserve">
+    <value>Ungültige Antwort des Servers.</value>
+  </data>
+  <data name="error.login.server" xml:space="preserve">
+    <value>Login-Server nicht erreichbar. Bitte versuche es später erneut.</value>
+  </data>
+  <data name="error.login.ssl" xml:space="preserve">
+    <value>SSL-Fehler.</value>
+  </data>
+  <data name="error.login.unknown" xml:space="preserve">
+    <value>Unbekannter Fehler.</value>
+  </data>
+  <data name="error.login_failed" xml:space="preserve">
+    <value>Nutzer konnte auf diesem Server nicht angemeldet werden.</value>
+  </data>
+  <data name="error.missing.argument" xml:space="preserve">
+    <value>Es fehlt das Argument {0}</value>
+  </data>
+  <data name="error.no_version_report" xml:space="preserve">
+    <value>Server gibt keine Protokoll-Version an, Autodetection wird nicht funktionieren.</value>
+  </data>
+  <data name="error.ping" xml:space="preserve">
+    <value>Ping an IP fehlgeschlagen.</value>
+  </data>
+  <data name="error.realms.access_denied" xml:space="preserve">
+    <value>Diese Realms-Welt existiert nicht oder der Zugang wurde verweigert</value>
+  </data>
+  <data name="error.realms.disabled" xml:space="preserve">
+    <value>Versuche der Realms-Welt beizutreten, allerdings wurde der Realms-Support in der Config deaktiviert</value>
+  </data>
+  <data name="error.realms.ip_error" xml:space="preserve">
+    <value>Konnte die Server-IP deiner Realms-Welt nicht abfragen</value>
+  </data>
+  <data name="error.realms.server_id" xml:space="preserve">
+    <value>Ungültige oder unbekannte Realms-Server-ID.</value>
+  </data>
+  <data name="error.realms.server_unavailable" xml:space="preserve">
+    <value>Der Realms-Server braucht ein wenig Zeit zum starten. Bitte versuche es später erneut.</value>
+  </data>
+  <data name="error.setting.argument_syntax" xml:space="preserve">
+    <value>{0}: Ungültige Syntax, erwartet wird --argname=Wert oder --section.argname=Wert</value>
+  </data>
+  <data name="error.terrain_not_enabled" xml:space="preserve">
+    <value>Diese Funktion erfordert, dass Terrain und Bewegungen aktiviert sind, um zu funktionieren!</value>
+  </data>
+  <data name="error.timeout" xml:space="preserve">
+    <value>Verbindungs-Timeout.</value>
+  </data>
+  <data name="error.unexpect_response" xml:space="preserve">
+    <value>Unerwartete Antwort des Servers. (Ist das ein Minecraft-Server?)</value>
+  </data>
+  <data name="error.unsupported" xml:space="preserve">
+    <value>Kann nicht zum Server verbinden : Diese Version wird nicht unterstützt !</value>
+  </data>
+  <data name="error.usage" xml:space="preserve">
+    <value>Benutzung:</value>
+  </data>
+  <data name="error.version_different" xml:space="preserve">
+    <value>Der Server meldet eine andere Version als manuell angegeben. Login könnte fehlschlagen.</value>
+  </data>
+  <data name="exception.chatbot.init" xml:space="preserve">
+    <value>ChatBot Methoden sollten nicht im Konstruktor aufgerufen werden, da der API Handler noch nicht initialisiert wurde. Überschreibe Initialize() oder AfterGameJoined() für diese Initialisierung.</value>
+  </data>
+  <data name="exception.csrunner.invalid_head" xml:space="preserve">
+    <value>Das angegeben Skript hat keinen gültigen MCCScript header</value>
+  </data>
+  <data name="exception.packet_process" xml:space="preserve">
+    <value>Konnte Paket vom Typ {0} nicht verarbeiten. (PacketID: {1}, Protocol: {2}, LoginPhase: {3}, InnerException: {4}).</value>
+  </data>
+  <data name="exception.palette.block" xml:space="preserve">
+    <value>Bitte update das Block Types Handling für diese Minecraft-Version. Siehe Materials.cs</value>
+  </data>
+  <data name="exception.palette.entity" xml:space="preserve">
+    <value>Bitte update das Entity Types Handling für diese Minecraft-Version. Siehe EntityType.cs</value>
+  </data>
+  <data name="exception.palette.healthfield" xml:space="preserve">
+    <value>Bitte aktualisieren Sie health field handling für diese Minecraft-Version.</value>
+  </data>
+  <data name="exception.palette.item" xml:space="preserve">
+    <value>Bitte update das Item Types Handling für diese Minecraft-Version. Siehe ItemType.cs</value>
+  </data>
+  <data name="exception.palette.packet" xml:space="preserve">
+    <value>Bitte update die Packet Type Palette für diese Minecraft-Version. Siehe PacketTypePalette.cs</value>
+  </data>
+  <data name="exception.unknown_direction" xml:space="preserve">
+    <value>Unbekannte Richtung</value>
+  </data>
+  <data name="exception.user_logout" xml:space="preserve">
+    <value>Ein Nutzer sollte sich mit Disconnect() abmelden.</value>
+  </data>
+  <data name="exception.version_unsupport" xml:space="preserve">
+    <value>Die Protokoll-Version Nr.{0} wird nicht unterstützt.</value>
+  </data>
+  <data name="extra.entity_disabled" xml:space="preserve">
+    <value>Entities werden für diese Minecraft-Version nicht unterstützt.</value>
+  </data>
+  <data name="extra.entity_required" xml:space="preserve">
+    <value>Bitte aktiviere zuerst EntityHandling in der Config Datei.</value>
+  </data>
+  <data name="extra.inventory_close" xml:space="preserve">
+    <value>Inventar # {0} geschlossen.</value>
+  </data>
+  <data name="extra.inventory_disabled" xml:space="preserve">
+    <value>Inventar Interaktion wird in dieser Minecraft-Version nicht unterstützt.</value>
+  </data>
+  <data name="extra.inventory_enabled" xml:space="preserve">
+    <value>Inventar Interaktion (inventory) wurde aktiviert.</value>
+  </data>
+  <data name="extra.inventory_interact" xml:space="preserve">
+    <value>Schreibe /inventory, um mit deinem Inventar zu interagieren.</value>
+  </data>
+  <data name="extra.inventory_open" xml:space="preserve">
+    <value>Inventar # {0} geöffnet: {1}</value>
+  </data>
+  <data name="extra.inventory_required" xml:space="preserve">
+    <value>Bitte aktiviere zuerst die Inventar Interaktion (InventoryHandling) in der Config Datei.</value>
+  </data>
+  <data name="extra.terrainandmovement_disabled" xml:space="preserve">
+    <value>Terrain und Bewegungen (terrainandmovement) werden für diese Minecraft Version nicht unterstützt.</value>
+  </data>
+  <data name="extra.terrainandmovement_enabled" xml:space="preserve">
+    <value>Terrain und Bewegungen (terrainandmovement) sind nun aktiviert.</value>
+  </data>
+  <data name="extra.terrainandmovement_required" xml:space="preserve">
+    <value>Bitte aktiviere zuerst Terrain und Bewegung (terrainandmovement) in der Config Datei.</value>
+  </data>
+  <data name="filemonitor.fail" xml:space="preserve">
+    <value>[{0}] Konnte FileSystemWatcher nicht initialisieren, versuche es erneut mit Polling.</value>
+  </data>
+  <data name="filemonitor.init" xml:space="preserve">
+    <value>[{0}] Initialisiere FileSystemWatcher für die Datei: {1}</value>
+  </data>
+  <data name="forge.accept" xml:space="preserve">
+    <value>Akzeptiere Mod-Liste des Servers...</value>
+  </data>
+  <data name="forge.accept_registry" xml:space="preserve">
+    <value>Akzeptiere Registries des Servers...</value>
+  </data>
+  <data name="forge.complete" xml:space="preserve">
+    <value>Forge-Server-Verbindung erfolgreich!</value>
+  </data>
+  <data name="forge.fml2.config" xml:space="preserve">
+    <value>Bestätige FML2 Server Config: {0}</value>
+  </data>
+  <data name="forge.fml2.mod" xml:space="preserve">
+    <value>Empfange FML2 Server Mod-Liste...</value>
+  </data>
+  <data name="forge.fml2.mod_send" xml:space="preserve">
+    <value>Sende FML2 Client Mod-Liste zurück</value>
+  </data>
+  <data name="forge.fml2.registry" xml:space="preserve">
+    <value>Bestätige FML2 Server Registry: {0}</value>
+  </data>
+  <data name="forge.fml2.unknown" xml:space="preserve">
+    <value>Es kam ein unbekannter FML2 Handshake Nachrichten Nr. {0}</value>
+  </data>
+  <data name="forge.fml2.unknown_channel" xml:space="preserve">
+    <value>Ignoriere unbekannten FML2 LoginMessage Kanal: {0}</value>
+  </data>
+  <data name="forge.mod_list" xml:space="preserve">
+    <value>Mod-Liste:</value>
+  </data>
+  <data name="forge.no_mod" xml:space="preserve">
+    <value>Server läuft auf Forge ohne Mods.</value>
+  </data>
+  <data name="forge.registry" xml:space="preserve">
+    <value>Registry {0} mit Einträgen wurde empfangen.</value>
+  </data>
+  <data name="forge.registry_2" xml:space="preserve">
+    <value>Registry {0} wurde mit {1} Einträgen empfangen.</value>
+  </data>
+  <data name="forge.send_mod" xml:space="preserve">
+    <value>Sende verfälschte Mod-Liste zum Server...</value>
+  </data>
+  <data name="forge.version" xml:space="preserve">
+    <value>Forge-Protokoll-Version : {0}</value>
+  </data>
+  <data name="forge.with_mod" xml:space="preserve">
+    <value>Server läuft mit {0} Forge Mods.</value>
+  </data>
+  <data name="general.available_cmd" xml:space="preserve">
+    <value>Verfügbare Befehle: {0}</value>
+  </data>
+  <data name="general.bot_unload" xml:space="preserve">
+    <value>Dieser Bot wird entladen.</value>
+  </data>
+  <data name="general.done" xml:space="preserve">
+    <value>Fertig</value>
+  </data>
+  <data name="general.fail" xml:space="preserve">
+    <value>Fehlgeschlagen</value>
+  </data>
+  <data name="icmd.error" xml:space="preserve">
+    <value>OnInternalCommand: Bekam einen Fehler von {0}: {1}</value>
+  </data>
+  <data name="icmd.help" xml:space="preserve">
+    <value>help &lt;cmdname&gt;: gibt eine kurze Beschreibung des Commands.</value>
+  </data>
+  <data name="icmd.list" xml:space="preserve">
+    <value>hilfe für &lt;cmdname&gt;. Verfügbare Befehle:
+{0}Für Server help, verwenden Sie stattdessen '{1}send /help'</value>
+  </data>
+  <data name="icmd.unknown" xml:space="preserve">
+    <value>Unbekannter Befehl '{0}'. Benutze 'help' für eine Liste aller Befehle.</value>
+  </data>
+  <data name="mcc.backup_old_config" xml:space="preserve">
+    <value>Der alte MinecraftClient.ini wurde als {0} gesichert</value>
+  </data>
+  <data name="mcc.browser_login_code" xml:space="preserve">
+    <value>Fügen Sie Ihren Code hier ein:</value>
+  </data>
+  <data name="mcc.browser_open" xml:space="preserve">
+    <value>Ihr Browser sollte automatisch geöffnet werden. Wenn nicht, öffnen Sie den unten stehenden Link in Ihrem Browser.</value>
+  </data>
+  <data name="mcc.connecting" xml:space="preserve">
+    <value>Verbinde zu {0}...</value>
+  </data>
+  <data name="mcc.disconnect.login" xml:space="preserve">
+    <value>Login fehlgeschlagen :</value>
+  </data>
+  <data name="mcc.disconnect.lost" xml:space="preserve">
+    <value>Verbindung wurde verloren.</value>
+  </data>
+  <data name="mcc.disconnect.server" xml:space="preserve">
+    <value>Server hat die Verbindung abgebrochen :</value>
+  </data>
+  <data name="mcc.disconnected" xml:space="preserve">
+    <value>Mit keinem Server verbunden. Schreibe '{0}help' für weitere Hilfe.</value>
+  </data>
+  <data name="mcc.fetching_key" xml:space="preserve">
+    <value>Profilschlüssel wird von Microsoft abgerufen.</value>
+  </data>
+  <data name="mcc.forge" xml:space="preserve">
+    <value>Prüfe, ob der Server Forge benutzt...</value>
+  </data>
+  <data name="mcc.forgeforce" xml:space="preserve">
+    <value>Zwangsaktivierung des Forge-Supports.</value>
+  </data>
+  <data name="mcc.found" xml:space="preserve">
+    <value>Server gefunden {0}:{1} für Adresse {2}</value>
+  </data>
+  <data name="mcc.generator.done" xml:space="preserve">
+    <value>Erfolgreich {0} Palette mithilfe des Datensatzes generiert: {1}</value>
+  </data>
+  <data name="mcc.generator.generating" xml:space="preserve">
+    <value>Generiere {0} Palette mithilfe des Datensatzes: {1}</value>
+  </data>
+  <data name="mcc.gen_new_config" xml:space="preserve">
+    <value>Neue Konfigurationsdatei "{0}" wurde erstellt.</value>
+  </data>
+  <data name="mcc.handshake" xml:space="preserve">
+    <value>Handshake erfolgreich. (Server ID: {0})</value>
+  </data>
+  <data name="mcc.has_update" xml:space="preserve">
+    <value>Eine neue Version von MCC ist verfügbar, und Sie können sie über /upgrade herunterladen. Oder laden Sie sie manuell herunter: {0}</value>
+  </data>
+  <data name="mcc.help_us_translate" xml:space="preserve">
+    <value>Hilf uns, MCC zu übersetzen: {0}</value>
+  </data>
+  <data name="mcc.invaild_config" xml:space="preserve">
+    <value>Fehler beim Parsen der Einstellungsdatei. Geben Sie "{0}new" ein, um eine neue Konfiguration zu generieren.</value>
+  </data>
+  <data name="mcc.ip" xml:space="preserve">
+    <value>Server-IP :</value>
+  </data>
+  <data name="mcc.joined" xml:space="preserve">
+    <value>Server erfolgreich beigetreten.
+Tippe '{0}quit', um ihn wieder zu verlassen.</value>
+  </data>
+  <data name="mcc.link" xml:space="preserve">
+    <value>Link: {0}</value>
+  </data>
+  <data name="mcc.login" xml:space="preserve">
+    <value>Login :</value>
+  </data>
+  <data name="mcc.login_basic_io" xml:space="preserve">
+    <value>Bitte gib einen Nutzernamen oder eine E-Mail deiner Wahl ein.</value>
+  </data>
+  <data name="mcc.not_found" xml:space="preserve">
+    <value>SRV-Lookup fehlgeschlagen für {0}
+{1}: {2}</value>
+  </data>
+  <data name="mcc.offline" xml:space="preserve">
+    <value>Das Programm läuft im Offline-Modus.</value>
+  </data>
+  <data name="mcc.password_basic_io" xml:space="preserve">
+    <value>Bitte gib das Passwort für {0} ein.</value>
+  </data>
+  <data name="mcc.password_hidden" xml:space="preserve">
+    <value>Passwort(Unsichtbar): </value>
+  </data>
+  <data name="mcc.player_dead" xml:space="preserve">
+    <value>Du bist gestorben. Schreibe '{0}respawn' zum Respawnen.</value>
+  </data>
+  <data name="mcc.player_dead_respawn" xml:space="preserve">
+    <value>Du bist gestorben. Automatischer Respawn nach 1 Sekunde.</value>
+  </data>
+  <data name="mcc.press_exit" xml:space="preserve">
+    <value>Oder drücke Enter, um den Minecraft Console Client zu verlassen.</value>
+  </data>
+  <data name="mcc.profile_key_invalid" xml:space="preserve">
+    <value>Der zwischengespeicherte Profilschlüssel muss aktualisiert werden.</value>
+  </data>
+  <data name="mcc.profile_key_valid" xml:space="preserve">
+    <value>Der zwischengespeicherte Profilschlüssel ist noch gültig für {0}.</value>
+  </data>
+  <data name="mcc.realms_available" xml:space="preserve">
+    <value>Du hast Zugang zu den folgenden Realms-Welten</value>
+  </data>
+  <data name="mcc.realms_join" xml:space="preserve">
+    <value>Nutze realms:index als Server-IP, um der Realms-Welt beizutreten</value>
+  </data>
+  <data name="mcc.reconnect" xml:space="preserve">
+    <value>Warte 5 Sekunden ({0} Versuche übrig)...</value>
+  </data>
+  <data name="mcc.resolve" xml:space="preserve">
+    <value>Löse auf {0}...</value>
+  </data>
+  <data name="mcc.restart" xml:space="preserve">
+    <value>Starte Minecraft Console Client neu...</value>
+  </data>
+  <data name="mcc.restart_delay" xml:space="preserve">
+    <value>Warte {0} Sekunden vor Neustart...</value>
+  </data>
+  <data name="mcc.retrieve" xml:space="preserve">
+    <value>Erhalte Server-Info...</value>
+  </data>
+  <data name="mcc.run_with_default_settings" xml:space="preserve">
+    <value>
+MCC wird mit den Standardeinstellungen ausgeführt.</value>
+  </data>
+  <data name="mcc.server_offline" xml:space="preserve">
+    <value>Der Server läuft im Offline-Modus.</value>
+  </data>
+  <data name="mcc.server_protocol" xml:space="preserve">
+    <value>Server-Version : {0} (protocol v{1})</value>
+  </data>
+  <data name="mcc.server_version" xml:space="preserve">
+    <value>Server-Version :</value>
+  </data>
+  <data name="mcc.session" xml:space="preserve">
+    <value>Überprüfe Sitzung...</value>
+  </data>
+  <data name="mcc.session_fail" xml:space="preserve">
+    <value>Konnte Sitzung nicht überprüfen.</value>
+  </data>
+  <data name="mcc.session_invalid" xml:space="preserve">
+    <value>Gespeicherte Session ungültig oder abgelaufen.</value>
+  </data>
+  <data name="mcc.session_valid" xml:space="preserve">
+    <value>Gespeicherte Session gültig für {0}.</value>
+  </data>
+  <data name="mcc.settings_generated" xml:space="preserve">
+    <value>Die Einstellungsdatei MinecraftClient.ini wurde erstellt.</value>
+  </data>
+  <data name="mcc.unknown_version" xml:space="preserve">
+    <value>Unbekannte oder nicht unterstützte MC-Version {0}.
+Wechsele in den Autodetection-Modus.</value>
+  </data>
+  <data name="mcc.update.already_latest" xml:space="preserve">
+    <value>Die aktuelle Version ist bereits aktuell oder ist eine Entwicklungsversion.</value>
+  </data>
+  <data name="mcc.update.already_running" xml:space="preserve">
+    <value>Die Suche nach Updates wurde bereits gestartet.</value>
+  </data>
+  <data name="mcc.update.cancel" xml:space="preserve">
+    <value>Das Herunterladen wurde abgebrochen.</value>
+  </data>
+  <data name="mcc.update.check_fail" xml:space="preserve">
+    <value>Es ist nicht möglich, nach Updates von Github zu suchen. Bitte überprüfen Sie Ihre Internetverbindung oder aktiviere Proxy.</value>
+  </data>
+  <data name="mcc.update.download_complete" xml:space="preserve">
+    <value>Selbstaktualisierung: Download ist erfolgreich, wird nun dekomprimiert.</value>
+  </data>
+  <data name="mcc.update.download_fail" xml:space="preserve">
+    <value>Selbstaktualisierung: Beim Herunterladen oder Speichern der Datei ist ein Fehler aufgetreten:</value>
+  </data>
+  <data name="mcc.update.exist_update" xml:space="preserve">
+    <value>Selbstaktualisierung: Neue Version erkannt: "{0}", der Download wird in Kürze beginnen (Plattform: {1}).</value>
+  </data>
+  <data name="mcc.update.platform_not_support" xml:space="preserve">
+    <value>Die neueste Version enthält keine Version, die zu Ihrem Betriebssystem und Ihrer CPU-Architektur passt.</value>
+  </data>
+  <data name="mcc.update.progress" xml:space="preserve">
+    <value>Selbstaktualisierung: {0:00.00}%, ETA {4}, Heruntergeladen {1:00.0}MB von {2:00.0}MB, Durchschn. {3:0.0}KB/s</value>
+  </data>
+  <data name="mcc.update.progress_type2" xml:space="preserve">
+    <value>Selbstaktualisierung: Heruntergeladen {0:00.0}MB, Durchschn. {1:0.0}KB/s</value>
+  </data>
+  <data name="mcc.update.promote_force" xml:space="preserve">
+    <value>Füge "-f" hinzu, um den Download zu erzwingen.</value>
+  </data>
+  <data name="mcc.update.promote_force_cmd" xml:space="preserve">
+    <value>Verwenden Sie "--force-upgrade", um den Download zu erzwingen.</value>
+  </data>
+  <data name="mcc.update.save_as" xml:space="preserve">
+    <value>Selbstaktualisierung: Datei wurde als: {0} gespeichert.</value>
+  </data>
+  <data name="mcc.update.start" xml:space="preserve">
+    <value>Starte die Suche nach Updates.</value>
+  </data>
+  <data name="mcc.use_new_config" xml:space="preserve">
+    <value>Bitte verwende die neu generierte MinecraftClient.ini</value>
+  </data>
+  <data name="mcc.use_version" xml:space="preserve">
+    <value>Benutze Minecraft-Version {0} (protocol v{1})</value>
+  </data>
+  <data name="mcc.version_supported" xml:space="preserve">
+    <value>Version wird unterstützt.
+Melde an...</value>
+  </data>
+  <data name="mcc.with_forge" xml:space="preserve">
+    <value>, mit Forge</value>
+  </data>
+  <data name="proxy.connected" xml:space="preserve">
+    <value>Verbunden mit Proxy {0}:{1}</value>
+  </data>
+  <data name="cmd.dig.end" xml:space="preserve">
+    <value>Das Abbauen des Blocks an Position {0} endet.</value>
+  </data>
+  <data name="cmd.dig.cancel" xml:space="preserve">
+    <value>Abbau des Blocks an Position {0} abbrechen.</value>
+  </data>
+  <data name="bot.TelegramBridge.quit_disabled" xml:space="preserve">
+    <value>Dieser Befehl wurde deaktiviert, da Telegram-Caching Probleme verursacht. Bitte beenden Sie Ihren Client manuell.</value>
+  </data>
+  <data name="cmd.items.collector.desc" xml:space="preserve">
+    <value>Items auf dem Boden einsammeln</value>
+  </data>
+  <data name="cmd.items.collector.usage" xml:space="preserve">
+    <value>itemscollector &lt;start/stop&gt;</value>
+  </data>
+  <data name="cmd.items.collector.already.collecting" xml:space="preserve">
+    <value>Sammle bereits Items!</value>
+  </data>
+  <data name="cmd.items.collector.started" xml:space="preserve">
+    <value>Begonnen, Items zu sammeln!</value>
+  </data>
+  <data name="cmd.items.collector.already.not.collecting" xml:space="preserve">
+    <value>Schon am Sammeln von Items gestoppt!</value>
+  </data>
+  <data name="cmd.items.collector.stopping" xml:space="preserve">
+    <value>Stoppe die Sammlung von Items...</value>
+  </data>
+  <data name="cmd.items.collector.stopped" xml:space="preserve">
+    <value>Gestoppt das Sammeln von Items.</value>
+  </data>
+  <data name="bot.WebSocketBot.failed_to_start.ip" xml:space="preserve">
+    <value>§cFehler beim Starten eines Servers! Die bereitgestellte IP-Adresse ist ungültig!</value>
+  </data>
+  <data name="bot.WebSocketBot.failed_to_start.port" xml:space="preserve">
+    <value>§cFehler beim Starten eines Servers! Die bereitgestellte Portnummer {0} liegt außerhalb des zulässigen Bereichs. Sie muss 65535 oder darunter liegen!</value>
+  </data>
+  <data name="ChatBot.WebSocketBot.DebugMode" xml:space="preserve">
+    <value/>
+  </data>
+  <data name="bot.WebSocketBot.starting" xml:space="preserve">
+    <value>Starte den WebSocket-Server...</value>
+  </data>
+  <data name="bot.WebSocketBot.started" xml:space="preserve">
+    <value>§bServer gestartet auf Ip §a{0}§b Port: §a{1}</value>
+  </data>
+  <data name="bot.WebSocketBot.failed_to_start.custom" xml:space="preserve">
+    <value>§cFehler beim Starten eines Servers:\n\n{0}\n\n</value>
+  </data>
+  <data name="bot.WebSocketBot.new_session" xml:space="preserve">
+    <value>§bNeue Sitzung verbunden: §a{0}</value>
+  </data>
+  <data name="bot.WebSocketBot.session_disconnected" xml:space="preserve">
+    <value>§bSitzung mit der Id §a{0}§b wurde getrennt!</value>
+  </data>
+  <data name="bot.WebSocketBot.session_id_changed" xml:space="preserve">
+    <value>§bSitzung mit der Id §a{0}§b wurde umbenannt in: §a{1}§b!</value>
+  </data>
+  <data name="bot.WebSocketBot.session_id_failed_to_change" xml:space="preserve">
+    <value>§cSitzung mit der ID §a{0}§b konnte die ID nicht in: §c{1}§b ändern!</value>
+  </data>
+  <data name="bot.WebSocketBot.session_authenticated" xml:space="preserve">
+    <value>§bSitzung mit der Id §a{0}§b wurde erfolgreich authentifiziert!</value>
+  </data>
+  <data name="cmd.nameitem.item.name.empty" xml:space="preserve">
+    <value>Der Item-Name darf nicht Leer sein!</value>
+  </data>
+  <data name="cmd.nameitem.no.anvil.inventory.open" xml:space="preserve">
+    <value>Um diesen Befehl verwenden zu können, muss ein aktives Anvil-Inventar geöffnet sein!</value>
+  </data>
+  <data name="cmd.nameitem.first.slot.empty" xml:space="preserve">
+    <value>Sie müssen ein Item in den ersten Slot (Slot-Id: 0) des Anvil-Inventars legen!</value>
+  </data>
+  <data name="cmd.nameitem.failed" xml:space="preserve">
+    <value>Fehler beim Senden des Pakets zur Benennung eines Items. Versuchen Sie es erneut!</value>
+  </data>
+  <data name="cmd.nameitem.successful" xml:space="preserve">
+    <value>Der Item-Name wurde erfolgreich an den Server gesendet. Sie können jetzt auf den Slot Nummer 2 im Anvil-Inventar klicken, um das Item umzubenennen.</value>
+  </data>
+  <data name="cmd.nameitem.desc" xml:space="preserve">
+    <value>Legen Sie einen Item-Namen fest, wenn ein Anvil-Inventar aktiv ist und sich der Gegenstand im ersten Slot befindet.</value>
+  </data>
+  <data name="bot.antiafk.may.not.move" xml:space="preserve">
+    <value>Die Bot-Bewegungssperre wird von Bot {0} gehalten, daher kann sich der Anti-AFK-Bot möglicherweise nicht bewegen!</value>
+  </data>
+  <data name="bot.common.movement.lock.held" xml:space="preserve">
+    <value>Sie können den '{0}'-Bot nicht starten/ausführen/verwenden, da er Bewegung erfordert, die derzeit vom '{1}'-Bot verwendet wird. Beenden Sie ihn, wenn Sie diesen verwenden möchten.</value>
+  </data>
+  <data name="cmd.wait.random.min.bigger" xml:space="preserve">
+    <value>Die von Ihnen angegebene Mindestzahl ist größer als die Höchstzahl, sie werden vertauscht!</value>
+  </data>
+  <data name="cmd.inventory.shiftrightclick" xml:space="preserve">
+    <value>Rechtsklicken und gleichzeitig die Umschalttaste drücken auf Slot {0} im Fenster #{1}</value>
+  </data>
+  <data name="mcc.avaliable_profiles" xml:space="preserve">
+    <value>Verfügbare Profile:</value>
+  </data>
+  <data name="mcc.selected_profile" xml:space="preserve">
+    <value>Ausgewähltes Profil:</value>
+  </data>
+  <data name="mcc.select_profile" xml:space="preserve">
+    <value>Wählen Sie ein Profil aus verfügbaren Profilen:</value>
+  </data>
+</root>

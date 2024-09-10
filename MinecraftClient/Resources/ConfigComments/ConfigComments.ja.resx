@@ -1,0 +1,856 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" id="root">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace"/>
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string"/>
+              <xsd:attribute name="type" type="xsd:string"/>
+              <xsd:attribute name="mimetype" type="xsd:string"/>
+              <xsd:attribute ref="xml:space"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string"/>
+              <xsd:attribute name="name" type="xsd:string"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1"/>
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3"/>
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4"/>
+              <xsd:attribute ref="xml:space"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required"/>
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AppVars.Variables" xml:space="preserve">
+    <value>%yourvar%、%username%、%serverip% は予約変数名であるため、
+他のフィールドでも使用することができます。</value>
+  </data>
+  <data name="ChatBot" xml:space="preserve">
+    <value>=============================== #
+ Minecraft Console Client ChatBot  #
+=============================== #</value>
+  </data>
+  <data name="ChatBot.Alerts" xml:space="preserve">
+    <value>メッセージでキーワードが検出された際に通知を受け取ります。
+サーバーを管理したり、誰かが話しかけていることを検出したりするのに便利です。</value>
+  </data>
+  <data name="ChatBot.Alerts.Beep_Enabled" xml:space="preserve">
+    <value>キーワードが検出された際に強調表示して効果音を鳴らすかどうかを「true」(オン) または「false」(オフ) で指定します。</value>
+  </data>
+  <data name="ChatBot.Alerts.Excludes" xml:space="preserve">
+    <value>通知しないキーワード リスト</value>
+  </data>
+  <data name="ChatBot.Alerts.Log_File" xml:space="preserve">
+    <value>通知ログが書き込まれるファイル名を「"」で囲んで指定します。(拡張子も含める)</value>
+  </data>
+  <data name="ChatBot.Alerts.Log_To_File" xml:space="preserve">
+    <value>通知情報をファイルに書き込むかどうかを「true」(オン) または「false」(オフ) で指定します。</value>
+  </data>
+  <data name="ChatBot.Alerts.Matches" xml:space="preserve">
+    <value>通知するキーワード リスト</value>
+  </data>
+  <data name="ChatBot.Alerts.Trigger_By_Rain" xml:space="preserve">
+    <value>雨が降り始めたり止んだりした際に通知するかどうかを「true」(オン) または「false」(オフ) で指定します。</value>
+  </data>
+  <data name="ChatBot.Alerts.Trigger_By_Thunderstorm" xml:space="preserve">
+    <value>雷雨が降り始めたり止んだりした際に通知するかどうかを「true」(オン) または「false」(オフ) で指定します。</value>
+  </data>
+  <data name="ChatBot.Alerts.Trigger_By_Words" xml:space="preserve">
+    <value>指定されたキーワードを受信した際に通知するかどうかを「true」(オン) または「false」(オフ) で指定します。</value>
+  </data>
+  <data name="ChatBot.AntiAfk" xml:space="preserve">
+    <value>自動無操作切断を回避するために、定期的またはランダムにコマンドを送信するか、ChatBot をランダムに歩かせます。
+注意: サーバーの規約で自動無操作切断回避の使用が許可されていることをご確認ください。
+注意: Use_Terrain_Handling を「true」にしている場合は、ChatBot が迷子にならないように、5x5x5 程の広さの囲いに入れておいてください。</value>
+  </data>
+  <data name="ChatBot.AntiAfk.Command" xml:space="preserve">
+    <value>サーバーに送信するコマンドを「"」で囲んだコマンドで指定します。</value>
+  </data>
+  <data name="ChatBot.AntiAfk.Delay" xml:space="preserve">
+    <value>実行の時間間隔 (秒単位)。</value>
+  </data>
+  <data name="ChatBot.AntiAfk.Use_Sneak" xml:space="preserve">
+    <value>コマンドを送信した際にスニークするかどうかを「true」(オン) または「false」(オフ) で指定します。</value>
+  </data>
+  <data name="ChatBot.AntiAfk.Use_Terrain_Handling" xml:space="preserve">
+    <value>地形処理を使用して ChatBot が動き回れるようにするかどうかを「true」(オン) または「false」(オフ) で指定します。</value>
+  </data>
+  <data name="ChatBot.AntiAfk.Walk_Range" xml:space="preserve">
+    <value>ChatBot がランダムに移動できる範囲を整数で指定します。値が大きいほど、ChatBot の速度は遅くなります。</value>
+  </data>
+  <data name="ChatBot.AntiAfk.Walk_Retries" xml:space="preserve">
+    <value>移動に失敗できる回数を整数で指定します。失敗した回数が値を超えるとコマンド送信モードに切り替わります。</value>
+  </data>
+  <data name="ChatBot.AutoAttack" xml:space="preserve">
+    <value>周囲の Mob を自動的に攻撃します。
+この ChatBot を使用するには EntityHandling を「true」にする必要があります。
+注意: サーバーの規約で自動攻撃の使用が許可されていることをご確認ください。
+警告: サーバーのプラグインが自動攻撃をチート行為と見なし、アクセスが禁止されるおそれがあるため、サーバーの規約をもう一度ご確認ください。</value>
+  </data>
+  <data name="ChatBot.AutoAttack.Attack_Hostile" xml:space="preserve">
+    <value>敵対 Mob を攻撃するかどうかを「true」(オン) または「false」(オフ) で指定します。</value>
+  </data>
+  <data name="ChatBot.AutoAttack.Attack_Passive" xml:space="preserve">
+    <value>友好 Mob を攻撃するかどうかを「true」(オン) または「false」(オフ) で指定します。</value>
+  </data>
+  <data name="ChatBot.AutoAttack.Attack_Range" xml:space="preserve">
+    <value>攻撃範囲を小数第一位までの 1.0 から 4.0 の小数 (x.x) で指定します。</value>
+  </data>
+  <data name="ChatBot.AutoAttack.Cooldown_Time" xml:space="preserve">
+    <value>攻撃するまでの待機時間。MCC に攻撃速度を自動的に計算してもらうには、Custom に「false」を指定します。</value>
+  </data>
+  <data name="ChatBot.AutoAttack.Entites_List" xml:space="preserve">
+    <value>エンティティ リスト。エンティティの種類については https://mccteam.github.io/r/entity/#L15 をご覧ください。</value>
+  </data>
+  <data name="ChatBot.AutoAttack.Interaction" xml:space="preserve">
+    <value>「"Interact"」、「"Attack"」、または「"InteractAt"」(Interact and Attack) で指定します。</value>
+  </data>
+  <data name="ChatBot.AutoAttack.List_Mode" xml:space="preserve">
+    <value>攻撃する Mob を「"whitelist"」(リスト内の Mob) または「"blacklist"」(リスト外の Mob) で指定します。</value>
+  </data>
+  <data name="ChatBot.AutoAttack.Mode" xml:space="preserve">
+    <value>攻撃する対象の人数を「"single"」(1 回の攻撃で 1 体) または「"multi"」(1 回の攻撃で複数体) で指定します。</value>
+  </data>
+  <data name="ChatBot.AutoAttack.Priority" xml:space="preserve">
+    <value>Mode を「"single"」にした際に優先的に攻撃する Mob を「"health"」(体力の低い Mob から) または「"distance"」(最も近い Mob から) で指定します。</value>
+  </data>
+  <data name="ChatBot.AutoCraft" xml:space="preserve">
+    <value>インベントリ内のアイテムを自動的にクラフトします。
+詳しくは https://mccteam.github.io/l10n/ja/guide/chat-bots.html#auto-craft をご覧ください。
+この ChatBot を使用するには、InventoryHandling を「true」にする必要があります。
+作業台を使用する場合は、TerrainAndMovements も「true」にする必要があります。</value>
+  </data>
+  <data name="ChatBot.AutoCraft.CraftingTable" xml:space="preserve">
+    <value>使用する作業台の場所。TerrainAndMovements を「true」にする必要があります。</value>
+  </data>
+  <data name="ChatBot.AutoCraft.OnFailure" xml:space="preserve">
+    <value>クラフトできなかった際の行動を「"abort"」(中止) または「"wait"」(待機) で指定します。</value>
+  </data>
+  <data name="ChatBot.AutoCraft.Recipes" xml:space="preserve">
+    <value>Recipes.Name: 任意のレシピ名を「"」で囲んで指定します。スペースを含めることはできません。
+Recipes.Type: クラフトの種類を「"player"」(2x2) または「"table"」(3x3) で指定します。
+Recipes.Result: クラフト結果のアイテムを指定します。
+Recipes.Slots: アイテムを配置するスロット。左から右へ、上から下へ数えます。空きスロットには「"Null"」を指定します。
+アイテムの種類については https://mccteam.github.io/r/item/#L12 をご覧ください。</value>
+  </data>
+  <data name="ChatBot.AutoDig" xml:space="preserve">
+    <value>ブロックを自動的に採掘します。
+この ChatBot を使用するには、InventoryHandling を「true」にする必要があります。
+/digbot start と /digbot stop を使用して自動採掘を開始、停止できます。
+MCC はまだブロックの衝突量の正確な計算をサポートしていないため、見ているブロックすべてを正方形と見なします。
+ブロックの種類については https://mccteam.github.io/r/block/#L15 をご覧ください。</value>
+  </data>
+  <data name="ChatBot.AutoDig.Auto_Start_Delay" xml:space="preserve">
+    <value>ワールドに参加した際に自動的に採掘を開始するまでの時間 (秒単位) を小数第一位までの小数 (x.x) で指定します。参加した際に自動採掘を開始しない場合は「-1」を指定します。</value>
+  </data>
+  <data name="ChatBot.AutoDig.Auto_Tool_Switch" xml:space="preserve">
+    <value>自動的に適切なツールに切り替えます。</value>
+  </data>
+  <data name="ChatBot.AutoDig.Dig_Timeout" xml:space="preserve">
+    <value>採掘できる時間 (秒単位) を小数第一位までの小数 (x.x) で指定します。採掘した時間が値を超えるとタイムアウトされます。</value>
+  </data>
+  <data name="ChatBot.AutoDig.Drop_Low_Durability_Tools" xml:space="preserve">
+    <value>耐久度が低すぎると、現在のツールをドロップするかどうかを設定します。</value>
+  </data>
+  <data name="ChatBot.AutoDig.Durability_Limit" xml:space="preserve">
+    <value>Will not use tools with less durability than this. Set to zero to disable this feature.</value>
+  </data>
+  <data name="ChatBot.AutoDig.List_Type" xml:space="preserve">
+    <value>採掘するブロックを「"whitelist"」(リスト内のブロック) または「"blacklist"」(リスト外のブロック) で指定します。</value>
+  </data>
+  <data name="ChatBot.AutoDig.Locations" xml:space="preserve">
+    <value>Mode で「"fixedpos"」または「"both"」を指定している際のブロックの固定位置。</value>
+  </data>
+  <data name="ChatBot.AutoDig.Location_Order" xml:space="preserve">
+    <value>ブロックを採掘する順番を「"distance"」(最も近い座標から) または「"index"」(指定した座標から) で指定します。Mode で「"fixedpos"」を指定している際に使用されます。</value>
+  </data>
+  <data name="ChatBot.AutoDig.Log_Block_Dig" xml:space="preserve">
+    <value>ブロックを破壊した際にログを出力するかどうかを「true」(オン) または「false」(オフ) で指定します。</value>
+  </data>
+  <data name="ChatBot.AutoDig.Mode" xml:space="preserve">
+    <value>採掘するブロックを「"lookat"」(見ているブロック)、「"fixedpos"」(固定位置のブロック)、または「"both"」(見ているブロックと固定位置のブロック) で指定します。</value>
+  </data>
+  <data name="ChatBot.AutoDrop" xml:space="preserve">
+    <value>アイテムをインベントリから自動的にドロップします。
+この ChatBot を使用するには、InventoryHandling を「true」にする必要があります。
+アイテムの種類については https://mccteam.github.io/r/item/#L12 をご覧ください。</value>
+  </data>
+  <data name="ChatBot.AutoDrop.Mode" xml:space="preserve">
+    <value>ドロップするアイテムを「"include"」(リスト内のアイテム)、「"exclude"」(リスト外のアイテム)、または「"everything"」(すべて) で指定します。</value>
+  </data>
+  <data name="ChatBot.AutoEat" xml:space="preserve">
+    <value>満腹度が低い際に自動的に食べ物を食べます。
+この ChatBot を使用するには、InventoryHandling を「true」にする必要があります。</value>
+  </data>
+  <data name="ChatBot.AutoFishing" xml:space="preserve">
+    <value>釣竿を使って自動的に魚を捕まえます。
+詳しくは https://mccteam.github.io/l10n/ja/guide/chat-bots.html#auto-fishing をご覧ください。
+/fish を使用して ChatBot を操作できます。
+注意: サーバーの規約で自動農業の使用が許可されていることをご確認ください。</value>
+  </data>
+  <data name="ChatBot.AutoFishing.Antidespawn" xml:space="preserve">
+    <value>「true」または「false」で指定します。以前にこの設定を「true」にしたことがない場合は、「false」のままにしてください。</value>
+  </data>
+  <data name="ChatBot.AutoFishing.Auto_Rod_Switch" xml:space="preserve">
+    <value>選択中の釣竿が使用できなくなった際にインベントリから新しい釣竿に切り替えるかどうかを「true」(オン) または「false」(オフ) で指定します。</value>
+  </data>
+  <data name="ChatBot.AutoFishing.Auto_Start" xml:space="preserve">
+    <value>ワールドに参加した際に自動的に釣りを開始するかどうかを「true」(オン) または「false」(オフ) で指定します。</value>
+  </data>
+  <data name="ChatBot.AutoFishing.Cast_Delay" xml:space="preserve">
+    <value>釣りに成功した際にもう一度浮きを投げるまでの時間 (秒単位) を小数第一位までの小数 (x.x) で指定します。</value>
+  </data>
+  <data name="ChatBot.AutoFishing.Durability_Limit" xml:space="preserve">
+    <value>使用しない釣竿の耐久値を小数第一位までの小数 (x.x) で指定します。釣竿の最大耐久値は 64.0 です。</value>
+  </data>
+  <data name="ChatBot.AutoFishing.Enable_Move" xml:space="preserve">
+    <value>魚を釣るたびに位置や向きを変えるかどうかを「true」(オン) または「false」(オフ) で指定します。</value>
+  </data>
+  <data name="ChatBot.AutoFishing.Fishing_Delay" xml:space="preserve">
+    <value>ゲームに参加してから釣りを開始するまでの時間 (秒単位) を小数第一位までの小数 (x.x) で指定します。</value>
+  </data>
+  <data name="ChatBot.AutoFishing.Fishing_Timeout" xml:space="preserve">
+    <value>釣りのタイムアウトまでの時間 (秒単位) を小数第一位までの小数 (x.x) で指定します。タイムアウトされると浮きがもう一度投げられます。</value>
+  </data>
+  <data name="ChatBot.AutoFishing.Hook_Threshold" xml:space="preserve">
+    <value>小数第一位までの小数 (x.x) で指定します。Y 軸の動きがこのしきい値より大きい「静止している浮き」は、魚を捕まえたと見なされます。</value>
+  </data>
+  <data name="ChatBot.AutoFishing.Log_Fish_Bobber" xml:space="preserve">
+    <value>「true」または「false」で指定します。上記 2 つのしきい値を調整するために使用されます。「true」にすると、移動パケットの受信の際に浮きの座標の変化が出力されます。</value>
+  </data>
+  <data name="ChatBot.AutoFishing.Mainhand" xml:space="preserve">
+    <value>釣竿をどの手で持つかを「true」(利き手) または「false」(オフハンド) で指定します。</value>
+  </data>
+  <data name="ChatBot.AutoFishing.Movements" xml:space="preserve">
+    <value>「1-&gt;2-&gt;3-&gt;4-&gt;3-&gt;2-&gt;1-&gt;2-&gt;...」の順で実行され、そのたび位置や向きを変えることができます。方向 (facing) のみ移動することをお勧めします。</value>
+  </data>
+  <data name="ChatBot.AutoFishing.Stationary_Threshold" xml:space="preserve">
+    <value>小数第三位までの小数 (x.xxx) で指定します。X 軸と Z 軸の動きがこのしきい値より小さい浮きは、静止していると見なされます。</value>
+  </data>
+  <data name="ChatBot.AutoRelog" xml:space="preserve">
+    <value>サーバーが再起動されるなどの理由で退出された際に自動的に再接続します。
+注意: Ignore_Kick_Message を「true」にする場合は自己責任で使用してください。手動で退出された際に再接続すると、サーバー管理者が嫌がるかもしれません。</value>
+  </data>
+  <data name="ChatBot.AutoRelog.Delay" xml:space="preserve">
+    <value>再接続するまでの遅延時間 (秒単位)。</value>
+  </data>
+  <data name="ChatBot.AutoRelog.Ignore_Kick_Message" xml:space="preserve">
+    <value>退出メッセージを無視して再接続するかどうかを「true」(オン) または「false」(オフ) で指定します。</value>
+  </data>
+  <data name="ChatBot.AutoRelog.Kick_Messages" xml:space="preserve">
+    <value>退出メッセージがキーワードと一致すると再接続されます。</value>
+  </data>
+  <data name="ChatBot.AutoRelog.Retries" xml:space="preserve">
+    <value>再接続に失敗できる回数を整数で指定します。回数を制限しない場合は「-1」を指定します。</value>
+  </data>
+  <data name="ChatBot.AutoRespond" xml:space="preserve">
+    <value>チャット メッセージがファイル内のルールに一致すると、コマンドを実行したり、メッセージを送信したりします。
+サーバー管理者はチャット メッセージを (/tellraw や /nick などで) 偽装できるため、この ChatBot を使用する場合はご注意ください。
+注意: この ChatBot は、ルールによってはスパムになる場合があるため、メッセージのクールダウンを設定することをお勧めします。</value>
+  </data>
+  <data name="ChatBot.AutoRespond.Match_Colors" xml:space="preserve">
+    <value>「true」または「false」で指定します。テキスト内の節記号 (§) を使用したカラー コードを削除しないでください。一致ルールを適用するにはカラー コードを含める必要があります。</value>
+  </data>
+  <data name="ChatBot.ChatLog" xml:space="preserve">
+    <value>チャット メッセージをログ ファイルに書き込みます。</value>
+  </data>
+  <data name="ChatBot.DiscordBridge" xml:space="preserve">
+    <value>This bot allows you to send and recieve messages and commands via a Discord channel.
+For Setup you can either use the documentation or read here (Documentation has images).
+Documentation: https://mccteam.github.io/g/bots/#discord-bridge
+Setup:
+First you need to create a Bot on the Discord Developers Portal, here is a video tutorial: https://www.youtube.com/watch?v=2FgMnZViNPA .
+/!\ IMPORTANT /!\: When creating a bot, you MUST ENABLE "Message Content Intent", "Server Members Intent" and "Presence Intent" in order for bot to work! Also follow along carefully do not miss any steps!
+When making a bot, copy the generated token and paste it here in "Token" field (tokens are important, keep them safe).
+Copy the "Application ID" and go to: https://discordapi.com/permissions.html .
+Paste the id you have copied and check the "Administrator" field in permissions, then click on the link at the bottom.
+This will open an invitation menu with your servers, choose the server you want to invite the bot on and invite him.
+Once you've invited the bot, go to your Discord client and go to Settings -&gt; Advanced and Enable "Developer Mode".
+Exit the settings and right click on a server you have invited the bot to in the server list, then click "Copy ID", and paste the id here in "GuildId".
+Then right click on a channel where you want to interact with the bot and again right click -&gt; "Copy ID", pase the copied id here in "ChannelId".
+And for the end, send a message in the channel, right click on your nick and again right click -&gt; "Copy ID", then paste the id here in "OwnersIds".
+How to use:
+To execute an MCC command, prefix it with a dot ".", example: ".move 143 64 735" .
+To send a message, simply type it out and hit enter.</value>
+  </data>
+  <data name="ChatBot.DiscordBridge.ChannelId" xml:space="preserve">
+    <value>ChatBot が MCC と対話するチャネル ID を整数で指定します。</value>
+  </data>
+  <data name="ChatBot.DiscordBridge.Formats" xml:space="preserve">
+    <value>メッセージ形式
+「{ }」で囲まれた単語は変更しないでください。
+{message} は実際のメッセージに置き換えられ、{username} はユーザー名に置き換えられ、{timestamp} は現在の時刻に置き換えられます。
+Discord のメッセージ形式については https://mccteam.github.io/r/dc-fmt.html (英語) をご確認ください。</value>
+  </data>
+  <data name="ChatBot.DiscordBridge.GuildId" xml:space="preserve">
+    <value>Bot を招待したサーバーまたはギルドの ID を整数で指定します。</value>
+  </data>
+  <data name="ChatBot.DiscordBridge.MessageSendTimeout" xml:space="preserve">
+    <value>Discord に送信できない際にメッセージをキャンセルするまでの時間 (秒単位) を 1 以上の整数で指定します。</value>
+  </data>
+  <data name="ChatBot.DiscordBridge.OwnersIds" xml:space="preserve">
+    <value>ChatBot が MCC と対話できるようにするユーザー ID リスト。</value>
+  </data>
+  <data name="ChatBot.DiscordBridge.Token" xml:space="preserve">
+    <value>Discord Bot のトークンを「"」で囲んで指定します。</value>
+  </data>
+  <data name="ChatBot.Farmer" xml:space="preserve">
+    <value>自動的に作物を栽培します。
+使用できる作物の種類: Beetroot、Carrot、Melon、Netherwart、Pumpkin、Potato、Wheat
+/farmer start と /farmer stop を使用して自動農業を開始、停止できます。
+注意: これは新しく追加された ChatBot です。完璧に機能せず、Minecraft 1.19.2 でのみテストを行っています。
+ニンジンやジャガイモに骨粉を使えなかったり、ChatBot が耕地に飛び降りて破壊してしまうなどの小さな問題がいくつかあり、改善に取り組んでいます。
+ChatBot がジャンプをしないように、農業エリアを壁で囲んでおくことをお勧めします。
+また、農業エリアに 1 ブロック以上の段差がある場合は、平らにして ChatBot がジャンプしないようにしてください。
+また、ChatBot は横に飛んで行ったアイテムなど、すべてのアイテムを拾うわけではありません。将来的にはチェストにアイテムを入れたり、チェストから骨粉を補充したりする機能を追加する予定です。</value>
+  </data>
+  <data name="ChatBot.Farmer.Delay_Between_Tasks" xml:space="preserve">
+    <value>タスク実行の遅延時間 (秒単位) を 1.0 以上の小数第一位までの小数 (x.x) で指定します。</value>
+  </data>
+  <data name="ChatBot.FollowPlayer" xml:space="preserve">
+    <value>ChatBot がプレイヤーを追従します。
+注意: これは実験的な機能です。追従速度は遅くなる場合があり、ChatBot が追いつくまで時々停止する必要があります。
+これは「手に食べ物を持っているプレイヤーを動物が追いかける」のと似ています。
+経路探索アルゴリズムの制限によるもので、改善に取り組んでいます。
+Update_Limit を微調整して、最適な速度を探すことができます。
+U
+pdate_Limit の値が低すぎると悪影響を及ぼしたり、MCC が応答しなくなる場合があります。
+注意: サーバーの規約で自動追従の使用が許可されていることをご確認ください。</value>
+  </data>
+  <data name="ChatBot.FollowPlayer.Stop_At_Distance" xml:space="preserve">
+    <value>プレイヤーを追従しない範囲を小数第一位までの小数 (x.x) で指定します。これは ChatBot がプレイヤーに無限に衝突するのを防ぎます。</value>
+  </data>
+  <data name="ChatBot.FollowPlayer.Update_Limit" xml:space="preserve">
+    <value>ChatBot の経路探索の時間間隔 (秒単位) を小数第一位までの小数 (x.x) で指定します。</value>
+  </data>
+  <data name="ChatBot.HangmanGame" xml:space="preserve">
+    <value>チャット メッセージの対話を試す小さなゲームをプレイします。プレイヤーは隠れた単語を 1 文字ずつ推測します。
+/tell &lt;bot username&gt; start でゲームを開始するには、ChatFormat が正しく機能し、BotOwners に自分自身を追加する必要があります。
+注意: この ChatBot は、多くのプレイヤーが操作しているとスパムになる場合があります。</value>
+  </data>
+  <data name="ChatBot.Mailer" xml:space="preserve">
+    <value>メール プラグインのように、プレイヤーとサーバーの間でメッセージを中継します。
+この ChatBot は、受信者がオフラインの際にメッセージを保存し、サーバーに参加した際にメッセージを送信します。
+サーバー管理者はチャット メッセージを (/tellraw や /nick などで) 偽装できるため、この ChatBot を使用する場合はご注意ください。</value>
+  </data>
+  <data name="ChatBot.Map" xml:space="preserve">
+    <value>コンソールで地図をレンダリングして .jpg 画像に変換します。
+Discord Bridge ChatBot を使用して Discord に送信することもできます。
+これは、地図を使用するキャプチャを解析するのに便利です。
+Save_To_File が「true」になっている場合、地図は Rendered_Maps フォルダーにレンダリングされます。
+注意: 特定のサーバーでキャプチャを解析する時間が短い場合、Auto_Render_On_Update を「true」にしてファイルをすばやく開いてください。
+注意: サーバーの規約で Bot の使用が許可されていることをご確認ください。</value>
+  </data>
+  <data name="ChatBot.Map.Auto_Render_On_Update" xml:space="preserve">
+    <value>新しい地図が受信されたり、既存の地図が更新されたりした際に地図を自動的にレンダリングするかどうかを「true」(オン) または「false」(オフ) で指定します。</value>
+  </data>
+  <data name="ChatBot.Map.Delete_All_On_Unload" xml:space="preserve">
+    <value>地図のアンロードや最新の情報に更新された際、または MCC を起動した際にレンダリングされたすべての地図を削除するかどうかを「true」(オン) または「false」(オフ) で指定します。</value>
+  </data>
+  <data name="ChatBot.Map.Notify_On_First_Update" xml:space="preserve">
+    <value>初めてサーバーから地図を取得した際に通知を受け取るかどうかを「true」(オン) または「false」(オフ) で指定します。</value>
+  </data>
+  <data name="ChatBot.Map.Rasize_Rendered_Image" xml:space="preserve">
+    <value>レンダリングされた画像のサイズを変更するかどうかを「true」(オン) または「false」(オフ) で指定します。レンダリングされた画像が小さい場合や Discord に送信する場合に便利です。</value>
+  </data>
+  <data name="ChatBot.Map.Render_In_Console" xml:space="preserve">
+    <value>コンソールで地図をレンダリングするかどうかを「true」(オン) または「false」(オフ) で指定します。</value>
+  </data>
+  <data name="ChatBot.Map.Resize_To" xml:space="preserve">
+    <value>レンダリングされた画像を変更するサイズ (ピクセル単位) を整数で指定します。</value>
+  </data>
+  <data name="ChatBot.Map.Save_To_File" xml:space="preserve">
+    <value>レンダリングされた地図をファイルとして保存するかどうかを「true」(オン) または「false」(オフ) で指定します。Discord Bridge を使用して Discord で地図を取得する場合は、この設定が必要です。</value>
+  </data>
+  <data name="ChatBot.Map.Send_Rendered_To_Bridges" xml:space="preserve">
+    <value>Discord または Telegram Bridge ChatBot を経由して、レンダリングされた地図 (ファイルに保存) を Discord または Telegram チャネルに送信します。Discord Bridge ChatBot または Telegram Bridge ChatBot をオンにしている必要があります。
+この機能を使用するには、Save_To_File を「true」にする必要があります。
+Rasize_Rendered_Image も「true」にすることもお勧めします。</value>
+  </data>
+  <data name="ChatBot.PlayerListLogger" xml:space="preserve">
+    <value>プレイヤーのリストを定期的にテキスト ファイルに書き込みます。</value>
+  </data>
+  <data name="ChatBot.PlayerListLogger.Delay" xml:space="preserve">
+    <value>書き込む時間間隔 (秒単位) を小数第一位までの小数 (x.x) で指定します。</value>
+  </data>
+  <data name="ChatBot.RemoteControl" xml:space="preserve">
+    <value>サーバーのプライベート メッセージ (/tell) を経由して MCC コンソール コマンドを ChatBot に送信します。
+この ChatBot を使用するには、ChatFormat が正しく機能し、BotOwners に自分自身を追加する必要があります。
+サーバー管理者はチャット メッセージを (/tellraw や /nick などで) 偽装できるため、この ChatBot を使用する場合はご注意ください。</value>
+  </data>
+  <data name="ChatBot.ReplayCapture" xml:space="preserve">
+    <value>/replay start を使用してゲームの記録を開始し、Replay Mod (https://www.replaymod.com/) を使用して再生します。
+技術的な制限により、自分自身のプレイヤーはリプレイ ファイルに表示されません。
+注意: /replay stop または /quit を使用して正常にプログラムを終了させてください。リプレイ ファイルが破損してしまうおそれがあります。</value>
+  </data>
+  <data name="ChatBot.ReplayCapture.Backup_Interval" xml:space="preserve">
+    <value>リプレイ ファイルを保存する時間間隔 (秒単位) を小数第一位までの小数 (x.x) で指定します。オフにするには「-1」を指定します。</value>
+  </data>
+  <data name="ChatBot.ScriptScheduler" xml:space="preserve">
+    <value>サーバーへの参加や時刻、時間間隔などのイベントで実行されるコマンドやスクリプトをスケジュールします。
+詳しくは https://mccteam.github.io/l10n/ja/guide/chat-bots.html#script-scheduler をご覧ください。</value>
+  </data>
+  <data name="ChatBot.TelegramBridge" xml:space="preserve">
+    <value>This bot allows you to send and receive messages and commands via a Telegram Bot DM or to receive messages in a Telegram channel.
+/!\ NOTE: You can't send messages and commands from a group channel, you can only send them in the bot DM, but you can get the messages from the client in a group channel.
+-----------------------------------------------------------
+Setup:
+First you need to create a Telegram bot and obtain an API key, to do so, go to Telegram and find @botfather
+Click on "Start" button and read the bot reply, then type "/newbot", the Botfather will guide you through the bot creation.
+Once you create the bot, copy the API key that you have gotten, and put it into the "Token" field of "ChatBot.TelegramBridge" section (this section).
+/!\ Do not share this token with anyone else as it will give them the control over your bot. Save it securely.
+Then launch the client and go to Telegram, find your newly created bot by searching for it with its username, and open a DM with it.
+Click on "Start" button and type and send the following command ".chatid" to obtain the chat id. 
+Copy the chat id number (eg. 2627844670) and paste it in the "ChannelId" field and add it to the "Authorized_Chat_Ids" field (in this section) (an id in "Authorized_Chat_Ids" field is a number/long, not a string!), then save the file.
+Now you can use the bot using it's DM.
+/!\ If you do not add the id of your chat DM with the bot to the "Authorized_Chat_Ids" field, ayone who finds your bot via search will be able to execute commands and send messages!
+/!\ An id pasted in to the "Authorized_Chat_Ids" should be a number/long, not a string!
+-----------------------------------------------------------
+NOTE: If you want to recieve messages to a group channel instead, make the channel temporarely public, invite the bot to it and make it an administrator, then set the channel to private if you want.
+Then set the "ChannelId" field to the @ of your channel (you must include the @ in the settings, eg. "@mysupersecretchannel"), this is the username you can see in the invite link of the channel.
+/!\ Only include the username with @ prefix, do not include the rest of the link. Example if you have "https://t.me/mysupersecretchannel", the "ChannelId" will be "@mysupersecretchannel".
+/!\ Note that you will not be able to send messages to the client from a group channel!
+-----------------------------------------------------------
+How to use the bot:
+To execute an MCC command, prefix it with a dot ".", example: ".move 143 64 735" .
+To send a message, simply type it out and hit enter.</value>
+  </data>
+  <data name="ChatBot.TelegramBridge.Authorized_Chat_Ids" xml:space="preserve">
+    <value>メッセージの送信とコマンドの実行が許可されているチャット ID リスト。ChatBot でダイレクト メッセージ ID を取得するには、Telegram で「.chatid」Bot コマンドを使用します。</value>
+  </data>
+  <data name="ChatBot.TelegramBridge.ChannelId" xml:space="preserve">
+    <value>ChatBot が MCC と対話するチャネル ID を「"」で囲んで指定します。</value>
+  </data>
+  <data name="ChatBot.TelegramBridge.Formats" xml:space="preserve">
+    <value>メッセージ形式
+「{ }」で囲まれた単語は変更しないでください。
+{message} は実際のメッセージに置き換えられ、{username} はユーザー名に置き換えられ、{timestamp} は現在の時刻に置き換えられます。
+Telegram のメッセージ形式については https://mccteam.github.io/r/tg-fmt.html (英語) をご確認ください。</value>
+  </data>
+  <data name="ChatBot.TelegramBridge.MessageSendTimeout" xml:space="preserve">
+    <value>Telegram に送信できない際にメッセージをキャンセルするまでの時間 (秒単位) を 1 以上の整数で指定します。</value>
+  </data>
+  <data name="ChatBot.TelegramBridge.Token" xml:space="preserve">
+    <value>Telegram Bot のトークンを「"」で囲んで指定します。</value>
+  </data>
+  <data name="ChatFormat" xml:space="preserve">
+    <value>MCC はチャット メッセージの検出に最善を尽くしていますが、一部のサーバーでは通常とは異なるチャット形式が使用されます。
+この場合は、ChatFormat でチャット形式を設定する必要があります。詳しくは https://mccteam.github.io/l10n/ja/guide/configuration.html#chat-format-section をご覧ください。</value>
+  </data>
+  <data name="ChatFormat.Builtins" xml:space="preserve">
+    <value>MCC に組み込まれているチャット検出ルールを有効にするかどうかを「true」(オン) または「false」(オフ) で指定します。カスタム形式との競合を避けるには「false」を指定します。</value>
+  </data>
+  <data name="ChatFormat.UserDefined" xml:space="preserve">
+    <value>以下のカスタム正規表現を検出に使用するかどうかを「true」(オン) または「false」(オフ) で指定します。</value>
+  </data>
+  <data name="Console" xml:space="preserve">
+    <value>コンソール関連の設定</value>
+  </data>
+  <data name="Console.CommandSuggestion" xml:space="preserve">
+    <value>コマンド候補関連の設定
+メッセージの色は ConsoleColorMode が「"vt100_24bit"」になっている際にのみ使用できます。</value>
+  </data>
+  <data name="Console.CommandSuggestion.Enable" xml:space="preserve">
+    <value>コンソールにコマンド候補を表示するかどうかを「true」(オン) または「false」(オフ) で指定します。</value>
+  </data>
+  <data name="Console.CommandSuggestion.Use_Basic_Arrow" xml:space="preserve">
+    <value>「true」または「false」で指定します。コマンド候補の矢印がターミナルに正しく表示されない場合は、この設定を「true」にしてみてください。</value>
+  </data>
+  <data name="Console.General.ConsoleColorMode" xml:space="preserve">
+    <value>カラー モードを「"disable"」、「"legacy_4bit"」、「"vt100_4bit"」、「"vt100_8bit"」、または「"vt100_24bit"」で指定します。ターミナルに「←[0m」などの文字化けが起こる場合は、「"legacy_4bit"」または「"disable"」を指定してみてください。</value>
+  </data>
+  <data name="Console.General.Display_Input" xml:space="preserve">
+    <value>Ctrl+P キーを押して現在の入力内容とカーソルの位置を確認することができます。</value>
+  </data>
+  <data name="Head" xml:space="preserve">
+    <value>起動設定ファイル
+Minecraft Console Client (MCC) によって上書きされるため、このファイルに不要なデータを書き込まないでください。
+
+初めて Minecraft Console Client を使用する場合は、このドキュメントをご確認ください: https://mccteam.github.io/l10n/ja/guide/configuration.html
+新しいバージョンにアップグレードする場合は、https://github.com/MCCTeam/Minecraft-Console-Client/#download をご覧ください。</value>
+  </data>
+  <data name="Logging" xml:space="preserve">
+    <value>コンソール内メッセージ関連の設定</value>
+  </data>
+  <data name="Logging.ChatFilter" xml:space="preserve">
+    <value>チャット メッセージのフィルターを「"」で囲んだ正規表現で指定します。</value>
+  </data>
+  <data name="Logging.ChatMessages" xml:space="preserve">
+    <value>サーバーのチャット メッセージを表示するかどうかを「true」(オン) または「false」(オフ) で指定します。</value>
+  </data>
+  <data name="Logging.DebugFilter" xml:space="preserve">
+    <value>デバッグ メッセージのフィルターを「"」で囲んだ正規表現で指定します。</value>
+  </data>
+  <data name="Logging.DebugMessages" xml:space="preserve">
+    <value>デバッグ メッセージを表示するかどうかを「true」(オン) または「false」(オフ) で指定します。バグを報告する前に、この設定を「true」にしてください。</value>
+  </data>
+  <data name="Logging.ErrorMessages" xml:space="preserve">
+    <value>エラー メッセージを表示するかどうかを「true」(オン) または「false」(オフ) で指定します。</value>
+  </data>
+  <data name="Logging.FilterMode" xml:space="preserve">
+    <value>フィルターのモードを「"disable"」(無効)、「"blacklist"」(一致した際に非表示)、または「"whitelist"」(一致した際に表示) で指定します。</value>
+  </data>
+  <data name="Logging.InfoMessages" xml:space="preserve">
+    <value>情報メッセージ (MCC メッセージのほとんど) を表示するかどうかを「true」(オン) または「false」(オフ) で指定します。</value>
+  </data>
+  <data name="Logging.LogFile" xml:space="preserve">
+    <value>ログ ファイル名を「"」で囲んで指定します。(拡張子も含める)</value>
+  </data>
+  <data name="Logging.LogToFile" xml:space="preserve">
+    <value>ログ メッセージをファイルに書き込むかどうかを「true」(オン) または「false」(オフ) で指定します。</value>
+  </data>
+  <data name="Logging.PrependTimestamp" xml:space="preserve">
+    <value>ログ ファイル内のメッセージの先頭にタイムスタンプを追加するかどうかを「true」(オン) または「false」(オフ) で指定します。</value>
+  </data>
+  <data name="Logging.SaveColorCodes" xml:space="preserve">
+    <value>メッセージの色を節記号 (§) で保持するかどうかを「true」(オン) または「false」(オフ) で指定します。</value>
+  </data>
+  <data name="Logging.WarningMessages" xml:space="preserve">
+    <value>警告メッセージを表示するかどうかを「true」(オン) または「false」(オフ) で指定します。</value>
+  </data>
+  <data name="Main.Advanced" xml:space="preserve">
+    <value>変更する前に、各設定を変更した際の影響をご理解ください。</value>
+  </data>
+  <data name="Main.Advanced.account_list" xml:space="preserve">
+    <value>AccountList: アカウント情報を入力せずに、複数のアカウントをすばやく切り替えることができます。
+使用例: 「/tell &lt;mybot&gt; reco Player2」、「/connect &lt;serverip&gt; Player1」</value>
+  </data>
+  <data name="Main.Advanced.auto_respawn" xml:space="preserve">
+    <value>死亡した際に自動的にリスポーンするかどうかを「true」(オン) または「false」(オフ) で指定します。リスポーン地点が安全であることをご確認ください。</value>
+  </data>
+  <data name="Main.Advanced.bot_owners" xml:space="preserve">
+    <value>ChatBot 所有者のユーザー名。サーバー管理者は所有者になりすますことができます。</value>
+  </data>
+  <data name="Main.Advanced.brand_info" xml:space="preserve">
+    <value>クライアント ID を「"mcc"」(MCC)、「"vanilla"」(バニラ)、または「"none"」(なし) で指定します。これは、MCC からサーバーに送信されるクライアント識別コンテンツを変更するために使用されます。</value>
+  </data>
+  <data name="Main.Advanced.chatbot_log_file" xml:space="preserve">
+    <value>ChatBot によるログ ファイルへの書き込みを使用しない場合は、空のままにします。</value>
+  </data>
+  <data name="Main.Advanced.enable_emoji" xml:space="preserve">
+    <value>絵文字を有効にするかどうかを「true」(オン) または「false」(オフ) で指定します。「false」にすると、絵文字は単純な文字に置き換えられます (/chunk ステータス用)。</value>
+  </data>
+  <data name="Main.Advanced.entity_handling" xml:space="preserve">
+    <value>エンチャント処理を有効にするかどうかを「true」(オン) または「false」(オフ) で指定します。</value>
+  </data>
+  <data name="Main.Advanced.exit_on_failure" xml:space="preserve">
+    <value>非対話型スクリプトで MCC を使用するためにエラーが発生した際に直接終了するかどうかを「true」(オン) または「false」(オフ) で指定します。</value>
+  </data>
+  <data name="Main.Advanced.internal_cmd_char" xml:space="preserve">
+    <value>MCC コマンドの接頭辞を「"none"」(なし)、「"slash"」(/)、または「"backslash"」(\) で指定します。</value>
+  </data>
+  <data name="Main.Advanced.inventory_handling" xml:space="preserve">
+    <value>インベントリやチェストなどのインベントリ操作を有効にするかどうかを「true」(オン) または「false」(オフ) で指定します。</value>
+  </data>
+  <data name="Main.Advanced.language" xml:space="preserve">
+    <value>Minecraft の言語を「"」で囲んだ言語コードで指定します。言語コードについては https://mccteam.github.io/r/l-code.html をご確認ください。</value>
+  </data>
+  <data name="Main.Advanced.LoadMccTrans" xml:space="preserve">
+    <value>利用できる際に MCC に適用された翻訳を読み込むかどうかを「true」(オン) または「false」(オフ) で指定します。英語のみを使用する場合は「false」にしてください。</value>
+  </data>
+  <data name="Main.Advanced.mc_forge" xml:space="preserve">
+    <value>Forge を使用するかどうかを「"auto"」(自動)、「"no"」(いいえ)、または「"force"」(強制) で指定します。「"force"」は、Minecraft 1.13 以降で利用できます。</value>
+  </data>
+  <data name="Main.Advanced.mc_version" xml:space="preserve">
+    <value>Minecraft バージョンを「"auto"」(自動) またはバージョン番号 ("1.x.x") で指定します。特定のバージョンではサーバー情報の取得がスキップされます。</value>
+  </data>
+  <data name="Main.Advanced.message_cooldown" xml:space="preserve">
+    <value>各メッセージをサーバーに送信する最小間隔 (秒単位) を小数第一位までの小数 (x.x) で指定します。</value>
+  </data>
+  <data name="Main.Advanced.minecraft_realms" xml:space="preserve">
+    <value>Minecraft Realms ワールドへの参加のサポートを有効にするかどうかを「true」(オン) または「false」(オフ) で指定します。</value>
+  </data>
+  <data name="Main.Advanced.MinTerminalHeight" xml:space="preserve">
+    <value>ターミナルの高さから画像サイズを計算する際に使用する最小の高さを整数で指定します。</value>
+  </data>
+  <data name="Main.Advanced.MinTerminalWidth" xml:space="preserve">
+    <value>ターミナルの幅から画像サイズを計算する際に使用する最小の幅を整数で指定します。</value>
+  </data>
+  <data name="Main.Advanced.movement_speed" xml:space="preserve">
+    <value>移動速度を整数で指定します。2 より大きい整数を指定すると、チート行為と見なされるおそれあります。</value>
+  </data>
+  <data name="Main.Advanced.move_head_while_walking" xml:space="preserve">
+    <value>チート行為防止トリガーを回避するために、歩行している際に頭を動かすかどうかを「true」(オン) または「false」(オフ) で指定します。</value>
+  </data>
+  <data name="Main.Advanced.player_head_icon" xml:space="preserve">
+    <value>ウィンドウのアイコンをプレイヤー スキンのアバターにするかどうかを「true」(オン) または「false」(オフ) で指定します。これは一部のコンソールでのみ機能します。</value>
+  </data>
+  <data name="Main.Advanced.private_msgs_cmd_name" xml:space="preserve">
+    <value>ChatBot の遠隔操作で使用します。</value>
+  </data>
+  <data name="Main.Advanced.profilekey_cache" xml:space="preserve">
+    <value>プロファイル キー キャッシュを保持する方法を「"none"」(キャッシュなし)、「"memory"」(メモリ キャッシュ)、または「"disk"」(ディスク キャッシュ) で指定します。</value>
+  </data>
+  <data name="Main.Advanced.resolve_srv_records" xml:space="preserve">
+    <value>SRV レコードを解析するかどうかを「"no"」(いいえ)、「"fast"」(5 秒間のタイムアウト)、または「"yes"」(はい) で指定します。これは、一部のサーバーに参加するために必要です。</value>
+  </data>
+  <data name="Main.Advanced.script_cache" xml:space="preserve">
+    <value>コンパイルされたスクリプトのキャッシュを保持して、ローエンド デバイスでの読み込みを高速化するかどうかを「true」(オン) または「false」(オフ) で指定します。</value>
+  </data>
+  <data name="Main.Advanced.server_list" xml:space="preserve">
+    <value>ServerList: サーバー IP のエイリアスを使用して、すばやく簡単にサーバーを切り替えることができます。
+エイリアスにピリオド (.) やスペースを含めることや、「localhost」をエイリアス名として使用することはできません。
+使用例: 「/tell &lt;mybot&gt; connect Server1」、「/connect Server2」</value>
+  </data>
+  <data name="Main.Advanced.session_cache" xml:space="preserve">
+    <value>セッション トークン キャッシュを保持する方法を「"none"」(キャッシュなし)、「"memory"」(メモリ キャッシュ)、または「"disk"」(ディスク キャッシュ) で指定します。</value>
+  </data>
+  <data name="Main.Advanced.show_chat_links" xml:space="preserve">
+    <value>チャット メッセージに埋め込まれた URL をデコードし、コンソールに表示するかどうかを「true」(オン) または「false」(オフ) で指定します。</value>
+  </data>
+  <data name="Main.Advanced.show_inventory_layout" xml:space="preserve">
+    <value>/inventory コマンドでインベントリ レイアウトを ASCII アートとして表示するかどうかを「true」(オン) または「false」(オフ) で指定します。</value>
+  </data>
+  <data name="Main.Advanced.show_system_messages" xml:space="preserve">
+    <value>管理者やコマンド ブロックなどのシステム メッセージを表示するかどうかを「true」(オン) または「false」(オフ) で指定します。</value>
+  </data>
+  <data name="Main.Advanced.show_xpbar_messages" xml:space="preserve">
+    <value>経験値バーの上 (アクション バー) のメッセージを表示するかどうかを「true」(オン) または「false」(オフ) で指定します。アクション バーのメッセージで圧倒される場合は「false」にしてください。</value>
+  </data>
+  <data name="Main.Advanced.temporary_fix_badpacket" xml:space="preserve">
+    <value>一部のサーバーでの Badpacket の問題を一時的に修正するかどうかを「true」(オン) または「false」(オフ) で指定します。TerrainAndMovements が「true」になっている必要があります。</value>
+  </data>
+  <data name="Main.Advanced.terrain_and_movements" xml:space="preserve">
+    <value>動き回ることができるかどうかを「true」(オン) または「false」(オフ) で指定します。より多くのメモリや、CPU、ネットワーク帯域幅を消費します。</value>
+  </data>
+  <data name="Main.Advanced.timeout" xml:space="preserve">
+    <value>サーバーとの TCP 接続のタイムアウト時間 (秒単位) を整数で指定します。</value>
+  </data>
+  <data name="Main.Advanced.timestamps" xml:space="preserve">
+    <value>チャット メッセージの先頭にタイムスタンプを追加するかどうかを「true」(オン) または「false」(オフ) で指定します。</value>
+  </data>
+  <data name="Main.General.account" xml:space="preserve">
+    <value>Login はメールアドレスまたはユーザー名です。オフライン モードでログインする場合は、Password に「"-"」を指定します。起動した際にログイン情報を入力するには、空のままにします。</value>
+  </data>
+  <data name="Main.General.login" xml:space="preserve">
+    <value>ゲーム サーバーのアドレス。「Host」にはドメイン名または IP アドレスを入力できます。「Port」フィールドは削除できます。削除されている場合は、SRV レコードが自動的に解析されます。</value>
+  </data>
+  <data name="Main.General.method" xml:space="preserve">
+    <value>Microsoft アカウントのサインイン方法を「"mcc"」(MCC) または「"browser"」(ブラウザー) で指定します。ログインできない場合は、一度「"browser"」を使ってみてください。</value>
+  </data>
+  <data name="Main.General.server_info" xml:space="preserve">
+    <value>Account type: "mojang" OR "microsoft" OR "yggdrasil". Also affects interactive login in console.</value>
+  </data>
+  <data name="MCSettings" xml:space="preserve">
+    <value>MCSettings はサーバーに送信され、プレイヤー スキンのような一部のサーバー側のものに影響します。</value>
+  </data>
+  <data name="MCSettings.ChatColors" xml:space="preserve">
+    <value>サーバー側でメッセージの色を有効にするかどうかを「true」(オン) または「false」(オフ) で指定します。</value>
+  </data>
+  <data name="MCSettings.ChatMode" xml:space="preserve">
+    <value>表示するチャット メッセージを「"enabled"」(すべて)、「"commands"」(コマンドのみ)、または「"disabled"」(なし) で指定します。</value>
+  </data>
+  <data name="MCSettings.Difficulty" xml:space="preserve">
+    <value>Minecraft 1.7 以前の難易度を「"peaceful"」(ピースフル)、「"easy"」(イージー)、「"normal"」(ノーマル)、または「"difficult"」(ハード) で指定します。</value>
+  </data>
+  <data name="MCSettings.Enabled" xml:space="preserve">
+    <value>MCSettings をサーバーに送信するかどうかを「true」(オン) または「false」(オフ) で指定します。</value>
+  </data>
+  <data name="MCSettings.Locale" xml:space="preserve">
+    <value>Minecraft の言語を「"」で囲んだ言語コードで指定します。言語コードについては https://mccteam.github.io/r/l-code.html をご確認ください。</value>
+  </data>
+  <data name="MCSettings.MainHand" xml:space="preserve">
+    <value>Minecraft 1.9 以降の利き手を「"left"」(左手) または「"right"」(右手) で指定します。</value>
+  </data>
+  <data name="MCSettings.RenderDistance" xml:space="preserve">
+    <value>描画距離を 0 から 255 の整数で指定します。</value>
+  </data>
+  <data name="Proxy" xml:space="preserve">
+    <value>プロキシ経由でサーバーに接続します。
+Mojang セッション サービスがネットワークでブロックされている場合は、「Enabled_Login」を「true」にしてプロキシを使用してログインします。
+Minecraft サーバーへの接続がファイアウォールによってブロックされている場合は、「Enabled_Ingame」を「true」にしてプロキシを使用してサーバーに接続します。
+注意: サーバーの規約でプロキシまたは VPN の使用が許可されていることをご確認ください。</value>
+  </data>
+  <data name="Proxy.Enabled_Ingame" xml:space="preserve">
+    <value>プロキシ サーバーを使用して Minecraft サーバーに接続するかどうかを「true」(オン) または「false」(オフ) で指定します。</value>
+  </data>
+  <data name="Proxy.Enabled_Login" xml:space="preserve">
+    <value>プロキシ サーバーを使用してログイン サーバーに接続するかどうかを「true」(オン) または「false」(オフ) で指定します。</value>
+  </data>
+  <data name="Proxy.Enabled_Update" xml:space="preserve">
+    <value>プロキシ サーバーを使用して MCC の更新プログラムをダウンロードするかどうかを「true」(オン) または「false」(オフ) で指定します。</value>
+  </data>
+  <data name="Proxy.Password" xml:space="preserve">
+    <value>パスワードで保護されたプロキシに必要です。</value>
+  </data>
+  <data name="Proxy.Proxy_Type" xml:space="preserve">
+    <value>「"HTTP"」、「"SOCKS4"」、「"SOCKS4a"」、または「"SOCKS5"」で指定します。</value>
+  </data>
+  <data name="Proxy.Server" xml:space="preserve">
+    <value>プロキシ サーバーは、HTTPS ログインを許可する必要があります。</value>
+  </data>
+  <data name="Proxy.Username" xml:space="preserve">
+    <value>パスワードで保護されたプロキシに必要です。</value>
+  </data>
+  <data name="Signature" xml:space="preserve">
+    <value>メッセージ署名関連の設定 (Minecraft 1.19 以降に影響します)</value>
+  </data>
+  <data name="Signature.LoginWithSecureProfile" xml:space="preserve">
+    <value>Microsoft アカウントのみ。安全なプロファイルでログインするかどうかを「true」(オン) または「false」(オフ) で指定します。「false」にすると、チャット メッセージの署名や特定のサーバーへの参加ができなくなります。</value>
+  </data>
+  <data name="Signature.MarkIllegallySignedMsg" xml:space="preserve">
+    <value>赤色のブロックを使用して、正当な著名がないチャット メッセージをマークするかどうかを「true」(オン) または「false」(オフ) で指定します。</value>
+  </data>
+  <data name="Signature.MarkLegallySignedMsg" xml:space="preserve">
+    <value>緑色のブロックを使用して、正当な著名があるチャット メッセージをマークするかどうかを「true」(オン) または「false」(オフ) で指定します。</value>
+  </data>
+  <data name="Signature.MarkModifiedMsg" xml:space="preserve">
+    <value>黄色のブロックを使用して、サーバーによって変更されたチャット メッセージをマークするかどうかを「true」(オン) または「false」(オフ) で指定します。</value>
+  </data>
+  <data name="Signature.MarkSystemMessage" xml:space="preserve">
+    <value>灰色のブロックを使用して、システム メッセージをマークするかどうかを「true」(オン) または「false」(オフ) で指定します。(常に署名なし)</value>
+  </data>
+  <data name="Signature.ShowIllegalSignedChat" xml:space="preserve">
+    <value>正当な署名のないチャット メッセージを表示するかどうかを「true」(オン) または「false」(オフ) で指定します。</value>
+  </data>
+  <data name="Signature.ShowModifiedChat" xml:space="preserve">
+    <value>サーバーによって変更されたメッセージを表示するには「true」を指定し、元の署名があるメッセージを表示するには「false」を指定します。</value>
+  </data>
+  <data name="Signature.SignChat" xml:space="preserve">
+    <value>MCC から送信されるチャット メッセージに署名するかどうかを「true」(オン) または「false」(オフ) で指定します。</value>
+  </data>
+  <data name="Signature.SignMessageInCommand" xml:space="preserve">
+    <value>MCC から送信された /msg や /me のコマンドに含まれるメッセージに署名するかどうかを「true」(オン) または「false」(オフ) で指定します。</value>
+  </data>
+  <data name="ChatBot.ItemsCollector.Collect_All_Item_Types" xml:space="preserve">
+    <value>True に設定すると、ボットは種類に関係なくすべてのアイテムを収集します。 ホワイトリストに登録されたアイテムタイプを使用する場合は、false に設定して無効にします。</value>
+  </data>
+  <data name="ChatBot.ItemsCollector.Items_Whitelist" xml:space="preserve">
+    <value>このリストでは、ボットが収集するアイテムを指定できます。これを有効にするには、Collect_All_Item_Typesをfalseに設定します。 注意：これはボットが誤って他のアイテムを拾うのを防ぎません。 それはホワイトリストに登録されたアイテムを見つける場所にのみ行きます)\nここでは、アイテムの種類のリストを見ることができます: https://raw. ithubusercontent.com/MCCTeam/Minecraft-Console-Client/master/MinecraftClient/Inventory/ItemType.cs</value>
+  </data>
+  <data name="ChatBot.ItemsCollector.Delay_Between_Tasks" xml:space="preserve">
+    <value>Botがアイテムをスキャンするミリ秒単位の遅延（推奨：300-500）</value>
+  </data>
+  <data name="ChatBot.ItemsCollector.Collection_Radius" xml:space="preserve">
+    <value>Botがアイテムを探す半径（デフォルト：30）</value>
+  </data>
+  <data name="ChatBot.ItemsCollector.Always_Return_To_Start" xml:space="preserve">
+    <value>Trueに設定すると、アイテムがない場合、ボットは開始位置に戻ります。</value>
+  </data>
+  <data name="ChatBot.ItemsCollector.Prioritize_Clusters" xml:space="preserve">
+    <value>If set to true, the bot will go after clustered items instead for the closest ones</value>
+  </data>
+  <data name="ChatBot.ItemsCollector" xml:space="preserve">
+    <value>地面にあるアイテムを集めるチャットボット。</value>
+  </data>
+  <data name="ChatBot.WebSocketBot" xml:space="preserve">
+    <value>Remotely control the client using Web Sockets.\n# This is useful if you want to implement an application that can remotely and asynchronously execute procedures in MCC.\n# Example implementation written in JavaScript: https://github.com/milutinke/MCC.js.git\n# The protocol specification will be available in the documentation soon.</value>
+  </data>
+  <data name="ChatBot.WebSocketBot.Ip" xml:space="preserve">
+    <value>The IP address that Websocket server will be bound to.</value>
+  </data>
+  <data name="ChatBot.WebSocketBot.Port" xml:space="preserve">
+    <value>The Port that Websocket server will be bounded to.</value>
+  </data>
+  <data name="ChatBot.WebSocketBot.Password" xml:space="preserve">
+    <value>A password that will be used to authenticate on thw Websocket server (It is recommended to change the default password and to set a strong one).</value>
+  </data>
+  <data name="ChatBot.WebSocketBot.DebugMode" xml:space="preserve">
+    <value>This setting is for developers who are developing a library that uses this chat bot to remotely execute procedures/commands/functions.</value>
+  </data>
+  <data name="ChatBot.WebSocketBot.AllowIpAlias" xml:space="preserve">
+    <value>Allow IP aliases, such as "localhost" or if using containers then the container name can be used...</value>
+  </data>
+  <data name="Main.Advanced.ignore_invalid_playername" xml:space="preserve">
+    <value>無効なプレイヤー名を無視する</value>
+  </data>
+  <data name="Main.General.AuthlibServer" xml:space="preserve">
+    <value>Yggdrasil authlib server domain name and port.</value>
+  </data>
+</root>

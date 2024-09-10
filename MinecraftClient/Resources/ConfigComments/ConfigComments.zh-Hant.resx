@@ -1,0 +1,854 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" id="root">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace"/>
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string"/>
+              <xsd:attribute name="type" type="xsd:string"/>
+              <xsd:attribute name="mimetype" type="xsd:string"/>
+              <xsd:attribute ref="xml:space"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string"/>
+              <xsd:attribute name="name" type="xsd:string"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1"/>
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3"/>
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4"/>
+              <xsd:attribute ref="xml:space"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required"/>
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AppVars.Variables" xml:space="preserve">
+    <value>可以在某些欄位中以"%yourvar%"的形式使用。
+%username% 和 %serverip% 時保留的變數名。</value>
+  </data>
+  <data name="ChatBot" xml:space="preserve">
+    <value>=============================== #
+ Minecraft Console Client Bots  #
+=============================== #</value>
+  </data>
+  <data name="ChatBot.Alerts" xml:space="preserve">
+    <value>當檢測到特定聊天訊息或特定事件發生時提醒你
+ # 對檢測特定玩家的聊天訊息很有用。</value>
+  </data>
+  <data name="ChatBot.Alerts.Beep_Enabled" xml:space="preserve">
+    <value>除了高亮顯示外，當檢測到一個詞時還會播放類似蜂鳴器的嗶嗶聲。</value>
+  </data>
+  <data name="ChatBot.Alerts.Excludes" xml:space="preserve">
+    <value>出現這些關鍵詞後該條訊息一定不觸發提醒。</value>
+  </data>
+  <data name="ChatBot.Alerts.Log_File" xml:space="preserve">
+    <value>日誌檔案的路徑。</value>
+  </data>
+  <data name="ChatBot.Alerts.Log_To_File" xml:space="preserve">
+    <value>是否將提醒訊息寫入到日誌檔案。</value>
+  </data>
+  <data name="ChatBot.Alerts.Matches" xml:space="preserve">
+    <value>觸發提醒的聊天關鍵詞列表。</value>
+  </data>
+  <data name="ChatBot.Alerts.Trigger_By_Rain" xml:space="preserve">
+    <value>在開始下雨和停止下雨時觸發提醒。</value>
+  </data>
+  <data name="ChatBot.Alerts.Trigger_By_Thunderstorm" xml:space="preserve">
+    <value>在雷暴天氣的開始與結束觸發提醒。</value>
+  </data>
+  <data name="ChatBot.Alerts.Trigger_By_Words" xml:space="preserve">
+    <value>在收到指定的關鍵詞後觸發提醒。</value>
+  </data>
+  <data name="ChatBot.AntiAfk" xml:space="preserve">
+    <value>定期傳送命令，或讓機器人隨機走動，以避免檢測到掛機後被踢出伺服器
+ # /!\啟用前請確保你的伺服器規則不禁止反AFK機制！
+/!\如果啟用隨機移動，請將機器人圍在圍欄裡，以防走失！（建議尺寸5x5x5）</value>
+  </data>
+  <data name="ChatBot.AntiAfk.Command" xml:space="preserve">
+    <value>傳送給伺服器的指令。</value>
+  </data>
+  <data name="ChatBot.AntiAfk.Delay" xml:space="preserve">
+    <value>執行操作的間隔時間。（秒）</value>
+  </data>
+  <data name="ChatBot.AntiAfk.Use_Sneak" xml:space="preserve">
+    <value>在傳送指令時是否蹲下。</value>
+  </data>
+  <data name="ChatBot.AntiAfk.Use_Terrain_Handling" xml:space="preserve">
+    <value>啟用地形處理，以使機器人能夠四處移動。</value>
+  </data>
+  <data name="ChatBot.AntiAfk.Walk_Range" xml:space="preserve">
+    <value>機器人可以隨機移動的範圍（注意：範圍越大，速度越慢）</value>
+  </data>
+  <data name="ChatBot.AntiAfk.Walk_Retries" xml:space="preserve">
+    <value>嘗試移動失敗幾次後在改為傳送命令模式。</value>
+  </data>
+  <data name="ChatBot.AutoAttack" xml:space="preserve">
+    <value>自動攻擊周圍的生物
+使用此功能之前，你需要開啟實體處理。
+/!\確保你的伺服器允許使用自動攻擊。
+/!\伺服器外掛可能會認為此功能時作弊，並可能會封禁你的賬號，所以請自己檢查伺服器規則是否允許。</value>
+  </data>
+  <data name="ChatBot.AutoAttack.Attack_Hostile" xml:space="preserve">
+    <value>是否攻擊敵對生物。</value>
+  </data>
+  <data name="ChatBot.AutoAttack.Attack_Passive" xml:space="preserve">
+    <value>是否攻擊被動生物。</value>
+  </data>
+  <data name="ChatBot.AutoAttack.Attack_Range" xml:space="preserve">
+    <value>上限為一到四</value>
+  </data>
+  <data name="ChatBot.AutoAttack.Cooldown_Time" xml:space="preserve">
+    <value>每次攻擊間的冷卻時間，設定 "Custom = false" 以讓MCC自動計算攻擊速度。</value>
+  </data>
+  <data name="ChatBot.AutoAttack.Entites_List" xml:space="preserve">
+    <value>所有可用的實體型別可以在這裏找到：https://mccteam.github.io/r/entity/#L15</value>
+  </data>
+  <data name="ChatBot.AutoAttack.Interaction" xml:space="preserve">
+    <value>可選項："Interact"（互動），"Attack"（攻擊） 或 "InteractAt"（互動並攻擊）</value>
+  </data>
+  <data name="ChatBot.AutoAttack.List_Mode" xml:space="preserve">
+    <value>將實體列表作為 "whitelist"（白名單）還是 "blacklist"（黑名單）。</value>
+  </data>
+  <data name="ChatBot.AutoAttack.Mode" xml:space="preserve">
+    <value>"single"（單目標） 或 "multi"（多目標）。一次攻擊一個生物還是範圍內的所有生物。</value>
+  </data>
+  <data name="ChatBot.AutoAttack.Priority" xml:space="preserve">
+    <value>"health"（生命值）或 "distance"（距離）。當使用"single"模式時，以哪一個屬性確定優先順序。</value>
+  </data>
+  <data name="ChatBot.AutoCraft" xml:space="preserve">
+    <value>自動使用背包中的物品進行合成。
+請看 https://mccteam.github.io/g/bots/#auto-craft
+你需要啟用庫存處理來使用這個功能
+如果需要使用工作臺，你還需要啟用地形處理。</value>
+  </data>
+  <data name="ChatBot.AutoCraft.CraftingTable" xml:space="preserve">
+    <value>如果你打算使用工作臺，請填寫它所在的位置。（需要啟用地形處理）</value>
+  </data>
+  <data name="ChatBot.AutoCraft.OnFailure" xml:space="preserve">
+    <value>合成失敗時應該怎麼處理，"abort"（中止）或 "wait"（等待）。</value>
+  </data>
+  <data name="ChatBot.AutoCraft.Recipes" xml:space="preserve">
+    <value>Recipes.Name：給該配方起一個獨一無二的名字。（不能包含空白字元）Recipes.Type：合成型別，"player"（背包2x2）或 "table"（工作臺3x3）
+Recipes.Result：合成的目標物品
+Recipes.Slots：合成的物品擺放方式，以從左到右、從上到下的格式填寫。需留空請填寫"Null"。
+最新的物品命名請看：https://mccteam.github.io/r/item/#L12</value>
+  </data>
+  <data name="ChatBot.AutoDig" xml:space="preserve">
+    <value>自動挖掘方塊。
+你需要啟用地形處理來使用這個功能。
+你可以使用 "/digbot start" 和 "/digbot stop" 指令來控制 AutoDig 的啟停。
+由於MCC目前還不支援精確計算方塊的碰撞體積，在獲取看向的方塊時，視線上所有的方塊都被看作是完整的立方體。
+查詢方塊的名字，請訪問 https://mccteam.github.io/r/block/#L15</value>
+  </data>
+  <data name="ChatBot.AutoDig.Auto_Start_Delay" xml:space="preserve">
+    <value>進入遊戲後等待多少秒後開始自動挖掘，設定為-1禁用自動開始。</value>
+  </data>
+  <data name="ChatBot.AutoDig.Auto_Tool_Switch" xml:space="preserve">
+    <value>自動切換到合適的工具。</value>
+  </data>
+  <data name="ChatBot.AutoDig.Dig_Timeout" xml:space="preserve">
+    <value>若挖掘一個方塊用時超過這個值，將會重新獲取目標進行挖掘。</value>
+  </data>
+  <data name="ChatBot.AutoDig.Drop_Low_Durability_Tools" xml:space="preserve">
+    <value>在當前使用的工具耐久度過低後，是否丟掉它。</value>
+  </data>
+  <data name="ChatBot.AutoDig.Durability_Limit" xml:space="preserve">
+    <value>不會使用低於此耐久度的工具。（需要啟用庫存處理）</value>
+  </data>
+  <data name="ChatBot.AutoDig.List_Type" xml:space="preserve">
+    <value>將方塊列表作為 "whitelist"（白名單）還是 "blacklist"（黑名單）。</value>
+  </data>
+  <data name="ChatBot.AutoDig.Locations" xml:space="preserve">
+    <value>使用 "fixedpos" 或 "both" 模式時，方塊的座標。</value>
+  </data>
+  <data name="ChatBot.AutoDig.Location_Order" xml:space="preserve">
+    <value>"distance" 或 "index"，當使用 "fixedpos" 模式時，按照到玩家的距離，還是列表中的順序確定挖掘的方塊。</value>
+  </data>
+  <data name="ChatBot.AutoDig.Log_Block_Dig" xml:space="preserve">
+    <value>是否輸出挖掘方塊的相關資訊。</value>
+  </data>
+  <data name="ChatBot.AutoDig.Mode" xml:space="preserve">
+    <value>"lookat"，"fixedpos" 或 "both"。挖掘看向的方塊還是固定位置的方塊，或者是兩個條件都滿足的方塊。</value>
+  </data>
+  <data name="ChatBot.AutoDrop" xml:space="preserve">
+    <value>自動從背包/庫存中丟棄指定的物品。
+你需要啟用庫存處理來使用這個功能。
+可用物品請看 https://mccteam.github.io/r/item/#L12</value>
+  </data>
+  <data name="ChatBot.AutoDrop.Mode" xml:space="preserve">
+    <value>"include"（丟棄列表中的物品），"exclude"（丟棄列表外的所有物品） 或 "everything"（丟棄所有物品）</value>
+  </data>
+  <data name="ChatBot.AutoEat" xml:space="preserve">
+    <value>在飽食度較低是自動在背包中尋找食物食用。
+你需要啟用庫存處理來使用這個功能。</value>
+  </data>
+  <data name="ChatBot.AutoFishing" xml:space="preserve">
+    <value>使用魚竿自動釣魚。指南：https://mccteam.github.io/guide/chat-bots.html#auto-fishing
+你可以使用"/fish"命令來手動進行控制。
+/!\ 啟用前請確保伺服器允許自動釣魚。</value>
+  </data>
+  <data name="ChatBot.AutoFishing.Antidespawn" xml:space="preserve">
+    <value>如果你之前沒有啟用過這個選項，請保持它為 false 。</value>
+  </data>
+  <data name="ChatBot.AutoFishing.Auto_Rod_Switch" xml:space="preserve">
+    <value>在當前魚竿不可用後自動切換到背包中的其他魚竿。（需要啟用庫存處理）</value>
+  </data>
+  <data name="ChatBot.AutoFishing.Auto_Start" xml:space="preserve">
+    <value>是否在進入伺服器後自動開始釣魚，禁用此功能後，你需要使用"/usehand"手動使用魚竿一次。</value>
+  </data>
+  <data name="ChatBot.AutoFishing.Cast_Delay" xml:space="preserve">
+    <value>釣到魚後多久開始下一次釣魚（拋竿）。</value>
+  </data>
+  <data name="ChatBot.AutoFishing.Durability_Limit" xml:space="preserve">
+    <value>不會使用低於此耐久度的魚竿（魚竿耐久度最高為64）。（需要啟用庫存處理）</value>
+  </data>
+  <data name="ChatBot.AutoFishing.Enable_Move" xml:space="preserve">
+    <value>這允許玩家在釣到魚後改變其位置或朝向。（需要啟用地形處理）</value>
+  </data>
+  <data name="ChatBot.AutoFishing.Fishing_Delay" xml:space="preserve">
+    <value>進入伺服器後多久後開始自動釣魚。（秒）</value>
+  </data>
+  <data name="ChatBot.AutoFishing.Fishing_Timeout" xml:space="preserve">
+    <value>多少秒後沒有釣到魚視為超時。超時後會重新拋竿。</value>
+  </data>
+  <data name="ChatBot.AutoFishing.Hook_Threshold" xml:space="preserve">
+    <value>一個「靜止」的魚鉤，在Y軸方向上的移動超過這個閾值將被認為釣到了魚。</value>
+  </data>
+  <data name="ChatBot.AutoFishing.Log_Fish_Bobber" xml:space="preserve">
+    <value>用於調整以上兩個閾值，啟用後會在收到魚鉤實體移動資料包後列印其座標變化。</value>
+  </data>
+  <data name="ChatBot.AutoFishing.Mainhand" xml:space="preserve">
+    <value>使用主手還是副手拿魚竿。</value>
+  </data>
+  <data name="ChatBot.AutoFishing.Movements" xml:space="preserve">
+    <value>會按照 "1-&gt;2-&gt;3-&gt;4-&gt;3-&gt;2-&gt;1-&gt;2-&gt;..." 的順序執行。每次可用改變位置、朝向或是都改變。推薦只改變朝向。</value>
+  </data>
+  <data name="ChatBot.AutoFishing.Stationary_Threshold" xml:space="preserve">
+    <value>魚鉤在X軸和Z軸方向上的移動小於這個值將被認為是靜止的，過高的閾值會在拋竿途中觸發收竿。</value>
+  </data>
+  <data name="ChatBot.AutoRelog" xml:space="preserve">
+    <value>在被伺服器斷開連線時自動重連，例如伺服器重啟時。
+/!\ 謹慎使用Ignore_Kick_Message=true，這會在伺服器管理員將你踢出時依然連回！</value>
+  </data>
+  <data name="ChatBot.AutoRelog.Delay" xml:space="preserve">
+    <value>重新加入到伺服器前的延遲時間。(單位：秒)</value>
+  </data>
+  <data name="ChatBot.AutoRelog.Ignore_Kick_Message" xml:space="preserve">
+    <value>當設定為 true 時，將不考慮踢出的資訊直接重連。</value>
+  </data>
+  <data name="ChatBot.AutoRelog.Kick_Messages" xml:space="preserve">
+    <value>如果踢出資訊與這其中的任何一個字串匹配，那麼將觸發自動重連。</value>
+  </data>
+  <data name="ChatBot.AutoRelog.Retries" xml:space="preserve">
+    <value>重新登入伺服器失敗時的重試次數，使用-1表示無限重試。</value>
+  </data>
+  <data name="ChatBot.AutoRespond" xml:space="preserve">
+    <value>當聊天訊息與檔案中的規則匹配時，自動執行指定命令。
+/!\ 伺服器管理員可以以任意玩家的身份傳送任意訊息，記住這一點！
+此機器人如果設定的不得當可能會造成刷屏，建議設定一個冷卻時間。</value>
+  </data>
+  <data name="ChatBot.AutoRespond.Match_Colors" xml:space="preserve">
+    <value>不要刪除文字中的顏色程式碼（使用§字元的程式碼）。注意：啟用後你的匹配模板也必須包括顏色程式碼。</value>
+  </data>
+  <data name="ChatBot.ChatLog" xml:space="preserve">
+    <value>將聊天資訊寫入到日誌檔案中。</value>
+  </data>
+  <data name="ChatBot.DiscordBridge" xml:space="preserve">
+    <value>這個 Chatbot 可以讓你使用Discord頻道來接收和傳送信息。
+你可以參考技術文件或閱讀下文來了解如何配置（技術文件附有圖片）
+技術文件：https://mccteam.github.io/guide/chat-bots.html#discord-bridge
+配置：
+首先你需要在Discord Developers Portal創建機器人。影片參考：https://www.youtube.com/watch?v=2FgMnZViNPA
+/!\ 注意 /!\：創建機器人時，你必須啟用"Message Content Intent"，"Server Members Intent" 和 "Presence Intent"，機器人才能正常運作。請小心不要遺留任何步驟！
+當創建機器人時，將建立的令牌（token）複製並貼在 "Token" 欄位（令牌十分重要，請小心保管）
+複製 Application ID，然後前往：https://discordapi.com/permissions.html
+貼上你複製的ID並在權限勾上管理員欄位，然後點擊下方的連結。
+連結將會開啟邀請頁面並顯示你擁有的伺服器。選擇你希望機器人進入的伺服器然後邀請它。
+你邀請了機器人後，打開你的Discord客戶端，前往設定 -&gt; 進階設定，然後啟用開發者模式。
+離開設定後，在伺服器列表中找到你剛才邀請機器人的伺服器，右鍵伺服器，點擊 "複製ID"，然後將ID貼到 "GuildId" 欄位。
+在伺服器中，選擇你希望用作機器人使用的頻道，右鍵頻道，點擊 "複製ID"，然後將ID貼到 "ChannelId" 欄位。
+最後，在頻道中傳送一則信息，右鍵你的頭像，點擊 "複製ID"，然後將ID貼到 "OwnersIds" 欄位。
+如何使用：
+要執行 MCC 指令，請用點 "." 開頭，例如：".move 143 64 735"。
+要傳送信息，直接傳送就好了。</value>
+  </data>
+  <data name="ChatBot.DiscordBridge.ChannelId" xml:space="preserve">
+    <value>你想要使用機器人與 MCC 互動的頻道ID。</value>
+  </data>
+  <data name="ChatBot.DiscordBridge.Formats" xml:space="preserve">
+    <value>信息格式
+被 { 與 } 包裹著的字將會在程式運行時被替換，不要修改它們！
+例如：{message} 將會被替換成真正的信息內容，{username} 將會被替換成使用者名稱，{timestamp} 會替換成現在時間。
+對於Discord的信息格式，請查看：https://mccteam.github.io/r/dc-fmt.html</value>
+  </data>
+  <data name="ChatBot.DiscordBridge.GuildId" xml:space="preserve">
+    <value>你邀請機器人加入的伺服器的ID。</value>
+  </data>
+  <data name="ChatBot.DiscordBridge.MessageSendTimeout" xml:space="preserve">
+    <value>如果信息無法被傳送至Discord時，要等候多少秒才取消傳送。（最小 1秒）</value>
+  </data>
+  <data name="ChatBot.DiscordBridge.OwnersIds" xml:space="preserve">
+    <value>你希望能夠使用機器人與 MCC 互動的使用者ID列表。</value>
+  </data>
+  <data name="ChatBot.DiscordBridge.Token" xml:space="preserve">
+    <value>你的Discord機器人的令牌。</value>
+  </data>
+  <data name="ChatBot.Farmer" xml:space="preserve">
+    <value>自動為你耕種農作物（種下，收成和骨粉催生）
+可用的農作物類型：Beetroot（甜菜根）, Carrot（蘿蔔）, Melon（西瓜）, Netherwart（地獄疙瘩）, Pumpkin（南瓜）, Potato（馬鈴薯）, Wheat（小麥）
+使用方法："/farmer start" 指令和 "/farmer stop" 指令。
+注意：這是新加入的機器人，它不完美並只在 1.19.2 版本進行過測試。它有些小問題，例如有時候不能對蘿蔔或馬鈴薯使用骨粉催生；
+或機器人會在耕地上跳躍並破壞耕地（這很少發生，但還是有機率出現）。我們期待可以改善它。
+另外，如果你的耕地只有一格厚，請加厚至兩格以上，否則機器人在重新連線時有可能會穿過耕地並掉落。
+此外，如果機器人走到邊緣時將不會拾起所有的掉落物，我們已有計劃在未來新增這個選項，同時加入將農作物放到箱子及從箱子補充骨粉。</value>
+  </data>
+  <data name="ChatBot.Farmer.Delay_Between_Tasks" xml:space="preserve">
+    <value>每個任務之間的延遲時間（最小 1秒）</value>
+  </data>
+  <data name="ChatBot.FollowPlayer" xml:space="preserve">
+    <value>讓機器人跟隨指定玩家
+注意這是一個實驗性的功能，目前的尋路速度可能很慢，你可能需要時常等一會機器人來讓它跟上你。
+你可以調整"Update_Limit"，找到最適合你的速度。（注意不要設定的太低，這樣可能導致反效果或使MCC卡頓）。
+/!\ 在使用此功能之前，請先確保伺服器規則允許你這樣做。</value>
+  </data>
+  <data name="ChatBot.FollowPlayer.Stop_At_Distance" xml:space="preserve">
+    <value>如果玩家在該範圍內，則視為已經接近玩家了。（防止機器人將玩家推開而產生無限迴圈）</value>
+  </data>
+  <data name="ChatBot.FollowPlayer.Update_Limit" xml:space="preserve">
+    <value>機器人尋路的間隔時間（以秒為單位）</value>
+  </data>
+  <data name="ChatBot.HangmanGame" xml:space="preserve">
+    <value>一個用於演示聊天互動的小遊戲。玩家可以一次一個字母地猜出神祕的單詞。
+你需要正確地使用 ChatFormat，並在 botowners 中新增自己，用/tell &lt;bot username&gt; start
+/!\ 這個機器人可能會造成刷屏，如果許多玩家與它互動。</value>
+  </data>
+  <data name="ChatBot.Mailer" xml:space="preserve">
+    <value>在玩家和伺服器之間中繼訊息，就像一個郵件外掛一樣。
+這個機器人可以在收件人離線時儲存訊息，並在他們加入伺服器時傳送訊息。
+/!\ 伺服器管理員可以以任意玩家的身份傳送任意訊息，請記住這一點。</value>
+  </data>
+  <data name="ChatBot.Map" xml:space="preserve">
+    <value>允許你將地圖渲染成.jpg圖片，該圖片會被渲染到Rendered_Maps資料夾中。
+注意：這個功能目前只對解決使用地圖的驗證碼有用。
+如果一些伺服器解決驗證碼的時間很短，請啟用Auto_Render_On_Update並準備快速開啟該檔案。
+在linux上，你可以使用FTP來訪問生成的檔案。</value>
+  </data>
+  <data name="ChatBot.Map.Auto_Render_On_Update" xml:space="preserve">
+    <value>一旦接收到新的地圖或已有地圖被更新，自動渲染該地圖。</value>
+  </data>
+  <data name="ChatBot.Map.Delete_All_On_Unload" xml:space="preserve">
+    <value>在解除安裝/重新載入地圖時刪除所有已渲染的地圖（退出MCC時不會刪除影象）</value>
+  </data>
+  <data name="ChatBot.Map.Notify_On_First_Update" xml:space="preserve">
+    <value>當第一次從伺服器上收到一張地圖時，傳送一個通知。</value>
+  </data>
+  <data name="ChatBot.Map.Rasize_Rendered_Image" xml:space="preserve">
+    <value>調整影像大小。當渲染圖像太小或傳送到Discord時，這很有用。</value>
+  </data>
+  <data name="ChatBot.Map.Render_In_Console" xml:space="preserve">
+    <value>是否在控制檯中渲染地圖。</value>
+  </data>
+  <data name="ChatBot.Map.Resize_To" xml:space="preserve">
+    <value>渲染圖像應調整到的大小，以像素為單位（例如 512）。</value>
+  </data>
+  <data name="ChatBot.Map.Save_To_File" xml:space="preserve">
+    <value>是否將地圖儲存為檔案。</value>
+  </data>
+  <data name="ChatBot.Map.Send_Rendered_To_Bridges" xml:space="preserve">
+    <value>將已渲染地圖（保存到文件）透過Discord或Telegram Bridge傳送到Discord或Telegram頻道（Discord/Telegram Bridge必須已啟用並完成配置！）
+你需要啟用 Save_To_File 才能使用此功能。
+我們同時建議打開調整大小功能。</value>
+  </data>
+  <data name="ChatBot.PlayerListLogger" xml:space="preserve">
+    <value>定期記錄當前的玩家列表到檔案中。</value>
+  </data>
+  <data name="ChatBot.PlayerListLogger.Delay" xml:space="preserve">
+    <value>（單位：秒）</value>
+  </data>
+  <data name="ChatBot.RemoteControl" xml:space="preserve">
+    <value>通過遊戲中的私聊向機器人傳送MCC控制檯命令
+你需要先配置好[ChatFormat]章節的設定，並在[Main.Advanced.bot_owners]中新增自己的賬號。
+/!\ 伺服器管理員可以以任意玩家的身份傳送任意訊息，僅在信任他們時啟用本功能。</value>
+  </data>
+  <data name="ChatBot.ReplayCapture" xml:space="preserve">
+    <value>使用"/replay start"開始記錄遊戲，並在之後使用 Replay Mod (https://www.replaymod.com/) 進行重放。
+請注意，由於技術限制，玩家自身不會顯示在重放檔案中。
+/!\ 你應該使用"/replay stop"停止記錄或者使用"/quit"退出程式，否則回放檔案可能會損壞。</value>
+  </data>
+  <data name="ChatBot.ReplayCapture.Backup_Interval" xml:space="preserve">
+    <value>每間隔多少秒自動儲存一次回放檔案，以秒為單位。使用-1禁用自動儲存。</value>
+  </data>
+  <data name="ChatBot.ScriptScheduler" xml:space="preserve">
+    <value>在加入伺服器時、到達特定時間時或以設定的時間間隔執行命令或指令碼檔案
+詳細使用方法請檢視 https://mccteam.github.io/g/bots/#script-scheduler</value>
+  </data>
+  <data name="ChatBot.TelegramBridge" xml:space="preserve">
+    <value>這個 Chatbot 可以讓你透過Telegram機器人私人信息使用Telegram頻道來接收和傳送信息。
+/!\ 注意：你不能從群組對話傳送信息和指令，你只能從私人信息傳送，但你可以從客戶端取得群組對話的信息。
+-----------------------------------------------------------
+配置：
+首先你需要創建一個Telegram機器人並取得API鑰匙。請使用Telegram尋找 @botfather
+點擊開始按鈕，閱讀機器人的信息，然後輸入 "/newbot"。@botfather 將會引導你建立機器人。
+當成功建立機器人後，複製API鑰匙，然後貼在 "ChatBot.TelegramBridge" 部分中的 "Token" 欄位（本部分）
+/!\ 請勿與任何人分享API鑰匙，並將它儲存在安全的地方。
+然後啟動客戶端和你的Telegram，在Telegram中尋找你新建立的機器人並與機器人開啟私人信息。
+點擊開始按鈕，輸入並傳送 ".chatid" 指令來獲得聊天室ID。
+複製聊天室ID （例子：2627844670），然後貼在 "ChannelId" 欄位和 "Authorized_Chat_Ids" 欄位 （"Authorized_Chat_Ids" 欄位是一個數字而不是字串），儲存配置文件。
+現在你可以透過私人信息來使用機器人。
+/!\ 如果你沒有將聊天室ID加到 "Authorized_Chat_Ids" 欄位，任何找到你的機器人的人將能夠執行指令和傳送信息！
+/!\ "Authorized_Chat_Ids" 欄位中的ID應該是一個數字而不是字串！
+-----------------------------------------------------------
+注意：如果你希望透過群組來接收信息，將群組暫時改為公開，邀請你的機器人到群組並給與機器人管理員權限，最後將群組改為私人。
+然後將 "ChannelId" 欄位設為 @群組名稱（必須包括@，例子："@mysupersecretchannel"），你可以在頻道邀請連結看到這個使用者名稱。
+/!\ 只需包含使用者名稱加上@在前面，不需要包括剩下的連結。例如你的連結是 "https://t.me/mysupersecretchannel"，"ChannelId" 欄位將會是 "@mysupersecretchannel"。
+/!\ 注意，你將不能從群組傳送信息到客戶端！
+-----------------------------------------------------------
+如何使用：
+希望執行MCC指令時，在指令前加上點 "."。例如 ".move 143 64 735"。
+希望傳送聊天信息時，只需要直接傳送就好了。</value>
+  </data>
+  <data name="ChatBot.TelegramBridge.Authorized_Chat_Ids" xml:space="preserve">
+    <value>允許發送信息和執行指令的聊天室ID列表。要獲得你的私人聊天室ID，請在 Telegram 中使用 ".chatid" 指令。</value>
+  </data>
+  <data name="ChatBot.TelegramBridge.ChannelId" xml:space="preserve">
+    <value>你想要使用機器人與 MCC 互動的頻道ID。</value>
+  </data>
+  <data name="ChatBot.TelegramBridge.Formats" xml:space="preserve">
+    <value>信息格式
+被 { 與 } 包裹著的字將會在程式運行時被替換，不要修改它們！
+例如：{message} 將會被替換成真正的信息內容，{username} 將會被替換成使用者名稱，{timestamp} 會替換成現在時間。
+對於Telegram的信息格式，請查看：https://mccteam.github.io/r/tg-fmt.html</value>
+  </data>
+  <data name="ChatBot.TelegramBridge.MessageSendTimeout" xml:space="preserve">
+    <value>如果信息無法被傳送至Telegram時，要等候多少秒才取消傳送。（最小 1秒）</value>
+  </data>
+  <data name="ChatBot.TelegramBridge.Token" xml:space="preserve">
+    <value>你的Telegram機器人的令牌。</value>
+  </data>
+  <data name="ChatFormat" xml:space="preserve">
+    <value>MCC會盡力檢測聊天資訊，但有些伺服器有不尋常的聊天格式
+當這種情況發生時，你需要在下面自定義匹配聊天所用的正規表示式，詳見 https://mccteam.github.io/g/conf/#chat-format-section</value>
+  </data>
+  <data name="ChatFormat.Builtins" xml:space="preserve">
+    <value>是否啟用MCC內建的聊天檢測規則。設定為 false 以避免與自定義格式衝突。</value>
+  </data>
+  <data name="ChatFormat.UserDefined" xml:space="preserve">
+    <value>是否啟用下方的自定義正規表示式進行聊天檢測。</value>
+  </data>
+  <data name="Console" xml:space="preserve">
+    <value>控制台相關的設定。</value>
+  </data>
+  <data name="Console.CommandSuggestion" xml:space="preserve">
+    <value>命令完成建議的設置。
+自定義顏色僅在使用“vt100_24bit”顏色模式時可用。</value>
+  </data>
+  <data name="Console.CommandSuggestion.Enable" xml:space="preserve">
+    <value>是否在控制台中顯示命令建議。</value>
+  </data>
+  <data name="Console.CommandSuggestion.Use_Basic_Arrow" xml:space="preserve">
+    <value>
+如果命令建議中的箭頭未在終端中正確顯示，請啟用此選項。</value>
+  </data>
+  <data name="Console.General.ConsoleColorMode" xml:space="preserve">
+    <value>使用“disable”、“legacy_4bit”、“vt100_4bit”、“vt100_8bit”或“vt100_24bit”。如果終端出現“←[0m”這樣的亂碼，可以嘗試切換到“legacy_4bit”模式，或者禁用它。</value>
+  </data>
+  <data name="Console.General.Display_Input" xml:space="preserve">
+    <value>你可以使用"Ctrl+P"來印出當前輸入和游標的位置。</value>
+  </data>
+  <data name="Head" xml:space="preserve">
+    <value>啟動配置檔案
+此檔案會被 MCC 覆寫，因此請不要在此檔案寫入額外資料。
+
+# 對 MCC（Minecraft 命令列客戶端）不熟悉？請看這個文件：https://mccteam.github.io/g/conf.htmlWant
+
+# 想升級到較新的版本嗎？請訪問 https://github.com/MCCTeam/Minecraft-Console-Client/#download</value>
+  </data>
+  <data name="Logging" xml:space="preserve">
+    <value>此項設定僅會影響到控制檯中的資訊（日誌）。</value>
+  </data>
+  <data name="Logging.ChatFilter" xml:space="preserve">
+    <value>過濾聊天訊息所用的正規表示式。</value>
+  </data>
+  <data name="Logging.ChatMessages" xml:space="preserve">
+    <value>是否顯示來自伺服器的聊天訊息。</value>
+  </data>
+  <data name="Logging.DebugFilter" xml:space="preserve">
+    <value>過濾除錯訊息所用的正規表示式。</value>
+  </data>
+  <data name="Logging.DebugMessages" xml:space="preserve">
+    <value>請在提交錯誤報告之前先啟用此項。謝謝！</value>
+  </data>
+  <data name="Logging.ErrorMessages" xml:space="preserve">
+    <value>顯示錯誤訊息。</value>
+  </data>
+  <data name="Logging.FilterMode" xml:space="preserve">
+    <value>過濾方式："disable"（禁用），"blacklist"（隱藏匹配的訊息） 或 "whitelist"（僅顯示匹配的訊息）</value>
+  </data>
+  <data name="Logging.InfoMessages" xml:space="preserve">
+    <value>資訊性的訊息。（大部分來自MCC內部）</value>
+  </data>
+  <data name="Logging.LogFile" xml:space="preserve">
+    <value>日誌檔名稱。</value>
+  </data>
+  <data name="Logging.LogToFile" xml:space="preserve">
+    <value>是否將日誌資訊寫入到檔案。</value>
+  </data>
+  <data name="Logging.PrependTimestamp" xml:space="preserve">
+    <value>寫入日誌檔案時是否新增時間戳。</value>
+  </data>
+  <data name="Logging.SaveColorCodes" xml:space="preserve">
+    <value>是否保留訊息中的顏色字元。（例如"§b"）</value>
+  </data>
+  <data name="Logging.WarningMessages" xml:space="preserve">
+    <value>顯示警告訊息。</value>
+  </data>
+  <data name="Main.Advanced" xml:space="preserve">
+    <value>在更改這裏的某項設定之前，請確保你理解了該選項的影響。</value>
+  </data>
+  <data name="Main.Advanced.account_list" xml:space="preserve">
+    <value>AccountList：使你可以不用輸入賬號資訊而快速在多個賬號間切換
+可用命令示例："/tell &lt;mybot&gt; reco Player2"，"/connect &lt;serverip&gt; Player1"</value>
+  </data>
+  <data name="Main.Advanced.auto_respawn" xml:space="preserve">
+    <value>死亡時自動重生（開啟前請確保你的出生點是安全的）</value>
+  </data>
+  <data name="Main.Advanced.bot_owners" xml:space="preserve">
+    <value>設定機器人的所有者。/!\伺服器管理員可以偽裝成任何玩家!</value>
+  </data>
+  <data name="Main.Advanced.brand_info" xml:space="preserve">
+    <value>客戶端標識，可用 "mcc"，"vanilla"(原版客戶端) 或 "none"(空標識)。這用於改變MCC向伺服器傳送的客戶端標識內容。</value>
+  </data>
+  <data name="Main.Advanced.chatbot_log_file" xml:space="preserve">
+    <value>留空將禁用 ChatBot 寫入日誌檔案。</value>
+  </data>
+  <data name="Main.Advanced.enable_emoji" xml:space="preserve">
+    <value>如果關閉，Emoji表情符號將被替換成更簡單的字元（用於 "/chunk status" 命令）</value>
+  </data>
+  <data name="Main.Advanced.entity_handling" xml:space="preserve">
+    <value>啟用實體處理。</value>
+  </data>
+  <data name="Main.Advanced.exit_on_failure" xml:space="preserve">
+    <value>發生錯誤時是否直接退出，用於在非互動式指令碼中使用MCC。</value>
+  </data>
+  <data name="Main.Advanced.internal_cmd_char" xml:space="preserve">
+    <value>MCC內部命令的字首，可使用 "none", "slash"(/) 或 "backslash"(\)。</value>
+  </data>
+  <data name="Main.Advanced.inventory_handling" xml:space="preserve">
+    <value>啟用庫存處理（可操作背包、箱子等容器）。</value>
+  </data>
+  <data name="Main.Advanced.language" xml:space="preserve">
+    <value>請使用Minecraft的語言程式碼填寫，詳見 https://mccteam.github.io/r/l-code.html</value>
+  </data>
+  <data name="Main.Advanced.LoadMccTrans" xml:space="preserve">
+    <value>在可用時載入應用於MCC的翻譯，關閉則僅使用英語。</value>
+  </data>
+  <data name="Main.Advanced.mc_forge" xml:space="preserve">
+    <value>可使用 "auto"(自動)，"no"(禁用) 或是 "force"(強制啟用，僅在 1.13 及更高的版本中可用)。</value>
+  </data>
+  <data name="Main.Advanced.mc_version" xml:space="preserve">
+    <value>遊戲版本，可使用 "auto"(自動) 或類似 "1.X.X" 的值。設定具體版本將跳過從伺服器解析的過程。</value>
+  </data>
+  <data name="Main.Advanced.message_cooldown" xml:space="preserve">
+    <value>控制向伺服器傳送訊息的最小間隔時間（秒）。</value>
+  </data>
+  <data name="Main.Advanced.minecraft_realms" xml:space="preserve">
+    <value>啟用對加入我的世界領域(Realms)伺服器的支援。</value>
+  </data>
+  <data name="Main.Advanced.MinTerminalHeight" xml:space="preserve">
+    <value>當使用終端高度來計算顯示的影象大小時，限制其最小高度。</value>
+  </data>
+  <data name="Main.Advanced.MinTerminalWidth" xml:space="preserve">
+    <value>當使用終端寬度來計算顯示的影象大小時，限制其最小寬度。</value>
+  </data>
+  <data name="Main.Advanced.movement_speed" xml:space="preserve">
+    <value>高於 2 的移動速度可能會被檢測為作弊。</value>
+  </data>
+  <data name="Main.Advanced.move_head_while_walking" xml:space="preserve">
+    <value>在移動時轉向頭部。</value>
+  </data>
+  <data name="Main.Advanced.player_head_icon" xml:space="preserve">
+    <value>使用玩家面板頭像作為視窗圖示，這僅在部分舊版控制檯中有效。</value>
+  </data>
+  <data name="Main.Advanced.private_msgs_cmd_name" xml:space="preserve">
+    <value>遠端控制功能將會使用它。</value>
+  </data>
+  <data name="Main.Advanced.profilekey_cache" xml:space="preserve">
+    <value>如何快取聊天簽名金鑰。可使用 "none"(不快取)，"memory"(記憶體快取) 或 "disk"(磁碟快取)。</value>
+  </data>
+  <data name="Main.Advanced.resolve_srv_records" xml:space="preserve">
+    <value>可填寫 "no"，"fast"（超時時間為五秒鐘）或是 "yes"。加入某些伺服器需要開啟此項。</value>
+  </data>
+  <data name="Main.Advanced.script_cache" xml:space="preserve">
+    <value>快取已編譯的指令碼，以便在低端裝置上更快的載入。</value>
+  </data>
+  <data name="Main.Advanced.server_list" xml:space="preserve">
+    <value>ServerList：可用使用伺服器別名快速連線到該伺服器
+別名不能包含空格和小數點"，而且 "localhost" 不能作為別名使用。
+可用命令示例："/tell &lt;mybot&gt; connect Server1"，"/connect Server2"</value>
+  </data>
+  <data name="Main.Advanced.session_cache" xml:space="preserve">
+    <value>如何快取會話令牌。可使用 "none"(不快取)，"memory"(記憶體快取) 或 "disk"(磁碟快取)。</value>
+  </data>
+  <data name="Main.Advanced.show_chat_links" xml:space="preserve">
+    <value>解碼聊天資訊裡的連結，並在控制檯單獨顯示。</value>
+  </data>
+  <data name="Main.Advanced.show_inventory_layout" xml:space="preserve">
+    <value>以字元畫形式顯示庫存佈局。</value>
+  </data>
+  <data name="Main.Advanced.show_system_messages" xml:space="preserve">
+    <value>顯示遊戲伺服器的系統訊息（來自管理員或命令方塊等）。</value>
+  </data>
+  <data name="Main.Advanced.show_xpbar_messages" xml:space="preserve">
+    <value>顯示經驗條上方的訊息，如果被此類訊息刷屏請禁用此選項。</value>
+  </data>
+  <data name="Main.Advanced.temporary_fix_badpacket" xml:space="preserve">
+    <value>
+臨時修復了某些服務器上的壞包問題。需要先啟用“地形和運動”。</value>
+  </data>
+  <data name="Main.Advanced.terrain_and_movements" xml:space="preserve">
+    <value>開啟地形處理將消耗更多的記憶體、CPU和網路頻寬，但這允許你進行移動以及和方塊互動。</value>
+  </data>
+  <data name="Main.Advanced.timeout" xml:space="preserve">
+    <value>與伺服器的TCP連線超時時間（秒）。</value>
+  </data>
+  <data name="Main.Advanced.timestamps" xml:space="preserve">
+    <value>在聊天資訊頭部新增時間戳。</value>
+  </data>
+  <data name="Main.General.account" xml:space="preserve">
+    <value>Login請填寫郵箱或玩家名稱。若要以離線模式登入請使用"-"作為密碼。若留空則使用互動式登入。</value>
+  </data>
+  <data name="Main.General.login" xml:space="preserve">
+    <value>遊戲伺服器的地址和埠，可填入域名或IP地址。（可刪除埠欄位，會自動解析SRV記錄）</value>
+  </data>
+  <data name="Main.General.method" xml:space="preserve">
+    <value>微軟賬戶的登入方式：mcc 或是 browser（手動在網頁上登入）。</value>
+  </data>
+  <data name="Main.General.server_info" xml:space="preserve">
+    <value>Account type: "mojang" OR "microsoft" OR "yggdrasil". Also affects interactive login in console.</value>
+  </data>
+  <data name="MCSettings" xml:space="preserve">
+    <value>下面的設定將會被發送到遊戲伺服器，只影響一些伺服器端的東西，比如你的皮膚。</value>
+  </data>
+  <data name="MCSettings.ChatColors" xml:space="preserve">
+    <value>這允許你在伺服器端禁用聊天顏色。</value>
+  </data>
+  <data name="MCSettings.ChatMode" xml:space="preserve">
+    <value>使用 "enabled"（完全啟用聊天）、"commands"（僅限命令）或 "disabled"（完全禁用聊天）。這允許你禁言自己...</value>
+  </data>
+  <data name="MCSettings.Difficulty" xml:space="preserve">
+    <value>Minecraft 1.7及更早版本難度。"peaceful"，"easy"，"normal"，"difficult"。</value>
+  </data>
+  <data name="MCSettings.Enabled" xml:space="preserve">
+    <value>如果禁用，下面的設定就不會被髮送到伺服器上。</value>
+  </data>
+  <data name="MCSettings.Locale" xml:space="preserve">
+    <value>請使用Minecraft的語言程式碼填寫，詳見[Main.Advanced.Language]</value>
+  </data>
+  <data name="MCSettings.MainHand" xml:space="preserve">
+    <value>在1.9及更高版本中的主手設定。"left"（左手） 或 "right"（右手）。</value>
+  </data>
+  <data name="MCSettings.RenderDistance" xml:space="preserve">
+    <value>渲染距離，取值範圍[0 - 255]。</value>
+  </data>
+  <data name="Proxy" xml:space="preserve">
+    <value>通過代理連線到伺服器。
+如果Mojang/微軟登入服務被防火牆阻斷，設定Enabled_Login=true以使用代理進行登入。
+如果到Minecraft遊戲伺服器的連線被防火牆阻止，設定Enabled_Ingame=true以使用代理連線遊戲伺服器。
+/!\ 在啟用代理前，請確保你的伺服器規則允許使用代理或VPN，否則你可能面臨被封禁等風險！</value>
+  </data>
+  <data name="Proxy.Enabled_Ingame" xml:space="preserve">
+    <value>是否通過代理連線Minecraft遊戲伺服器。</value>
+  </data>
+  <data name="Proxy.Enabled_Login" xml:space="preserve">
+    <value>是否使用代理連線Mojang或微軟的登入伺服器。</value>
+  </data>
+  <data name="Proxy.Enabled_Update" xml:space="preserve">
+    <value>下載MCC的更新時是否要通過代理伺服器。</value>
+  </data>
+  <data name="Proxy.Password" xml:space="preserve">
+    <value>只有連線到受密碼保護的代理才需要。</value>
+  </data>
+  <data name="Proxy.Proxy_Type" xml:space="preserve">
+    <value>支援的代理型別："HTTP"，"SOCKS4"，"SOCKS4a"，"SOCKS5"。</value>
+  </data>
+  <data name="Proxy.Server" xml:space="preserve">
+    <value>代理伺服器必須允許HTTPS登入。</value>
+  </data>
+  <data name="Proxy.Username" xml:space="preserve">
+    <value>只有連線到受密碼保護的代理才需要。</value>
+  </data>
+  <data name="Signature" xml:space="preserve">
+    <value>聊天簽名相關設定（影響1.19及以上版本）</value>
+  </data>
+  <data name="Signature.LoginWithSecureProfile" xml:space="preserve">
+    <value>僅微軟賬戶可用。如禁用此項，將無法簽名訊息和進入某些的伺服器。</value>
+  </data>
+  <data name="Signature.MarkIllegallySignedMsg" xml:space="preserve">
+    <value>是否使用紅色色塊標識沒有合法簽名的聊天。</value>
+  </data>
+  <data name="Signature.MarkLegallySignedMsg" xml:space="preserve">
+    <value>是否使用綠色色塊標識擁有合法簽名的聊天。</value>
+  </data>
+  <data name="Signature.MarkModifiedMsg" xml:space="preserve">
+    <value>是否使用黃色色塊標識被伺服器更改過的聊天。</value>
+  </data>
+  <data name="Signature.MarkSystemMessage" xml:space="preserve">
+    <value>是否使用灰色色塊標識系統訊息（它們總是不會被簽名）。</value>
+  </data>
+  <data name="Signature.ShowIllegalSignedChat" xml:space="preserve">
+    <value>是否顯示沒有被正確簽名的聊天訊息。</value>
+  </data>
+  <data name="Signature.ShowModifiedChat" xml:space="preserve">
+    <value>設定為 true，顯示被伺服器修改過的資訊；設定為 false，顯示經過簽名的原始資訊。</value>
+  </data>
+  <data name="Signature.SignChat" xml:space="preserve">
+    <value>是否簽名傳送的聊天訊息。</value>
+  </data>
+  <data name="Signature.SignMessageInCommand" xml:space="preserve">
+    <value>是否簽名指令中的訊息。例如"/msg"和"/me"中的訊息。</value>
+  </data>
+  <data name="ChatBot.ItemsCollector.Collect_All_Item_Types" xml:space="preserve">
+    <value>
+如果設置為 true，機器人將收集所有項目。如果您想使用白名單項目類型，請通過將其設置為 false 來禁用它</value>
+  </data>
+  <data name="ChatBot.ItemsCollector.Items_Whitelist" xml:space="preserve">
+    <value>在此列表中，您可以指定機器人將收集哪些項目。要啟用此功能，請將 Collect_All_Item_Types 設置為 false。 （注意：這並不能阻止機器人意外拾取其他項目，它只會前往找到白名單項目的位置）\n您可以在此處查看項目類型列表：https://raw.githubusercontent.com/MCCTeam /Minecraft-Console-Client/master/MinecraftClient/Inventory/ItemType.cs</value>
+  </data>
+  <data name="ChatBot.ItemsCollector.Delay_Between_Tasks" xml:space="preserve">
+    <value>
+機器人掃描項目之間的延遲（建議：300-500）</value>
+  </data>
+  <data name="ChatBot.ItemsCollector.Collection_Radius" xml:space="preserve">
+    <value>機器人尋找要收集的物品的半徑（默認為：30）</value>
+  </data>
+  <data name="ChatBot.ItemsCollector.Always_Return_To_Start" xml:space="preserve">
+    <value>如果設置為 true，機器人將在沒有物品可以收集後返回到起始位置</value>
+  </data>
+  <data name="ChatBot.ItemsCollector.Prioritize_Clusters" xml:space="preserve">
+    <value>如果將此設置設為true，機器人將尋找聚集的項目而不是最近的項目。</value>
+  </data>
+  <data name="ChatBot.ItemsCollector" xml:space="preserve">
+    <value>
+收集地面物品的聊天機器人</value>
+  </data>
+  <data name="ChatBot.WebSocketBot" xml:space="preserve">
+    <value>使用 Web 套接字遠程控制客戶端。\n# 如果您想要實現一個可以遠程異步執行 MCC 中的過程的應用程序，這非常有用。\n# 用 Ja​​vaScript 編寫的示例實現：
+https://github.com/milutinke/MCC.js.git\n# 協議規範將很快在文檔中提供。</value>
+  </data>
+  <data name="ChatBot.WebSocketBot.Ip" xml:space="preserve">
+    <value>Websocket 服務器將綁定的 IP 地址。</value>
+  </data>
+  <data name="ChatBot.WebSocketBot.Port" xml:space="preserve">
+    <value>Websocket 服務器將綁定到的端口。</value>
+  </data>
+  <data name="ChatBot.WebSocketBot.Password" xml:space="preserve">
+    <value>用於在 Websocket 服務器上進行身份驗證的密碼（建議更改默認密碼並設置一個強密碼）。</value>
+  </data>
+  <data name="ChatBot.WebSocketBot.DebugMode" xml:space="preserve">
+    <value>此設置適用於正在開發使用此聊天機器人遠程執行過程/命令/函數的庫的開發人員。</value>
+  </data>
+  <data name="ChatBot.WebSocketBot.AllowIpAlias" xml:space="preserve">
+    <value>Allow IP aliases, such as "localhost" or if using containers then the container name can be used...</value>
+  </data>
+  <data name="Main.Advanced.ignore_invalid_playername" xml:space="preserve">
+    <value>Ignore invalid player name</value>
+  </data>
+  <data name="Main.General.AuthlibServer" xml:space="preserve">
+    <value>Yggdrasil authlib server domain name and port.</value>
+  </data>
+</root>

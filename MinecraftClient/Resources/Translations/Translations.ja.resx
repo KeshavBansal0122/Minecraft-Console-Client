@@ -1,0 +1,2133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" id="root">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace"/>
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string"/>
+              <xsd:attribute name="type" type="xsd:string"/>
+              <xsd:attribute name="mimetype" type="xsd:string"/>
+              <xsd:attribute ref="xml:space"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string"/>
+              <xsd:attribute name="name" type="xsd:string"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1"/>
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3"/>
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4"/>
+              <xsd:attribute ref="xml:space"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required"/>
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="bot.alerts.end_rain" xml:space="preserve">
+    <value>天候の変化: 雨が止みました。</value>
+  </data>
+  <data name="bot.alerts.end_thunderstorm" xml:space="preserve">
+    <value>天候の変化: 雷雨が止みました。</value>
+  </data>
+  <data name="bot.alerts.start_rain" xml:space="preserve">
+    <value>天候の変化: 雨が降り始めました。</value>
+  </data>
+  <data name="bot.alerts.start_thunderstorm" xml:space="preserve">
+    <value>天候の変化: 雷雨が降り始めました。</value>
+  </data>
+  <data name="bot.antiafk.invalid_walk_range" xml:space="preserve">
+    <value>指定された歩行範囲は使用できません、0 以上の整数である必要があります。デフォルト値の 5 を使用します。</value>
+  </data>
+  <data name="bot.antiafk.not_using_terrain_handling" xml:space="preserve">
+    <value>この ChatBot を使用するには、Use_Terrain_Handling が true になっている必要がありますが、クライアントの設定で true になっていません。代替 (コマンド) メソッドを使用します。</value>
+  </data>
+  <data name="bot.antiafk.swapping" xml:space="preserve">
+    <value>最小時間が最大時間を超えているため、値を入れ替えました。</value>
+  </data>
+  <data name="bot.autoAttack.invalidcooldown" xml:space="preserve">
+    <value>攻撃のクールダウン値を 0 より小さくすることはできません。</value>
+  </data>
+  <data name="bot.autoCraft.aborted" xml:space="preserve">
+    <value>クラフトが中止されました。使用できる素材をご確認ください。</value>
+  </data>
+  <data name="bot.autoCraft.alias" xml:space="preserve">
+    <value>自動クラフト ChatBot コマンドのエイリアス</value>
+  </data>
+  <data name="bot.autoCraft.available_cmd" xml:space="preserve">
+    <value>利用できるコマンド: {0}。詳しくは /autocraft help &lt;cmd name&gt; を使用してください。</value>
+  </data>
+  <data name="bot.autoCraft.close_inventory" xml:space="preserve">
+    <value>インベントリ #{0} は自動クラフトによって閉じられました。</value>
+  </data>
+  <data name="bot.autoCraft.cmd" xml:space="preserve">
+    <value>自動クラフト ChatBot コマンド</value>
+  </data>
+  <data name="bot.autoCraft.cmd.list" xml:space="preserve">
+    <value>レシピを合計 {0} 個読み込みました: {1}</value>
+  </data>
+  <data name="bot.autoCraft.craft_fail" xml:space="preserve">
+    <value>クラフトできませんでした。追加の素材が必要です。</value>
+  </data>
+  <data name="bot.autoCraft.exception.duplicate" xml:space="preserve">
+    <value>重複するレシピ名が指定されています: {0}</value>
+  </data>
+  <data name="bot.autoCraft.exception.name_miss" xml:space="preserve">
+    <value>レシピを解析している際にレシピ名が見つかりませんでした。</value>
+  </data>
+  <data name="bot.autoCraft.help.help" xml:space="preserve">
+    <value>コマンドの説明を取得します。使い方: /autocraft help &lt;command name&gt;</value>
+  </data>
+  <data name="bot.autoCraft.help.list" xml:space="preserve">
+    <value>利用できるレシピをリスト表示します。</value>
+  </data>
+  <data name="bot.autoCraft.help.load" xml:space="preserve">
+    <value>設定ファイルを読み込みます。</value>
+  </data>
+  <data name="bot.autoCraft.help.reload" xml:space="preserve">
+    <value>設定ファイルを再読み込みします。</value>
+  </data>
+  <data name="bot.autoCraft.help.resetcfg" xml:space="preserve">
+    <value>デフォルトのサンプル設定をデフォルトの場所に書き込みます。</value>
+  </data>
+  <data name="bot.autoCraft.help.start" xml:space="preserve">
+    <value>クラフトを開始します。使い方: /autocraft start &lt;recipe name&gt;</value>
+  </data>
+  <data name="bot.autoCraft.help.stop" xml:space="preserve">
+    <value>実行しているクラフトを停止します。</value>
+  </data>
+  <data name="bot.autocraft.invaild_result" xml:space="preserve">
+    <value>結果のアイテムは使用できません。</value>
+  </data>
+  <data name="bot.autocraft.invaild_slots" xml:space="preserve">
+    <value>スロット数が一致しないため、自動的に調整されました。</value>
+  </data>
+  <data name="bot.autoCraft.missing_material" xml:space="preserve">
+    <value>不足している素材: {0}</value>
+  </data>
+  <data name="bot.autoCraft.no_recipe_name" xml:space="preserve">
+    <value>クラフトしたいレシピ名を指定してください。</value>
+  </data>
+  <data name="bot.autoCraft.recipe_not_exist" xml:space="preserve">
+    <value>指定されたレシピ名は存在しません。設定ファイルをご確認ください。</value>
+  </data>
+  <data name="bot.autoCraft.start" xml:space="preserve">
+    <value>自動クラフトを開始しています: {0}</value>
+  </data>
+  <data name="bot.autoCraft.start_fail" xml:space="preserve">
+    <value>自動クラフトを開始できませんでした。{0} をクラフトするために使用できる素材をご確認ください。</value>
+  </data>
+  <data name="bot.autoCraft.stop" xml:space="preserve">
+    <value>自動クラフトが停止されました。</value>
+  </data>
+  <data name="bot.autoCraft.table_not_found" xml:space="preserve">
+    <value>作業台が見つかりませんでした。</value>
+  </data>
+  <data name="bot.autoCraft.timeout" xml:space="preserve">
+    <value>操作がタイムアウトされました。理由: {0}</value>
+  </data>
+  <data name="bot.autodig.available_cmd" xml:space="preserve">
+    <value>利用できるコマンド: {0}。詳しくは /autodig help &lt;cmd name&gt; を使用してください。</value>
+  </data>
+  <data name="bot.autodig.cmd" xml:space="preserve">
+    <value>自動採掘 ChatBot コマンド</value>
+  </data>
+  <data name="bot.autodig.dig_timeout" xml:space="preserve">
+    <value>ブロックの採掘がタイムアウトしました。もう一度お試しください。</value>
+  </data>
+  <data name="bot.autodig.help.help" xml:space="preserve">
+    <value>コマンドの説明を取得します。使い方: /autodig help &lt;command name&gt;</value>
+  </data>
+  <data name="bot.autodig.help.start" xml:space="preserve">
+    <value>自動採掘を開始します。</value>
+  </data>
+  <data name="bot.autodig.help.stop" xml:space="preserve">
+    <value>自動採掘を停止します。</value>
+  </data>
+  <data name="bot.autodig.not_allow" xml:space="preserve">
+    <value>現在見ているブロックは、許可リストにありません。</value>
+  </data>
+  <data name="bot.autodig.no_inv_handle" xml:space="preserve">
+    <value>InventoryHandling が true になっていないため、道具の自動切り替えを使用できません。</value>
+  </data>
+  <data name="bot.autodig.start" xml:space="preserve">
+    <value>自動採掘が開始されました。</value>
+  </data>
+  <data name="bot.autodig.start_delay" xml:space="preserve">
+    <value>自動採掘は {0:0.0} 秒後に開始されます。</value>
+  </data>
+  <data name="bot.autodig.stop" xml:space="preserve">
+    <value>自動採掘が停止されました。</value>
+  </data>
+  <data name="bot.autoDrop.added" xml:space="preserve">
+    <value>アイテム {0} を追加しました。</value>
+  </data>
+  <data name="bot.autoDrop.alias" xml:space="preserve">
+    <value>自動ドロップ ChatBot コマンドのエイリアス</value>
+  </data>
+  <data name="bot.autoDrop.cmd" xml:space="preserve">
+    <value>自動ドロップ ChatBot コマンド</value>
+  </data>
+  <data name="bot.autoDrop.incorrect_name" xml:space="preserve">
+    <value>アイテム名 {0} が正しくありません。もう一度お試しください。</value>
+  </data>
+  <data name="bot.autoDrop.list" xml:space="preserve">
+    <value>リスト内の合計 {0}:
+ {1}</value>
+  </data>
+  <data name="bot.autoDrop.not_in_list" xml:space="preserve">
+    <value>アイテムがリストにありません。</value>
+  </data>
+  <data name="bot.autoDrop.no_inventory" xml:space="preserve">
+    <value>インベントリ {0} が見つかりません。</value>
+  </data>
+  <data name="bot.autoDrop.no_item" xml:space="preserve">
+    <value>リストにアイテムがありません。</value>
+  </data>
+  <data name="bot.autoDrop.no_mode" xml:space="preserve">
+    <value>設定からドロップモードを読み取ることができません。includeモードを使用しています。</value>
+  </data>
+  <data name="bot.autoDrop.off" xml:space="preserve">
+    <value>自動ドロップがオフになりました。</value>
+  </data>
+  <data name="bot.autoDrop.on" xml:space="preserve">
+    <value>自動ドロップがオンになりました。</value>
+  </data>
+  <data name="bot.autoDrop.removed" xml:space="preserve">
+    <value>アイテム {0} を削除しました。</value>
+  </data>
+  <data name="bot.autoDrop.switched" xml:space="preserve">
+    <value>{0} モードに切り替えました。</value>
+  </data>
+  <data name="bot.autoDrop.unknown_mode" xml:space="preserve">
+    <value>不明なモードです。(利用できるモード: Include、Exclude、Everything)</value>
+  </data>
+  <data name="bot.autoFish.available_cmd" xml:space="preserve">
+    <value>利用できるコマンド: {0}。詳しくは /fish help &lt;cmd name&gt; を使用してください。</value>
+  </data>
+  <data name="bot.autoFish.cast_timeout" xml:space="preserve">
+    <value>浮きの投げがタイムアウトされました。しばらく待ってからもう一度浮きを投げます。(タイムアウトが {0:0.0} 秒に延長されました)</value>
+  </data>
+  <data name="bot.autoFish.caught" xml:space="preserve">
+    <value>浮きを回収します。({0} 回目)</value>
+  </data>
+  <data name="bot.autoFish.caught_at" xml:space="preserve">
+    <value>{0:0.0}, {1:0.0}, {2:0.0} で浮きを回収します。({3} 回目)</value>
+  </data>
+  <data name="bot.autoFish.cmd" xml:space="preserve">
+    <value>自動釣魚 ChatBot コマンド</value>
+  </data>
+  <data name="bot.autoFish.despawn" xml:space="preserve">
+    <value>浮きがデスポーンしました。もう一度浮きが投げられます。</value>
+  </data>
+  <data name="bot.autoFish.fishing_timeout" xml:space="preserve">
+    <value>釣りがタイムアウトしました。もう一度浮きが投げられます。</value>
+  </data>
+  <data name="bot.autoFish.got" xml:space="preserve">
+    <value>{0} を釣り上げました。</value>
+  </data>
+  <data name="bot.autoFish.help.help" xml:space="preserve">
+    <value>コマンドの説明を取得します。使い方: /fish help &lt;command name&gt;</value>
+  </data>
+  <data name="bot.autoFish.help.start" xml:space="preserve">
+    <value>自動釣魚を開始します。</value>
+  </data>
+  <data name="bot.autoFish.help.status" xml:space="preserve">
+    <value>釣り上げたすべてのアイテムをリスト表示します。「/fish status clear」を使用してリストを消去することもできます。</value>
+  </data>
+  <data name="bot.autoFish.help.stop" xml:space="preserve">
+    <value>自動釣魚を停止します。</value>
+  </data>
+  <data name="bot.autoFish.no_inv_handle" xml:space="preserve">
+    <value>InventoryHandling が true になっていないため、釣竿の耐久値の確認と釣竿の自動切り替えを使用できません。</value>
+  </data>
+  <data name="bot.autoFish.no_rod" xml:space="preserve">
+    <value>選択中の釣竿は使用できません。破壊されているか耐久値が低すぎます。</value>
+  </data>
+  <data name="bot.autoFish.start" xml:space="preserve">
+    <value>自動釣魚を開始します。</value>
+  </data>
+  <data name="bot.autoFish.start_at" xml:space="preserve">
+    <value>自動釣魚は {0:0.0} 秒後に開始されます。</value>
+  </data>
+  <data name="bot.autoFish.status_clear" xml:space="preserve">
+    <value>釣り上げたアイテムの記録が消去されました。</value>
+  </data>
+  <data name="bot.autoFish.status_info" xml:space="preserve">
+    <value>釣り上げたすべてのアイテム (完全に正確ではありません):</value>
+  </data>
+  <data name="bot.autoFish.stop" xml:space="preserve">
+    <value>自動釣魚を停止します。</value>
+  </data>
+  <data name="bot.autoFish.switch" xml:space="preserve">
+    <value>耐久値が {1}/64 残っているスロット {0} の釣竿に切り替えます。</value>
+  </data>
+  <data name="bot.autoFish.throw" xml:space="preserve">
+    <value>正常に浮きが投げられました。</value>
+  </data>
+  <data name="bot.autoFish.update_lookat" xml:space="preserve">
+    <value>現在の Y 軸回転を {0:0.00} に、X 軸回転を {1:0.00} に更新します。</value>
+  </data>
+  <data name="bot.autoRelog.curr_dir" xml:space="preserve">
+    <value>現在のディレクトリ: {0}</value>
+  </data>
+  <data name="bot.autoRelog.disconnect_msg" xml:space="preserve">
+    <value>接続が切断されました: {0}</value>
+  </data>
+  <data name="bot.autoRelog.ignore_user_logout" xml:space="preserve">
+    <value>ユーザーまたは ChatBot によって切断されました。無視します。</value>
+  </data>
+  <data name="bot.autoRelog.launch" xml:space="preserve">
+    <value>{0} 回の再接続で起動します。</value>
+  </data>
+  <data name="bot.autoRelog.no_kick_msg" xml:space="preserve">
+    <value>退出メッセージ ファイルなしでイニシャライズします。</value>
+  </data>
+  <data name="bot.autoRelog.reconnect" xml:space="preserve">
+    <value>メッセージに「{0}」が含まれています。再接続します。</value>
+  </data>
+  <data name="bot.autoRelog.reconnect_always" xml:space="preserve">
+    <value>退出メッセージを無視して再接続します。</value>
+  </data>
+  <data name="bot.autoRelog.reconnect_ignore" xml:space="preserve">
+    <value>定義されたキーワードを含まないメッセージは無視されます。</value>
+  </data>
+  <data name="bot.autoRelog.wait" xml:space="preserve">
+    <value>{0:0.000} 秒後に再接続されます...</value>
+  </data>
+  <data name="bot.autoRespond.file_not_found" xml:space="preserve">
+    <value>ファイルが見つかりませんでした: {0}</value>
+  </data>
+  <data name="bot.autoRespond.loaded_match" xml:space="preserve">
+    <value>読み込まれた一致:
+{0}</value>
+  </data>
+  <data name="bot.autoRespond.loading" xml:space="preserve">
+    <value>「{0}」から一致を読み込んでいます。</value>
+  </data>
+  <data name="bot.autoRespond.match" xml:space="preserve">
+    <value>一致: {0}
+正規表現: {1}
+操作: {2}
+プライベート操作: {3}
+他のメッセージ操作: {4}
+所有者のみ: {5}
+クールダウン: {6}</value>
+  </data>
+  <data name="bot.autoRespond.match_run" xml:space="preserve">
+    <value>実行している操作: {0}</value>
+  </data>
+  <data name="bot.autoRespond.no_action" xml:space="preserve">
+    <value>一致に対応する操作がありません:
+{0}</value>
+  </data>
+  <data name="bot.autoRespond.no_trigger" xml:space="preserve">
+    <value>この一致は実行されません:
+{0}</value>
+  </data>
+  <data name="bot.chatLog.invalid_file" xml:space="preserve">
+    <value>パス「{0}」に使用できない文字が含まれています。</value>
+  </data>
+  <data name="bot.DiscordBridge.canceled_sending" xml:space="preserve">
+    <value>エラーが発生したため、Discord へのメッセージの送信がキャンセルされました。詳しくはデバッグ メッセージをオンにしてください。</value>
+  </data>
+  <data name="bot.DiscordBridge.channel_not_found" xml:space="preserve">
+    <value>指定された ID「{0}」のチャネルが見つかりませんでした。</value>
+  </data>
+  <data name="bot.DiscordBridge.command_executed" xml:space="preserve">
+    <value>コマンドは次の結果で実行されました。</value>
+  </data>
+  <data name="bot.DiscordBridge.connected" xml:space="preserve">
+    <value>正常に MCC に接続されました。</value>
+  </data>
+  <data name="bot.DiscordBridge.desc" xml:space="preserve">
+    <value>このコマンドを使用すると、Discord Bridge ChatBot を経由してメッセージを中断する方向を指定できます。</value>
+  </data>
+  <data name="bot.DiscordBridge.direction" xml:space="preserve">
+    <value>Discord Brdige の方向が「{0}」に切り替わりました。</value>
+  </data>
+  <data name="bot.DiscordBridge.direction.both" xml:space="preserve">
+    <value>両方</value>
+  </data>
+  <data name="bot.DiscordBridge.direction.discord" xml:space="preserve">
+    <value>Discord</value>
+  </data>
+  <data name="bot.DiscordBridge.direction.minecraft" xml:space="preserve">
+    <value>Minecraft</value>
+  </data>
+  <data name="bot.DiscordBridge.disconnected" xml:space="preserve">
+    <value>正常に MCC の接続が切断されました。</value>
+  </data>
+  <data name="bot.DiscordBridge.guild_not_found" xml:space="preserve">
+    <value>指定された ID「{0}」のサーバーまたはギルドが見つかりませんでした。</value>
+  </data>
+  <data name="bot.DiscordBridge.invalid_direction" xml:space="preserve">
+    <value>指定された方向は使用できません。(利用できる方向: both | b、minecraft | mc、discord | dsc) 例: "dscbridge direction mc"</value>
+  </data>
+  <data name="bot.DiscordBridge.missing_token" xml:space="preserve">
+    <value>有効なトークンを指定してください。</value>
+  </data>
+  <data name="bot.DiscordBridge.unknown_error" xml:space="preserve">
+    <value>不明なエラーが発生しました。</value>
+  </data>
+  <data name="bot.farmer.already_running" xml:space="preserve">
+    <value>ChatBot はすでに農業を開始しています。</value>
+  </data>
+  <data name="bot.farmer.already_stopped" xml:space="preserve">
+    <value>ChatBot はすでに農業を停止しています。</value>
+  </data>
+  <data name="bot.farmer.crop_type" xml:space="preserve">
+    <value>作物の種類</value>
+  </data>
+  <data name="bot.farmer.desc" xml:space="preserve">
+    <value>農業 ChatBot</value>
+  </data>
+  <data name="bot.farmer.invalid_crop_type" xml:space="preserve">
+    <value>指定された作物の種類は使用できません。(使用できる作物の種類: Beetroot、Carrot、Melon、Netherwart、Pumpkin、Potato、Wheat)</value>
+  </data>
+  <data name="bot.farmer.invalid_radius" xml:space="preserve">
+    <value>指定された半径は使用できません、0 以上の有効な整数を指定してください。</value>
+  </data>
+  <data name="bot.farmer.needs_inventory" xml:space="preserve">
+    <value>InventoryHandling が true になっていないため、農業 ChatBot を使用できません。</value>
+  </data>
+  <data name="bot.farmer.needs_terrain" xml:space="preserve">
+    <value>Use_Terrain_Handling が true になっていないため、農業 ChatBot を使用できません。</value>
+  </data>
+  <data name="bot.farmer.not_implemented" xml:space="preserve">
+    <value>Minecraft 1.13 以前では使用できません。</value>
+  </data>
+  <data name="bot.farmer.radius" xml:space="preserve">
+    <value>半径</value>
+  </data>
+  <data name="bot.farmer.started" xml:space="preserve">
+    <value>農業が開始されました。</value>
+  </data>
+  <data name="bot.farmer.stopped" xml:space="preserve">
+    <value>農業が停止されました。</value>
+  </data>
+  <data name="bot.farmer.stopping" xml:space="preserve">
+    <value>農業を停止します。しばらくお待ちください...</value>
+  </data>
+  <data name="bot.farmer.warining_allow_teleport" xml:space="preserve">
+    <value>テレポートをオンにしました。これは ChatBot アカウントが退出されたり、最悪の場合はアクセスが禁止されるおそれがあるため、慎重に判断して使用してください。</value>
+  </data>
+  <data name="bot.farmer.warining_force_unsafe" xml:space="preserve">
+    <value>安全でない歩行をオンにしました。これは ChatBot がダメージを受けるおそれがあります。</value>
+  </data>
+  <data name="bot.farmer.warining_invalid_parameter" xml:space="preserve">
+    <value>指定されたパラメーター「{0}」は使用できません。(使用できる形式: "key:value")</value>
+  </data>
+  <data name="bot.mailer.cmd" xml:space="preserve">
+    <value>メール コマンド</value>
+  </data>
+  <data name="bot.mailer.cmd.getignored" xml:space="preserve">
+    <value>--- 無視リスト ---
+{0}</value>
+  </data>
+  <data name="bot.mailer.cmd.getmails" xml:space="preserve">
+    <value>--- データベース内のメール ---
+{0}</value>
+  </data>
+  <data name="bot.mailer.cmd.help" xml:space="preserve">
+    <value>使い方を表示する</value>
+  </data>
+  <data name="bot.mailer.cmd.ignore.added" xml:space="preserve">
+    <value>{0} が無視リストに追加されました。</value>
+  </data>
+  <data name="bot.mailer.cmd.ignore.invalid" xml:space="preserve">
+    <value>名前が存在しないか、使用できません。使い方: {0} &lt;username&gt;</value>
+  </data>
+  <data name="bot.mailer.cmd.ignore.removed" xml:space="preserve">
+    <value>{0} が無視リストから削除されました。</value>
+  </data>
+  <data name="bot.mailer.create.db" xml:space="preserve">
+    <value>新しいデータベース ファイルを作成しています: {0}</value>
+  </data>
+  <data name="bot.mailer.create.ignore" xml:space="preserve">
+    <value>新しい無視リストを作成しています: {0}</value>
+  </data>
+  <data name="bot.mailer.delivered" xml:space="preserve">
+    <value>送信しました: {0}</value>
+  </data>
+  <data name="bot.mailer.init" xml:space="preserve">
+    <value>設定で Mailer をイニシャライズしています:</value>
+  </data>
+  <data name="bot.mailer.init.db" xml:space="preserve">
+    <value> - データベース ファイル: {0}</value>
+  </data>
+  <data name="bot.mailer.init.db_size" xml:space="preserve">
+    <value> - データベースの最大サイズ: {0}</value>
+  </data>
+  <data name="bot.mailer.init.ignore" xml:space="preserve">
+    <value> - 無視リスト: {0}</value>
+  </data>
+  <data name="bot.mailer.init.mail_retention" xml:space="preserve">
+    <value> - メールを保持する日数: {0}</value>
+  </data>
+  <data name="bot.mailer.init.max_mails" xml:space="preserve">
+    <value> - プレイヤーごとのメールの最大数: {0}</value>
+  </data>
+  <data name="bot.mailer.init.public" xml:space="preserve">
+    <value> - 公開インタラクション: {0}</value>
+  </data>
+  <data name="bot.mailer.init_fail.db_size" xml:space="preserve">
+    <value>Mailer をオンにできません: データベースの最大サイズは 0 以上でなくてはなりません。設定をご確認ください。</value>
+  </data>
+  <data name="bot.mailer.init_fail.mail_retention" xml:space="preserve">
+    <value>Mailer をオンにできません: メールを保持する日数は 0 以上でなくてはなりません。設定をご確認ください。</value>
+  </data>
+  <data name="bot.mailer.init_fail.max_mails" xml:space="preserve">
+    <value>Mailer をオンにできません: プレイヤーごとのメールの最大数は 0 以上でなくてはなりません。設定をご確認ください。</value>
+  </data>
+  <data name="bot.mailer.load.db" xml:space="preserve">
+    <value>データベース ファイルを読み込んでいます: {0}</value>
+  </data>
+  <data name="bot.mailer.load.ignore" xml:space="preserve">
+    <value>無視リストを読み込んでいます: </value>
+  </data>
+  <data name="bot.mailer.process_mails" xml:space="preserve">
+    <value>@ {0} に送信するメールを探します。</value>
+  </data>
+  <data name="bot.mailer.saving" xml:space="preserve">
+    <value>メッセージを保存しています: {0}</value>
+  </data>
+  <data name="bot.mailer.user_ignored" xml:space="preserve">
+    <value>{0} は無視されました</value>
+  </data>
+  <data name="bot.map.cmd.desc" xml:space="preserve">
+    <value>アイテムの地図をレンダリングします</value>
+  </data>
+  <data name="bot.map.cmd.invalid_id" xml:space="preserve">
+    <value>指定された ID は使用できません、数字である必要があります。</value>
+  </data>
+  <data name="bot.map.cmd.not_found" xml:space="preserve">
+    <value>ID #{0} の地図は存在しません。</value>
+  </data>
+  <data name="bot.map.failed_to_render" xml:space="preserve">
+    <value>ID #{0} の地図をレンダリングできませんでした。</value>
+  </data>
+  <data name="bot.map.list_item" xml:space="preserve">
+    <value>- 地図 ID #{0} (最終更新: {1})</value>
+  </data>
+  <data name="bot.map.no_maps" xml:space="preserve">
+    <value>地図を受信していません。</value>
+  </data>
+  <data name="bot.map.received" xml:space="preserve">
+    <value>サーバーから受信した地図リスト:</value>
+  </data>
+  <data name="bot.map.received_map" xml:space="preserve">
+    <value>ID #{0} の新しい地図を受信しました。</value>
+  </data>
+  <data name="bot.map.rendered" xml:space="preserve">
+    <value>正常に ID #{0} の地図がレンダリングされ、「{1}」に保存されました。</value>
+  </data>
+  <data name="bot.map.resized_rendered_image" xml:space="preserve">
+    <value>ID #{0} の地図のレンダリング画像サイズを {1}x{1} に変更しました。</value>
+  </data>
+  <data name="bot.map.scale" xml:space="preserve">
+    <value>ターミナルのサイズ制限により、地図のサイズは {0}x{1} から {2}x{3} に縮小されます。</value>
+  </data>
+  <data name="bot.map.sent_to_discord" xml:space="preserve">
+    <value>ID #{0} の地図のレンダリング画像が Discord Brdige ChatBot を経由して Discord に送信されました。</value>
+  </data>
+  <data name="bot.map.sent_to_telegram" xml:space="preserve">
+    <value>ID #{0} の地図のレンダリング画像が Telegram Bridge ChatBot を経由して Telegram に送信されました。</value>
+  </data>
+  <data name="bot.replayCapture.cmd" xml:space="preserve">
+    <value>リプレイ コマンド</value>
+  </data>
+  <data name="bot.replayCapture.created" xml:space="preserve">
+    <value>リプレイ ファイルを作成しました。</value>
+  </data>
+  <data name="bot.replayCapture.restart" xml:space="preserve">
+    <value>記録が停止されました。プログラムを再起動して、別の記録を開始します。</value>
+  </data>
+  <data name="bot.replayCapture.stopped" xml:space="preserve">
+    <value>記録が停止されました。</value>
+  </data>
+  <data name="bot.script.fail" xml:space="preserve">
+    <value>スクリプト「{0}」を実行できませんでした。({1})</value>
+  </data>
+  <data name="bot.script.file_not_found" xml:space="preserve">
+    <value>ファイルが見つかりませんでした: {0}</value>
+  </data>
+  <data name="bot.script.not_found" xml:space="preserve">
+    <value>[MCC] [{0}] スクリプト ファイルが見つかりません: {1}</value>
+  </data>
+  <data name="bot.script.pm.loaded" xml:space="preserve">
+    <value>スクリプト「{0}」を読み込みました。</value>
+  </data>
+  <data name="bot.scriptScheduler.loaded_task" xml:space="preserve">
+    <value>読み込まれたタスク:
+{0}</value>
+  </data>
+  <data name="bot.scriptScheduler.no_action" xml:space="preserve">
+    <value>タスクに対応する操作がありません:
+{0}</value>
+  </data>
+  <data name="bot.scriptScheduler.no_trigger" xml:space="preserve">
+    <value>このタスクは実行されません:
+{0}</value>
+  </data>
+  <data name="bot.scriptScheduler.running_inverval" xml:space="preserve">
+    <value>間隔/操作を実行しています: {0}</value>
+  </data>
+  <data name="bot.scriptScheduler.running_login" xml:space="preserve">
+    <value>間隔/操作を実行しています: {0}</value>
+  </data>
+  <data name="bot.scriptScheduler.running_time" xml:space="preserve">
+    <value>時間/操作を実行しています: {0}</value>
+  </data>
+  <data name="bot.scriptScheduler.task" xml:space="preserve">
+    <value>初回ログイン時に実行: {0}
+ ログイン時に実行: {1}
+ 指定した時間に実行: {2}
+ 指定した時間の間隔に実行: {3}
+ 時間: {4}
+ 時間間隔: {5}
+ 操作: {6}</value>
+  </data>
+  <data name="bot.TelegramBridge.canceled_sending" xml:space="preserve">
+    <value>エラーが発生したため、Telegram へのメッセージの送信がキャンセルされました。詳しくはデバッグ メッセージをオンにしてください。</value>
+  </data>
+  <data name="bot.TelegramBridge.command_executed" xml:space="preserve">
+    <value>コマンドは次の結果で実行されました。</value>
+  </data>
+  <data name="bot.TelegramBridge.connected" xml:space="preserve">
+    <value>正常に MCC に接続されました。</value>
+  </data>
+  <data name="bot.TelegramBridge.desc" xml:space="preserve">
+    <value>このコマンドを使用すると、Telegram Bridge ChatBot を経由してメッセージを中断する方向を指定できます。</value>
+  </data>
+  <data name="bot.TelegramBridge.direction" xml:space="preserve">
+    <value>Telegram Brdige の方向が「{0}」に切り替わりました。</value>
+  </data>
+  <data name="bot.TelegramBridge.direction.both" xml:space="preserve">
+    <value>両方</value>
+  </data>
+  <data name="bot.TelegramBridge.direction.minecraft" xml:space="preserve">
+    <value>Minecraft</value>
+  </data>
+  <data name="bot.TelegramBridge.direction.Telegram" xml:space="preserve">
+    <value>Telegram</value>
+  </data>
+  <data name="bot.TelegramBridge.disconnected" xml:space="preserve">
+    <value>MCC から切断されました。</value>
+  </data>
+  <data name="bot.TelegramBridge.invalid_direction" xml:space="preserve">
+    <value>指定された方向は使用できません。(利用できる方向: both | b、minecraft | mc、telegram | tg | t) 例: "tgbridge direction mc"</value>
+  </data>
+  <data name="bot.TelegramBridge.missing_authorized_channels" xml:space="preserve">
+    <value>[警告]「Authorized_Chat_Ids」フィールドにチャネル ID が指定されていません。ChatBot を見つけた人は誰でもメッセージやコマンドを送ることができます。</value>
+  </data>
+  <data name="bot.TelegramBridge.missing_channel_id" xml:space="preserve">
+    <value>[警告] チャネル ID が指定されていません。Telegram から送信されたコマンドへの返信のみを受け取ります。</value>
+  </data>
+  <data name="bot.TelegramBridge.missing_token" xml:space="preserve">
+    <value>有効な ChatBot トークンを指定してください。</value>
+  </data>
+  <data name="bot.TelegramBridge.unauthorized" xml:space="preserve">
+    <value>**🛑 不正アクセス 🛑
+
+アクセス権を取得するには、このチャットの ID を設定ファイルの「Authorized_Chat_Ids」フィールドに追加してください。**</value>
+  </data>
+  <data name="bot.TelegramBridge.unknown_error" xml:space="preserve">
+    <value>不明なエラーが発生しました。</value>
+  </data>
+  <data name="bot.testBot.said" xml:space="preserve">
+    <value>ChatBot {0} が発言しました: {1}</value>
+  </data>
+  <data name="bot.testBot.told" xml:space="preserve">
+    <value>ChatBot {0} が私に発言しました: {1}</value>
+  </data>
+  <data name="botname.Alerts" xml:space="preserve">
+    <value>Alerts</value>
+  </data>
+  <data name="botname.AntiAFK" xml:space="preserve">
+    <value>AntiAFK</value>
+  </data>
+  <data name="botname.AutoAttack" xml:space="preserve">
+    <value>AutoAttack</value>
+  </data>
+  <data name="botname.AutoCraft" xml:space="preserve">
+    <value>AutoCraft</value>
+  </data>
+  <data name="botname.AutoDig" xml:space="preserve">
+    <value>AutoDig</value>
+  </data>
+  <data name="botname.AutoDrop" xml:space="preserve">
+    <value>AutoDrop</value>
+  </data>
+  <data name="botname.AutoEat" xml:space="preserve">
+    <value>AutoEat</value>
+  </data>
+  <data name="botname.AutoFishing" xml:space="preserve">
+    <value>AutoFishing</value>
+  </data>
+  <data name="botname.AutoRelog" xml:space="preserve">
+    <value>AutoRelog</value>
+  </data>
+  <data name="botname.AutoRespond" xml:space="preserve">
+    <value>AutoRespond</value>
+  </data>
+  <data name="botname.ChatLog" xml:space="preserve">
+    <value>ChatLog</value>
+  </data>
+  <data name="botname.DiscordBridge" xml:space="preserve">
+    <value>DiscordBridge</value>
+  </data>
+  <data name="botname.Farmer" xml:space="preserve">
+    <value>Farmer</value>
+  </data>
+  <data name="botname.FollowPlayer" xml:space="preserve">
+    <value>FollowPlayer</value>
+  </data>
+  <data name="botname.HangmanGame" xml:space="preserve">
+    <value>HangmanGame</value>
+  </data>
+  <data name="botname.Mailer" xml:space="preserve">
+    <value>Mailer</value>
+  </data>
+  <data name="botname.Map" xml:space="preserve">
+    <value>Map</value>
+  </data>
+  <data name="botname.PlayerListLogger" xml:space="preserve">
+    <value>PlayerListLogger</value>
+  </data>
+  <data name="botname.RemoteControl" xml:space="preserve">
+    <value>RemoteControl</value>
+  </data>
+  <data name="botname.ReplayCapture" xml:space="preserve">
+    <value>ReplayCapture</value>
+  </data>
+  <data name="botname.Script" xml:space="preserve">
+    <value>Script</value>
+  </data>
+  <data name="botname.ScriptScheduler" xml:space="preserve">
+    <value>ScriptScheduler</value>
+  </data>
+  <data name="botname.TelegramBridge" xml:space="preserve">
+    <value>TelegramBridge</value>
+  </data>
+  <data name="botname.TestBot" xml:space="preserve">
+    <value>TestBot</value>
+  </data>
+  <data name="cache.converting" xml:space="preserve">
+    <value>ディスクからセッション キャッシュを変換しています: {0}</value>
+  </data>
+  <data name="cache.ignore_line" xml:space="preserve">
+    <value>無効なセッション トークンの行を無視しています: {0}</value>
+  </data>
+  <data name="cache.ignore_line_keys" xml:space="preserve">
+    <value>無効なプロファイル キー トークンの行を無視しています: {0}</value>
+  </data>
+  <data name="cache.ignore_string" xml:space="preserve">
+    <value>セッション トークンの文字列「{0}」を無視しています: {1}</value>
+  </data>
+  <data name="cache.ignore_string_keys" xml:space="preserve">
+    <value>プロファイル キー トークンの文字列「{0}」を無視しています: {1}</value>
+  </data>
+  <data name="cache.loaded" xml:space="preserve">
+    <value>読み込まれたセッション: {0}:{1}</value>
+  </data>
+  <data name="cache.loaded_keys" xml:space="preserve">
+    <value>プロファイル キーを読み込みました。次の更新は {0} です。</value>
+  </data>
+  <data name="cache.loading" xml:space="preserve">
+    <value>Minecraft のプロファイルを読み込んでいます: {0}</value>
+  </data>
+  <data name="cache.loading_keys" xml:space="preserve">
+    <value>ディスクからプロファイル キー キャッシュを読み込んでいます: {0}</value>
+  </data>
+  <data name="cache.loading_session" xml:space="preserve">
+    <value>ディスクからセッション キャッシュを読み込んでいます: {0}</value>
+  </data>
+  <data name="cache.malformed" xml:space="preserve">
+    <value>ディスクからシリアル化されたセッション キャッシュを読み込んでいる際に不正な形式のデータを取得しました: {0}</value>
+  </data>
+  <data name="cache.read_fail" xml:space="preserve">
+    <value>ディスクからシリアル化されたセッション キャッシュを読み込めませんでした: {0}</value>
+  </data>
+  <data name="cache.read_fail_plain" xml:space="preserve">
+    <value>ディスクからセッション キャッシュを読み込めませんでした: {0}</value>
+  </data>
+  <data name="cache.read_fail_plain_keys" xml:space="preserve">
+    <value>ディスクからプロファイル キー キャッシュを読み込めませんでした: {0}</value>
+  </data>
+  <data name="cache.save_fail" xml:space="preserve">
+    <value>ディスクにセッション キャッシュを書き込めませんでした: {0}</value>
+  </data>
+  <data name="cache.save_fail_keys" xml:space="preserve">
+    <value>ディスクにプロファイル キー キャッシュを書き込めませんでした: {0}</value>
+  </data>
+  <data name="cache.saving" xml:space="preserve">
+    <value>ディスクにセッション キャッシュを保存しています。</value>
+  </data>
+  <data name="cache.saving_keys" xml:space="preserve">
+    <value>ディスクにプロファイル キー キャッシュを保存しています。</value>
+  </data>
+  <data name="chat.done" xml:space="preserve">
+    <value>ファイルは「{0}」に保存されました。</value>
+  </data>
+  <data name="chat.download" xml:space="preserve">
+    <value>Mojang サーバーから「{0}.json」をダウンロードしています...</value>
+  </data>
+  <data name="chat.fail" xml:space="preserve">
+    <value>ファイルをダウンロードできませんでした。</value>
+  </data>
+  <data name="chat.loaded" xml:space="preserve">
+    <value>翻訳ファイルを読み込みました。</value>
+  </data>
+  <data name="chat.message_chain_broken" xml:space="preserve">
+    <value>プレイヤー {0} のメッセージ チェーンが壊れています。</value>
+  </data>
+  <data name="chat.not_found" xml:space="preserve">
+    <value>翻訳ファイルが見つかりませんでした: {0}
+一部のメッセージは、このファイルがないと正しく表示されません。</value>
+  </data>
+  <data name="chat.request" xml:space="preserve">
+    <value>{0} へのリクエストを実行します。</value>
+  </data>
+  <data name="chat.save_fail" xml:space="preserve">
+    <value>ファイル「{0}」を保存できませんでした。</value>
+  </data>
+  <data name="chat.use_default" xml:space="preserve">
+    <value>Minecraft のデフォルトの言語リソース「en_us.json」を使用するように切り替えます。</value>
+  </data>
+  <data name="chatbot.reconnect" xml:space="preserve">
+    <value>[{0}] の接続を切断し、サーバーに再接続します。</value>
+  </data>
+  <data name="cmd.animation.desc" xml:space="preserve">
+    <value>手を振っています。</value>
+  </data>
+  <data name="cmd.bed.bed_not_found" xml:space="preserve">
+    <value>ベッドが見つかりませんでした。</value>
+  </data>
+  <data name="cmd.bed.cant_reach_safely" xml:space="preserve">
+    <value>安全なベッドの位置に移動できません。</value>
+  </data>
+  <data name="cmd.bed.desc" xml:space="preserve">
+    <value>ベッドで寝たり、起きたりする際に使用します。</value>
+  </data>
+  <data name="cmd.bed.failed_to_reach_in_time" xml:space="preserve">
+    <value>ベッドの位置 ({0:0.0}, {1:0.0}, {2:0.0}) に 30 秒で移動できませんでした。</value>
+  </data>
+  <data name="cmd.bed.found_a_bed_at" xml:space="preserve">
+    <value>ベッドが {0:0.0}, {1:0.0}, {2:0.0} に設置されています。</value>
+  </data>
+  <data name="cmd.bed.in" xml:space="preserve">
+    <value>正常にベッドで寝ました。</value>
+  </data>
+  <data name="cmd.bed.leaving" xml:space="preserve">
+    <value>ベッドから起きるコマンドをサーバーに送信します。</value>
+  </data>
+  <data name="cmd.bed.moving" xml:space="preserve">
+    <value>ベッドの位置 ({0:0.0}, {1:0.0}, {2:0.0}) に移動します。</value>
+  </data>
+  <data name="cmd.bed.not_a_bed" xml:space="preserve">
+    <value>{0:0.0}, {1:0.0}, {2:0.0} にベッドが設置されていませんでした。</value>
+  </data>
+  <data name="cmd.bed.not_in" xml:space="preserve">
+    <value>ベッドで寝ることができませんでした。ベッドの頭の位置を指定する必要があります。</value>
+  </data>
+  <data name="cmd.bed.searching" xml:space="preserve">
+    <value>半径 {0:0.00} ブロック内に設置されているベッドを探しています...</value>
+  </data>
+  <data name="cmd.bed.trying_to_use" xml:space="preserve">
+    <value>{0:0.0}, {1:0.0}, {2:0.0} に設置されているベッドで寝ようとしています。結果: {3}</value>
+  </data>
+  <data name="cmd.blockinfo.BlocksAround" xml:space="preserve">
+    <value>周囲のブロック</value>
+  </data>
+  <data name="cmd.blockinfo.BlockType" xml:space="preserve">
+    <value>ブロックの種類</value>
+  </data>
+  <data name="cmd.blockinfo.desc" xml:space="preserve">
+    <value>指定された座標に設置されているブロックの種類を表示します。指定した座標の周囲に設置されているブロックを表示するには、「-s」を使用します。</value>
+  </data>
+  <data name="cmd.blockinfo.Negative" xml:space="preserve">
+    <value>Negative</value>
+  </data>
+  <data name="cmd.blockinfo.Positive" xml:space="preserve">
+    <value>Positive</value>
+  </data>
+  <data name="cmd.bots.desc" xml:space="preserve">
+    <value>すべての ChatBot をリスト表示し、読み込みまたはアンロードします。</value>
+  </data>
+  <data name="cmd.bots.list" xml:space="preserve">
+    <value>読み込まれた ChatBot</value>
+  </data>
+  <data name="cmd.bots.noloaded" xml:space="preserve">
+    <value>ChatBot が読み込まれていません。</value>
+  </data>
+  <data name="cmd.bots.notfound" xml:space="preserve">
+    <value>ChatBot {0} は読み込まれませんでした。入力内容をご確認ください。</value>
+  </data>
+  <data name="cmd.bots.unloaded" xml:space="preserve">
+    <value>正常に ChatBot をアンロードしました: {0}</value>
+  </data>
+  <data name="cmd.bots.unloaded_all" xml:space="preserve">
+    <value>正常にすべての ChatBot をアンロードしました。</value>
+  </data>
+  <data name="cmd.changeSlot.changed" xml:space="preserve">
+    <value>スロット {0} を選択しました。</value>
+  </data>
+  <data name="cmd.changeSlot.desc" xml:space="preserve">
+    <value>ホットバーの選択スロットを変更します。</value>
+  </data>
+  <data name="cmd.changeSlot.fail" xml:space="preserve">
+    <value>スロットを選択できませんでした。</value>
+  </data>
+  <data name="cmd.changeSlot.nan" xml:space="preserve">
+    <value>スロットを選択できませんでした。整数を入力してください。</value>
+  </data>
+  <data name="cmd.chunk.chunk_pos" xml:space="preserve">
+    <value>チャンク: {0}, {1}</value>
+  </data>
+  <data name="cmd.chunk.current" xml:space="preserve">
+    <value>現在の位置：{0}、チャンク: {1}, {2}</value>
+  </data>
+  <data name="cmd.chunk.desc" xml:space="preserve">
+    <value>チャンクの読み込み状態を表示します。
+表示がわかりにくい場合は、設定から EnableEmoji を false に変更してください。</value>
+  </data>
+  <data name="cmd.chunk.for_debug" xml:space="preserve">
+    <value>このコマンドはデバッグ専用です。コマンドを実行した際の影響をご理解ください。</value>
+  </data>
+  <data name="cmd.chunk.icon" xml:space="preserve">
+    <value>プレイヤー: {0}、マークされたチャンク: {1}、受信されていない: {2}、読み込み中: {3}、読み込み済み: {4}</value>
+  </data>
+  <data name="cmd.chunk.marked" xml:space="preserve">
+    <value>マークされた場所: </value>
+  </data>
+  <data name="cmd.chunk.outside" xml:space="preserve">
+    <value>マークされたチャンクはプレイヤーから離れすぎているため、表示されません。</value>
+  </data>
+  <data name="cmd.connect.desc" xml:space="preserve">
+    <value>指定したサーバーに接続します。</value>
+  </data>
+  <data name="cmd.connect.invalid_ip" xml:space="preserve">
+    <value>サーバー IP「{0}」は使用できません。</value>
+  </data>
+  <data name="cmd.connect.unknown" xml:space="preserve">
+    <value>「{0}」は不明なアカウントです。</value>
+  </data>
+  <data name="cmd.debug.desc" xml:space="preserve">
+    <value>デバッグ メッセージを切り替えます。</value>
+  </data>
+  <data name="cmd.debug.state_off" xml:space="preserve">
+    <value>デバッグ メッセージがオフになりました。</value>
+  </data>
+  <data name="cmd.debug.state_on" xml:space="preserve">
+    <value>デバッグ メッセージがオンになりました。</value>
+  </data>
+  <data name="cmd.dig.desc" xml:space="preserve">
+    <value>ブロックを採掘します。</value>
+  </data>
+  <data name="cmd.dig.dig" xml:space="preserve">
+    <value>{0}, {1}, {2} に設置されている {3} を採掘します。</value>
+  </data>
+  <data name="cmd.dig.fail" xml:space="preserve">
+    <value>ブロックの採掘を開始できませんでした。</value>
+  </data>
+  <data name="cmd.dig.no_block" xml:space="preserve">
+    <value>その位置にはブロックがありません。</value>
+  </data>
+  <data name="cmd.dig.too_far" xml:space="preserve">
+    <value>そのブロックから離れすぎています。</value>
+  </data>
+  <data name="cmd.dropItem.desc" xml:space="preserve">
+    <value>プレイヤーのインベントリまたは開いたコンテナーから、指定されたアイテムを捨てます。</value>
+  </data>
+  <data name="cmd.dropItem.dropped" xml:space="preserve">
+    <value>インベントリ #{1} からすべての {0} を捨てました。</value>
+  </data>
+  <data name="cmd.dropItem.unknown_item" xml:space="preserve">
+    <value>{0} は不明なアイテムです。</value>
+  </data>
+  <data name="cmd.enchant.clicked" xml:space="preserve">
+    <value>サーバーにクリックを送信しました。十分なレベルがあり、アイテムを正しいスロットに配置した際にエンチャントが適用されています。</value>
+  </data>
+  <data name="cmd.enchant.desc" xml:space="preserve">
+    <value>エンチャント テーブルが開かれている際にアイテムをエンチャントします。</value>
+  </data>
+  <data name="cmd.enchant.enchanting_no_item" xml:space="preserve">
+    <value>スロット 0 にエンチャントするアイテムがありません。</value>
+  </data>
+  <data name="cmd.enchant.enchanting_no_lapis" xml:space="preserve">
+    <value>スロット 1 に 3 個以上のラピスラズリがありません。</value>
+  </data>
+  <data name="cmd.enchant.enchanting_table_not_opened" xml:space="preserve">
+    <value>エンチャント テーブルが開かれていません。</value>
+  </data>
+  <data name="cmd.enchant.invalid_slot" xml:space="preserve">
+    <value>指定されたスロットは使用できません。(利用できるスロット: top、middle、bottom)</value>
+  </data>
+  <data name="cmd.enchant.not_clicked" xml:space="preserve">
+    <value>クリックできませんでした。</value>
+  </data>
+  <data name="cmd.enchant.no_enchantments" xml:space="preserve">
+    <value>サーバーからエンチャントを取得する前に、エンチャントするアイテムをエンチャント テーブルに配置する必要があります。</value>
+  </data>
+  <data name="cmd.enchant.no_levels" xml:space="preserve">
+    <value>エンチャントするために必要なレベルが不足しています。(現在のレベルは {0} ですが、レベルが {1} である必要があります。)</value>
+  </data>
+  <data name="cmd.entityCmd.attacked" xml:space="preserve">
+    <value>エンティティの攻撃</value>
+  </data>
+  <data name="cmd.entityCmd.boots" xml:space="preserve">
+    <value>ブーツ</value>
+  </data>
+  <data name="cmd.entityCmd.chestplate" xml:space="preserve">
+    <value>チェストプレート</value>
+  </data>
+  <data name="cmd.entityCmd.customname" xml:space="preserve">
+    <value>エンティティの名前</value>
+  </data>
+  <data name="cmd.entityCmd.distance" xml:space="preserve">
+    <value>距離</value>
+  </data>
+  <data name="cmd.entityCmd.entities" xml:space="preserve">
+    <value>エンティティ</value>
+  </data>
+  <data name="cmd.entityCmd.entity" xml:space="preserve">
+    <value>エンティティ</value>
+  </data>
+  <data name="cmd.entityCmd.equipment" xml:space="preserve">
+    <value>装備</value>
+  </data>
+  <data name="cmd.entityCmd.health" xml:space="preserve">
+    <value>体力</value>
+  </data>
+  <data name="cmd.entityCmd.helmet" xml:space="preserve">
+    <value>ヘルメット</value>
+  </data>
+  <data name="cmd.entityCmd.item" xml:space="preserve">
+    <value>アイテム</value>
+  </data>
+  <data name="cmd.entityCmd.latency" xml:space="preserve">
+    <value>遅延</value>
+  </data>
+  <data name="cmd.entityCmd.leggings" xml:space="preserve">
+    <value>レギンス</value>
+  </data>
+  <data name="cmd.entityCmd.location" xml:space="preserve">
+    <value>場所</value>
+  </data>
+  <data name="cmd.entityCmd.mainhand" xml:space="preserve">
+    <value>利き手</value>
+  </data>
+  <data name="cmd.entityCmd.nickname" xml:space="preserve">
+    <value>ニックネーム</value>
+  </data>
+  <data name="cmd.entityCmd.not_found" xml:space="preserve">
+    <value>エンティティが見つかりませんでした。</value>
+  </data>
+  <data name="cmd.entityCmd.offhand" xml:space="preserve">
+    <value>オフハンド</value>
+  </data>
+  <data name="cmd.entityCmd.pose" xml:space="preserve">
+    <value>ポーズ</value>
+  </data>
+  <data name="cmd.entityCmd.type" xml:space="preserve">
+    <value>種類</value>
+  </data>
+  <data name="cmd.entityCmd.used" xml:space="preserve">
+    <value>エンティティの使用</value>
+  </data>
+  <data name="cmd.execif.desc" xml:space="preserve">
+    <value>条件が満たされた際にコマンドが実行されます。(MinecraftClient.ini と /set コマンドで定義された変数と、CSharp 式を使用できます。)</value>
+  </data>
+  <data name="cmd.execif.error" xml:space="preserve">
+    <value>エラー: {0}</value>
+  </data>
+  <data name="cmd.execif.error_occured" xml:space="preserve">
+    <value>コマンドを実行している際にエラーが発生しました: {0}</value>
+  </data>
+  <data name="cmd.execif.executed" xml:space="preserve">
+    <value>条件「{0}」が満たされたため、コマンド「{1}」が実行され、結果「{2}」が返されました。</value>
+  </data>
+  <data name="cmd.execif.executed_no_output" xml:space="preserve">
+    <value>条件「{0}」が満たされたため、コマンド「{1}」が実行されましたが、結果は返されませんでした。</value>
+  </data>
+  <data name="cmd.execmulti.desc" xml:space="preserve">
+    <value>複数のコマンドを順番に実行します。</value>
+  </data>
+  <data name="cmd.execmulti.executed" xml:space="preserve">
+    <value>コマンド「{0}」を {1} で実行しました</value>
+  </data>
+  <data name="cmd.execmulti.no_result" xml:space="preserve">
+    <value>結果が返されませんでした。</value>
+  </data>
+  <data name="cmd.execmulti.prevent" xml:space="preserve">
+    <value>execmulti コマンド内で、execmulti コマンドまたは execif コマンドを使用することはできません。</value>
+  </data>
+  <data name="cmd.execmulti.result" xml:space="preserve">
+    <value>結果「{0}」が返されました。</value>
+  </data>
+  <data name="cmd.exit.desc" xml:space="preserve">
+    <value>サーバーから切断します。</value>
+  </data>
+  <data name="cmd.follow.already_following" xml:space="preserve">
+    <value>すでに {0} を追従しています。</value>
+  </data>
+  <data name="cmd.follow.already_stopped" xml:space="preserve">
+    <value>すでに追従を停止しています。</value>
+  </data>
+  <data name="cmd.follow.cant_reach_player" xml:space="preserve">
+    <value>プレイヤーが読み込まれていないチャンクにいるか、隙間などの障害物や水域があるため、到達できません。</value>
+  </data>
+  <data name="cmd.follow.desc" xml:space="preserve">
+    <value>ChatBot を指定したプレイヤーに追従させます。</value>
+  </data>
+  <data name="cmd.follow.invalid_name" xml:space="preserve">
+    <value>指定されたプレイヤー名は使用できません。</value>
+  </data>
+  <data name="cmd.follow.invalid_player" xml:space="preserve">
+    <value>指定されたプレイヤーはオンラインではないか、離れすぎています。</value>
+  </data>
+  <data name="cmd.follow.note" xml:space="preserve">
+    <value>注意: 追従速度はかなり遅く、「手に食べ物を持っているプレイヤーを動物が追いかける」ように、ゆっくりと歩き、近距離を保つ必要があります。これは経路探索アルゴリズムの制限によるもので、改善に取り組んでいます。</value>
+  </data>
+  <data name="cmd.follow.pausing" xml:space="preserve">
+    <value>一時停止しました。</value>
+  </data>
+  <data name="cmd.follow.player_came_to_the_range" xml:space="preserve">
+    <value>プレイヤー {0} が範囲に戻りました。</value>
+  </data>
+  <data name="cmd.follow.player_left" xml:space="preserve">
+    <value>プレイヤー {0} がサーバーを退出しました。</value>
+  </data>
+  <data name="cmd.follow.player_left_the_range" xml:space="preserve">
+    <value>プレイヤー {0} が範囲を出ました。</value>
+  </data>
+  <data name="cmd.follow.resuming" xml:space="preserve">
+    <value>追従を再開します。</value>
+  </data>
+  <data name="cmd.follow.started" xml:space="preserve">
+    <value>{0} の追従を開始しました。</value>
+  </data>
+  <data name="cmd.follow.stopping" xml:space="preserve">
+    <value>追従を停止しました。</value>
+  </data>
+  <data name="cmd.follow.switched" xml:space="preserve">
+    <value>プレイヤー {0} を追従します。</value>
+  </data>
+  <data name="cmd.follow.unsafe_enabled" xml:space="preserve">
+    <value>安全でない歩行をオンにしました。(注意: ChatBot が死んでしまったり、ダメージを受けたりするおそれがあります)</value>
+  </data>
+  <data name="cmd.follow.usage" xml:space="preserve">
+    <value>follow &lt;player name | stop&gt; [-f] (安全でない歩行をオンにするには、「-f」を使用します。)</value>
+  </data>
+  <data name="cmd.health.desc" xml:space="preserve">
+    <value>体力と満腹度を表示します。</value>
+  </data>
+  <data name="cmd.health.response" xml:space="preserve">
+    <value>体力: {0}、満腹度: {1}、レベル: {2}、総経験値: {3}</value>
+  </data>
+  <data name="cmd.inventory.clicking" xml:space="preserve">
+    <value>コンテナー #{2} のスロット {1} で {0} をクリックします。</value>
+  </data>
+  <data name="cmd.inventory.close" xml:space="preserve">
+    <value>インベントリ #{0} を閉じています。</value>
+  </data>
+  <data name="cmd.inventory.close_fail" xml:space="preserve">
+    <value>インベントリ #{0} を閉じることができませんでした。</value>
+  </data>
+  <data name="cmd.inventory.container_not_found" xml:space="preserve">
+    <value>コンテナーが見つかりません。明示的な ID でもう一度お試しください。</value>
+  </data>
+  <data name="cmd.inventory.creative_delete" xml:space="preserve">
+    <value>スロット #{0} を消去します。</value>
+  </data>
+  <data name="cmd.inventory.creative_done" xml:space="preserve">
+    <value>スロット #{2} に {0} を {1} 個与えます。</value>
+  </data>
+  <data name="cmd.inventory.creative_fail" xml:space="preserve">
+    <value>クリエイティブ操作を指示できませんでした。</value>
+  </data>
+  <data name="cmd.inventory.damage" xml:space="preserve">
+    <value>消耗した耐久値</value>
+  </data>
+  <data name="cmd.inventory.desc" xml:space="preserve">
+    <value>コンテナーの操作を指示します。</value>
+  </data>
+  <data name="cmd.inventory.drop" xml:space="preserve">
+    <value>スロット #{0} から 1 個のアイテムを捨てました。</value>
+  </data>
+  <data name="cmd.inventory.drop_stack" xml:space="preserve">
+    <value>スロット #{0} からアイテム スタックを捨てました。</value>
+  </data>
+  <data name="cmd.inventory.found_items" xml:space="preserve">
+    <value>見つかったアイテム</value>
+  </data>
+  <data name="cmd.inventory.help.available" xml:space="preserve">
+    <value>利用できる操作</value>
+  </data>
+  <data name="cmd.inventory.help.basic" xml:space="preserve">
+    <value>基本的な使い方</value>
+  </data>
+  <data name="cmd.inventory.help.click" xml:space="preserve">
+    <value>アイテムをクリックします。</value>
+  </data>
+  <data name="cmd.inventory.help.close" xml:space="preserve">
+    <value>開いているコンテナーを閉じます。</value>
+  </data>
+  <data name="cmd.inventory.help.creativedelete" xml:space="preserve">
+    <value>クリエイティブ インベントリのスロットを消去します。</value>
+  </data>
+  <data name="cmd.inventory.help.creativegive" xml:space="preserve">
+    <value>クリエイティブ インベントリにアイテムを与えます。</value>
+  </data>
+  <data name="cmd.inventory.help.drop" xml:space="preserve">
+    <value>インベントリからアイテムを捨てます。</value>
+  </data>
+  <data name="cmd.inventory.help.help" xml:space="preserve">
+    <value>{0}
+「/inventory help &lt;action&gt;」を使用して操作のヘルプを表示します。
+「player」と「container」は「p」と「c」に省略できます。
+「[]」内のパラメーターは任意です。</value>
+  </data>
+  <data name="cmd.inventory.help.inventories" xml:space="preserve">
+    <value>利用できるインベントリをリスト表示します。</value>
+  </data>
+  <data name="cmd.inventory.help.list" xml:space="preserve">
+    <value>自分のインベントリをリスト表示します。</value>
+  </data>
+  <data name="cmd.inventory.help.search" xml:space="preserve">
+    <value>利用できるインベントリからアイテムを探します。</value>
+  </data>
+  <data name="cmd.inventory.help.shiftclick" xml:space="preserve">
+    <value>Shift キーを押しながらアイテムをクリックします。</value>
+  </data>
+  <data name="cmd.inventory.help.unknown" xml:space="preserve">
+    <value>不明な操作です。</value>
+  </data>
+  <data name="cmd.inventory.help.usage" xml:space="preserve">
+    <value>使い方</value>
+  </data>
+  <data name="cmd.inventory.hotbar" xml:space="preserve">
+    <value>選択されているホットバーは {0} です。</value>
+  </data>
+  <data name="cmd.inventory.inventories" xml:space="preserve">
+    <value>インベントリ</value>
+  </data>
+  <data name="cmd.inventory.inventories_available" xml:space="preserve">
+    <value>利用できるインベントリ</value>
+  </data>
+  <data name="cmd.inventory.inventory" xml:space="preserve">
+    <value>インベントリ</value>
+  </data>
+  <data name="cmd.inventory.left" xml:space="preserve">
+    <value>左</value>
+  </data>
+  <data name="cmd.inventory.middle" xml:space="preserve">
+    <value>中央</value>
+  </data>
+  <data name="cmd.inventory.need_creative" xml:space="preserve">
+    <value>クリエイティブモードである必要があります。</value>
+  </data>
+  <data name="cmd.inventory.not_exist" xml:space="preserve">
+    <value>インベントリ #{0} が存在しません。</value>
+  </data>
+  <data name="cmd.inventory.no_found_items" xml:space="preserve">
+    <value>利用できるインベントリから指定されたアイテムが見つかりませんでした。</value>
+  </data>
+  <data name="cmd.inventory.no_item" xml:space="preserve">
+    <value>スロット #{0} にはアイテムがありません。</value>
+  </data>
+  <data name="cmd.inventory.right" xml:space="preserve">
+    <value>右</value>
+  </data>
+  <data name="cmd.inventory.shiftclick" xml:space="preserve">
+    <value>コンテナー #{1} のスロット {0} で Shift キーを押しながらクリックします。</value>
+  </data>
+  <data name="cmd.inventory.shiftclick_fail" xml:space="preserve">
+    <value>Shift キーを押しながらクリックできませんでした。このコンテナーの種類はサポートされていないと考えられます。</value>
+  </data>
+  <data name="cmd.list.desc" xml:space="preserve">
+    <value>プレイヤー リストを表示します。</value>
+  </data>
+  <data name="cmd.list.players" xml:space="preserve">
+    <value>プレイヤー リスト: {0}</value>
+  </data>
+  <data name="cmd.log.desc" xml:space="preserve">
+    <value>テキストをコンソールに書き込みます。</value>
+  </data>
+  <data name="cmd.look.at" xml:space="preserve">
+    <value>Y 軸回転を {0} に、X 軸回転を {1} に回転させます。</value>
+  </data>
+  <data name="cmd.look.block" xml:space="preserve">
+    <value>{0} の方向に回転させます。</value>
+  </data>
+  <data name="cmd.look.desc" xml:space="preserve">
+    <value>指定した方向または座標に回転させます。</value>
+  </data>
+  <data name="cmd.look.inspection" xml:space="preserve">
+    <value>視線と交差する最初のブロックは {0} ({1:0}, {2:0}, {3:0}) であり、{4:0.0} ({5:0.0}) 離れています。</value>
+  </data>
+  <data name="cmd.look.noinspection" xml:space="preserve">
+    <value>{0} メートル以内に視線と交差するブロックはありません。</value>
+  </data>
+  <data name="cmd.look.unknown" xml:space="preserve">
+    <value>「{0}」は不明な方向です。</value>
+  </data>
+  <data name="cmd.move.chunk_loading_status" xml:space="preserve">
+    <value>チャンクの読み込み状態: {0:P} - {2} のうちの {1} 項目の読み込みが完了しました。</value>
+  </data>
+  <data name="cmd.move.chunk_not_loaded" xml:space="preserve">
+    <value>指定した場所のチャンクは読み込まれていません。
+「/chunk status {0:0.0} {1:0.0} {2:0.0}」を使用してチャンクの読み込み状態を表示します。</value>
+  </data>
+  <data name="cmd.move.desc" xml:space="preserve">
+    <value>移動します。</value>
+  </data>
+  <data name="cmd.move.desc_force" xml:space="preserve">
+    <value>落下や炎への接触など、安全でない歩行をオンにします。</value>
+  </data>
+  <data name="cmd.move.dir_fail" xml:space="preserve">
+    <value>指定した方向には移動できません。</value>
+  </data>
+  <data name="cmd.move.disable" xml:space="preserve">
+    <value>TerrainAndMovements をオフにします。</value>
+  </data>
+  <data name="cmd.move.enable" xml:space="preserve">
+    <value>次回のサーバー ログイン、リスポーン、ワールドを変更した際に TerrainAndMovements をオンにします。</value>
+  </data>
+  <data name="cmd.move.fail" xml:space="preserve">
+    <value>{0} への経路を計算できませんでした。</value>
+  </data>
+  <data name="cmd.move.gravity.disabled" xml:space="preserve">
+    <value>重力はオフです。</value>
+  </data>
+  <data name="cmd.move.gravity.enabled" xml:space="preserve">
+    <value>重力はオンです。</value>
+  </data>
+  <data name="cmd.move.moving" xml:space="preserve">
+    <value>{0} に移動します。</value>
+  </data>
+  <data name="cmd.move.suggestforce" xml:space="preserve">
+    <value>{0} への安全な経路を計算できませんでした。安全でない歩行をオンにするには、「-f」を使用してください。</value>
+  </data>
+  <data name="cmd.move.walk" xml:space="preserve">
+    <value>{1} から {0} に移動します。</value>
+  </data>
+  <data name="cmd.reco.desc" xml:space="preserve">
+    <value>再起動してサーバーに再接続します。</value>
+  </data>
+  <data name="cmd.reload.desc" xml:space="preserve">
+    <value>MCC 設定を再読み込みします。</value>
+  </data>
+  <data name="cmd.reload.finished" xml:space="preserve">
+    <value>設定を再読み込みしました。</value>
+  </data>
+  <data name="cmd.reload.started" xml:space="preserve">
+    <value>設定を再読み込みしています...</value>
+  </data>
+  <data name="cmd.reload.warning1" xml:space="preserve">
+    <value>このコマンドは、サーバーに接続する前に読み込まれる設定には影響しません。</value>
+  </data>
+  <data name="cmd.reload.warning2" xml:space="preserve">
+    <value>コマンド ライン パラメーターで指定した一部の設定は上書きされる場合があります。</value>
+  </data>
+  <data name="cmd.reload.warning3" xml:space="preserve">
+    <value>一部の設定を有効にするには、再接続する必要がある場合があります。</value>
+  </data>
+  <data name="cmd.reload.warning4" xml:space="preserve">
+    <value>技術的な制限により、リプレイ ChatBot は再読み込みされません。</value>
+  </data>
+  <data name="cmd.respawn.desc" xml:space="preserve">
+    <value>死んでいる際にリスポーンします。</value>
+  </data>
+  <data name="cmd.respawn.done" xml:space="preserve">
+    <value>リスポーンしました。</value>
+  </data>
+  <data name="cmd.script.desc" xml:space="preserve">
+    <value>スクリプト ファイルを実行します。</value>
+  </data>
+  <data name="cmd.send.desc" xml:space="preserve">
+    <value>チャット メッセージまたはコマンドを送信します。</value>
+  </data>
+  <data name="cmd.set.desc" xml:space="preserve">
+    <value>カスタム %variable% を設定します。</value>
+  </data>
+  <data name="cmd.set.format" xml:space="preserve">
+    <value>変数名は半角英数字である必要があります。</value>
+  </data>
+  <data name="cmd.setrnd.desc" xml:space="preserve">
+    <value>カスタム %variable% にランダムな値を設定します。</value>
+  </data>
+  <data name="cmd.setrnd.format" xml:space="preserve">
+    <value>確率変数 -7 を 17 に設定、または確率変数 string1 "\"string2\" string3" を設定します。</value>
+  </data>
+  <data name="cmd.setrndnum.format" xml:space="preserve">
+    <value>確率変数 -7 を 17 に設定します。</value>
+  </data>
+  <data name="cmd.setrndstr.format" xml:space="preserve">
+    <value>確率変数 string1 "\"string2\" string3" を設定します。</value>
+  </data>
+  <data name="cmd.sneak.desc" xml:space="preserve">
+    <value>スニークを切り替えます。</value>
+  </data>
+  <data name="cmd.sneak.off" xml:space="preserve">
+    <value>スニークをやめます。</value>
+  </data>
+  <data name="cmd.sneak.on" xml:space="preserve">
+    <value>スニークをします。</value>
+  </data>
+  <data name="cmd.tps.current" xml:space="preserve">
+    <value>現在の TPS</value>
+  </data>
+  <data name="cmd.tps.desc" xml:space="preserve">
+    <value>サーバーの現在の TPS (tick per second) を表示します。正確ではない場合があります。</value>
+  </data>
+  <data name="cmd.useblock.desc" xml:space="preserve">
+    <value>指定した位置に選択中のアイテムを設置します。</value>
+  </data>
+  <data name="cmd.useblock.use" xml:space="preserve">
+    <value>{0:0.0}, {1:0.0}, {2:0.0} に選択中のアイテムを設置しました。{3}</value>
+  </data>
+  <data name="cmd.useitem.desc" xml:space="preserve">
+    <value>選択中のアイテムを使用します。</value>
+  </data>
+  <data name="cmd.useitem.use" xml:space="preserve">
+    <value>アイテムを使用しました。</value>
+  </data>
+  <data name="config.backup.fail" xml:space="preserve">
+    <value>バックアップ ファイル {0} に書き込めませんでした。</value>
+  </data>
+  <data name="config.commandsuggestion.illegal_color" xml:space="preserve">
+    <value>{0} のカラー コード {1} の形式が正しくありません。デフォルト値が復元されました。</value>
+  </data>
+  <data name="config.load" xml:space="preserve">
+    <value>設定は {0} から読み込みました。</value>
+  </data>
+  <data name="config.load.fail" xml:space="preserve">
+    <value>設定を読み込めませんでした:</value>
+  </data>
+  <data name="config.Main.Advanced.language.invaild" xml:space="preserve">
+    <value>言語コードは使用できません。</value>
+  </data>
+  <data name="config.saving" xml:space="preserve">
+    <value>現在の設定は {0} に保存されました。</value>
+  </data>
+  <data name="config.write.fail" xml:space="preserve">
+    <value>設定ファイル {0} に書き込めませんでした。</value>
+  </data>
+  <data name="debug.color_test" xml:space="preserve">
+    <value>カラー テスト: ターミナルには {0} が表示されます。</value>
+  </data>
+  <data name="debug.crypto" xml:space="preserve">
+    <value>暗号鍵とハッシュが生成されました。</value>
+  </data>
+  <data name="debug.keys_cache_fail" xml:space="preserve">
+    <value>ディスクからプロファイル キーを読み込めませんでした。</value>
+  </data>
+  <data name="debug.keys_cache_ok" xml:space="preserve">
+    <value>正常にディスクからプロファイル キーが読み込まれました。</value>
+  </data>
+  <data name="debug.request" xml:space="preserve">
+    <value>{0} へのリクエストを実行します。</value>
+  </data>
+  <data name="debug.session_cache_fail" xml:space="preserve">
+    <value>ディスクからセッションを読み込めませんでした。</value>
+  </data>
+  <data name="debug.session_cache_ok" xml:space="preserve">
+    <value>正常にディスクからセッション データが読み込まれました。</value>
+  </data>
+  <data name="debug.session_id" xml:space="preserve">
+    <value>成功しました。(セッション ID: {0})</value>
+  </data>
+  <data name="Enchantment.bottom_slot" xml:space="preserve">
+    <value>Bottom スロット</value>
+  </data>
+  <data name="Enchantment.enchantments_available" xml:space="preserve">
+    <value>利用できるエンチャント</value>
+  </data>
+  <data name="Enchantment.levels" xml:space="preserve">
+    <value>レベル</value>
+  </data>
+  <data name="Enchantment.middle_slot" xml:space="preserve">
+    <value>Middle スロット</value>
+  </data>
+  <data name="Enchantment.tops_slot" xml:space="preserve">
+    <value>Top スロット</value>
+  </data>
+  <data name="error.auth" xml:space="preserve">
+    <value>認証を更新している際にサーバーからエラー コードを取得しました: {0}</value>
+  </data>
+  <data name="error.connect" xml:space="preserve">
+    <value>この IP に接続できませんでした。</value>
+  </data>
+  <data name="error.connection_timeout" xml:space="preserve">
+    <value>この IP に接続している際にタイムアウトになりました。</value>
+  </data>
+  <data name="error.determine" xml:space="preserve">
+    <value>サーバーのバージョンを特定できませんでした。</value>
+  </data>
+  <data name="error.forge" xml:space="preserve">
+    <value>Forge Login Handshake が完了しませんでした。</value>
+  </data>
+  <data name="error.forgeforce" xml:space="preserve">
+    <value>この Minecraft バージョンの Forge サポートを強制することはできません。</value>
+  </data>
+  <data name="error.forge_encrypt" xml:space="preserve">
+    <value>Forge StartEncryption Handshake が完了しませんでした。</value>
+  </data>
+  <data name="error.generator.invalid" xml:space="preserve">
+    <value>ジェネレーター コマンドの使い方が正しくありません。</value>
+  </data>
+  <data name="error.generator.json" xml:space="preserve">
+    <value>指定したパスは .json 形式のファイルへのパスである必要があります。</value>
+  </data>
+  <data name="error.generator.path" xml:space="preserve">
+    <value>指定されたデータ パスは使用できません。入力内容をご確認ください。</value>
+  </data>
+  <data name="error.http_code" xml:space="preserve">
+    <value>サーバーからエラー コードを取得しました: {0}</value>
+  </data>
+  <data name="error.invalid_encrypt" xml:space="preserve">
+    <value>無効な StartEncryption パケットへの応答です。</value>
+  </data>
+  <data name="error.invalid_response" xml:space="preserve">
+    <value>無効な Handshake パケットへの応答です。</value>
+  </data>
+  <data name="error.inventoryhandling_not_enabled" xml:space="preserve">
+    <value>InventoryHandling が true になっていないため、使用できません。</value>
+  </data>
+  <data name="error.join" xml:space="preserve">
+    <value>このサーバーに参加している際にエラーが発生しました。</value>
+  </data>
+  <data name="error.login" xml:space="preserve">
+    <value>ログインできませんでした: </value>
+  </data>
+  <data name="error.login.blocked" xml:space="preserve">
+    <value>ユーザー名またはパスワードが正しくないか、IP がブロックされている、またはログイン回数が多すぎます。</value>
+  </data>
+  <data name="error.login.cancel" xml:space="preserve">
+    <value>ユーザーがキャンセルしました。</value>
+  </data>
+  <data name="error.login.migrated" xml:space="preserve">
+    <value>アカウントが移行されました。ユーザー名としてメールアドレスを使用してください。</value>
+  </data>
+  <data name="error.login.network" xml:space="preserve">
+    <value>ネットワーク エラーが発生しました。</value>
+  </data>
+  <data name="error.login.premium" xml:space="preserve">
+    <value>ユーザーはプレミアムではありません。</value>
+  </data>
+  <data name="error.login.response" xml:space="preserve">
+    <value>無効なサーバーの応答です。</value>
+  </data>
+  <data name="error.login.server" xml:space="preserve">
+    <value>ログイン サーバーが利用できません。後でもう一度お試しください。</value>
+  </data>
+  <data name="error.login.ssl" xml:space="preserve">
+    <value>SSL エラーが発生しました。</value>
+  </data>
+  <data name="error.login.unknown" xml:space="preserve">
+    <value>不明なエラーが発生しました。</value>
+  </data>
+  <data name="error.login_failed" xml:space="preserve">
+    <value>このサーバーにログインできませんでした。</value>
+  </data>
+  <data name="error.missing.argument" xml:space="preserve">
+    <value>引数 {0} がありません。</value>
+  </data>
+  <data name="error.no_version_report" xml:space="preserve">
+    <value>サーバーはプロトコル バージョンを報告しません。自動検出は機能しません。</value>
+  </data>
+  <data name="error.ping" xml:space="preserve">
+    <value>この IP に ping できませんでした。</value>
+  </data>
+  <data name="error.realms.access_denied" xml:space="preserve">
+    <value>この Realms ワールドは存在しないか、アクセスが拒否されました。</value>
+  </data>
+  <data name="error.realms.disabled" xml:space="preserve">
+    <value>Realms ワールドに参加しようとしましたが、設定で Realms サポートがオフになっています。</value>
+  </data>
+  <data name="error.realms.ip_error" xml:space="preserve">
+    <value>Realms ワールドのサーバー IP を取得できません。</value>
+  </data>
+  <data name="error.realms.server_id" xml:space="preserve">
+    <value>Realms サーバー ID は使用できません。</value>
+  </data>
+  <data name="error.realms.server_unavailable" xml:space="preserve">
+    <value>Realms サーバーの起動には時間がかかる場合があります。後でもう一度お試しください。</value>
+  </data>
+  <data name="error.setting.argument_syntax" xml:space="preserve">
+    <value>{0}: 使用できない構文です。--argname=value または --section.argname=value が必要です。</value>
+  </data>
+  <data name="error.terrain_not_enabled" xml:space="preserve">
+    <value>TerrainAndMovements が true になっていないため、使用できません。</value>
+  </data>
+  <data name="error.timeout" xml:space="preserve">
+    <value>接続がタイムアウトしました。</value>
+  </data>
+  <data name="error.unexpect_response" xml:space="preserve">
+    <value>サーバーから予期しない応答を受信しました。接続しようとしたサーバーは Minecraft サーバーではない場合があります。</value>
+  </data>
+  <data name="error.unsupported" xml:space="preserve">
+    <value>サーバーに接続できません: このバージョンはサポートされていません。</value>
+  </data>
+  <data name="error.usage" xml:space="preserve">
+    <value>使い方:</value>
+  </data>
+  <data name="error.version_different" xml:space="preserve">
+    <value>サーバーは手動設定とは異なるバージョンを報告するため、ログインできない場合があります。</value>
+  </data>
+  <data name="exception.chatbot.init" xml:space="preserve">
+    <value>API ハンドラーがイニシャライズされていないため、ChatBot メソッドをコンストラクターで呼び出せません。イニシャライズ タスクを実行するには、Initialize() または AfterGameJoined() を上書きします。</value>
+  </data>
+  <data name="exception.csrunner.invalid_head" xml:space="preserve">
+    <value>指定されたスクリプトには有効な MCCScript ヘッダーがありません。</value>
+  </data>
+  <data name="exception.packet_process" xml:space="preserve">
+    <value>タイプ {0} の着信パケットを処理できませんでした。(PacketID: {1}、Protocol: {2}、LoginPhase: {3}、InnerException: {4})</value>
+  </data>
+  <data name="exception.palette.block" xml:space="preserve">
+    <value>この Minecraft バージョンのブロックの種類に関する処理を更新してください。詳しくは Material.cs をご覧ください。</value>
+  </data>
+  <data name="exception.palette.entity" xml:space="preserve">
+    <value>この Minecraft バージョンのエンティティの種類に関する処理を更新してください。詳しくは EntityType.cs をご覧ください。</value>
+  </data>
+  <data name="exception.palette.healthfield" xml:space="preserve">
+    <value>この Minecraft バージョンの体力フィールドに関する処理を更新してください。</value>
+  </data>
+  <data name="exception.palette.item" xml:space="preserve">
+    <value>この Minecraft バージョンのアイテムの種類に関する処理を更新してください。詳しくは ItemType.cs をご覧ください。</value>
+  </data>
+  <data name="exception.palette.packet" xml:space="preserve">
+    <value>この Minecraft バージョンのパケット タイプ パレットに関する処理を更新してください。詳しくは PacketTypePalette.cs をご覧ください。</value>
+  </data>
+  <data name="exception.unknown_direction" xml:space="preserve">
+    <value>不明な方向です。</value>
+  </data>
+  <data name="exception.user_logout" xml:space="preserve">
+    <value>ユーザーによるログアウトは、Disconnect() を呼び出して行う必要があります。</value>
+  </data>
+  <data name="exception.version_unsupport" xml:space="preserve">
+    <value>プロトコル バージョン番号 {0} はサポートされていません。</value>
+  </data>
+  <data name="extra.entity_disabled" xml:space="preserve">
+    <value>その Minecraft バージョンでは現在、エンティティの処理がサポートされていません。</value>
+  </data>
+  <data name="extra.entity_required" xml:space="preserve">
+    <value>設定ファイルで EntityHandling を true にしてください。</value>
+  </data>
+  <data name="extra.inventory_close" xml:space="preserve">
+    <value>インベントリ # {0} は閉じられました。</value>
+  </data>
+  <data name="extra.inventory_disabled" xml:space="preserve">
+    <value>その Minecraft バージョンでは現在、インベントリの操作がサポートされていません。</value>
+  </data>
+  <data name="extra.inventory_enabled" xml:space="preserve">
+    <value>InventoryHandling が true になりました。</value>
+  </data>
+  <data name="extra.inventory_interact" xml:space="preserve">
+    <value>/inventory を使用して操作します。</value>
+  </data>
+  <data name="extra.inventory_open" xml:space="preserve">
+    <value>インベントリ # {0} が開かれました: {1}</value>
+  </data>
+  <data name="extra.inventory_required" xml:space="preserve">
+    <value>設定ファイルで InventoryHandling を true にしてください。</value>
+  </data>
+  <data name="extra.terrainandmovement_disabled" xml:space="preserve">
+    <value>その Minecraft バージョンでは現在、TerrainAndMovements がサポートされていません。</value>
+  </data>
+  <data name="extra.terrainandmovement_enabled" xml:space="preserve">
+    <value>TerrainAndMovements が true になりました。</value>
+  </data>
+  <data name="extra.terrainandmovement_required" xml:space="preserve">
+    <value>設定ファイルで TerrainAndMovements を true にしてください。</value>
+  </data>
+  <data name="filemonitor.fail" xml:space="preserve">
+    <value>[{0}] FileSystemWatcher をイニシャライズできませんでした。ポーリングを使用して再試行します。</value>
+  </data>
+  <data name="filemonitor.init" xml:space="preserve">
+    <value>[{0}] FileSystemWatcher をイニシャライズしています: {1}</value>
+  </data>
+  <data name="forge.accept" xml:space="preserve">
+    <value>サーバーの Mod リストを受け入れています...</value>
+  </data>
+  <data name="forge.accept_registry" xml:space="preserve">
+    <value>サーバーのレジストリを受け入れています...</value>
+  </data>
+  <data name="forge.complete" xml:space="preserve">
+    <value>Forge サーバーへの接続が完了しました。</value>
+  </data>
+  <data name="forge.fml2.config" xml:space="preserve">
+    <value>FML2 サーバーの構成を認識しています: {0}</value>
+  </data>
+  <data name="forge.fml2.mod" xml:space="preserve">
+    <value>FML2 サーバーの Mod リストを受信しました。</value>
+  </data>
+  <data name="forge.fml2.mod_send" xml:space="preserve">
+    <value>FML2 クライアントの Mod リストを送信しています。</value>
+  </data>
+  <data name="forge.fml2.registry" xml:space="preserve">
+    <value>FML2 サーバーのレジストリを認識しています: {0}</value>
+  </data>
+  <data name="forge.fml2.unknown" xml:space="preserve">
+    <value>不明な FML2 Handshake メッセージ番号 {0} を取得しました。</value>
+  </data>
+  <data name="forge.fml2.unknown_channel" xml:space="preserve">
+    <value>不明な FML2 LoginMessage チャネルを無視します: {0}</value>
+  </data>
+  <data name="forge.mod_list" xml:space="preserve">
+    <value>Mod リスト:</value>
+  </data>
+  <data name="forge.no_mod" xml:space="preserve">
+    <value>サーバーは Mod なしで Forge を実行しています。</value>
+  </data>
+  <data name="forge.registry" xml:space="preserve">
+    <value>{0} 項目のレジストリを受信しました。</value>
+  </data>
+  <data name="forge.registry_2" xml:space="preserve">
+    <value>{1} 項目のレジストリ {0} を受信しました。</value>
+  </data>
+  <data name="forge.send_mod" xml:space="preserve">
+    <value>変更された Mod リストをサーバーに送信しています...</value>
+  </data>
+  <data name="forge.version" xml:space="preserve">
+    <value>Forge プロトコル バージョン: {0}</value>
+  </data>
+  <data name="forge.with_mod" xml:space="preserve">
+    <value>サーバーは {0} 個の Mod で Forge を実行しています。</value>
+  </data>
+  <data name="general.available_cmd" xml:space="preserve">
+    <value>利用できるコマンド: {0}</value>
+  </data>
+  <data name="general.bot_unload" xml:space="preserve">
+    <value>この ChatBot はアンロードされます。</value>
+  </data>
+  <data name="general.done" xml:space="preserve">
+    <value>完了</value>
+  </data>
+  <data name="general.fail" xml:space="preserve">
+    <value>失敗</value>
+  </data>
+  <data name="icmd.error" xml:space="preserve">
+    <value>OnInternalCommand: {0} からのエラー: {1}</value>
+  </data>
+  <data name="icmd.help" xml:space="preserve">
+    <value>help &lt;cmdname&gt;: コマンドに関する簡単なヘルプを表示します。</value>
+  </data>
+  <data name="icmd.list" xml:space="preserve">
+    <value>help &lt;cmdname&gt;。利用できるコマンド:
+{0}サーバーのヘルプについては「{1}send /help」を使用してください。</value>
+  </data>
+  <data name="icmd.unknown" xml:space="preserve">
+    <value>「{0}」は不明なコマンドです。コマンド リストについては「help」を使用してください。</value>
+  </data>
+  <data name="mcc.backup_old_config" xml:space="preserve">
+    <value>使用していない MinecraftClient.ini は {0} にバックアップされました。</value>
+  </data>
+  <data name="mcc.browser_login_code" xml:space="preserve">
+    <value>ここにコードを貼り付けます:</value>
+  </data>
+  <data name="mcc.browser_open" xml:space="preserve">
+    <value>ブラウザーが自動的に開かれます。開かれない場合は、ブラウザーで以下の URL を開いてください。</value>
+  </data>
+  <data name="mcc.connecting" xml:space="preserve">
+    <value>{0} に接続しています...</value>
+  </data>
+  <data name="mcc.disconnect.login" xml:space="preserve">
+    <value>ログインできませんでした:</value>
+  </data>
+  <data name="mcc.disconnect.lost" xml:space="preserve">
+    <value>接続が失われました。</value>
+  </data>
+  <data name="mcc.disconnect.server" xml:space="preserve">
+    <value>サーバーによって切断されました:</value>
+  </data>
+  <data name="mcc.disconnected" xml:space="preserve">
+    <value>どのサーバーにも接続されていません。ヘルプについては「{0}help」を使用してください。</value>
+  </data>
+  <data name="mcc.fetching_key" xml:space="preserve">
+    <value>Microsoft からプロファイル キーを取得しています。</value>
+  </data>
+  <data name="mcc.forge" xml:space="preserve">
+    <value>サーバーが Forge を実行しているか確認しています...</value>
+  </data>
+  <data name="mcc.forgeforce" xml:space="preserve">
+    <value>Forge のサポートを強制的にオンにします。</value>
+  </data>
+  <data name="mcc.found" xml:space="preserve">
+    <value>ドメイン {2} のサーバー {0}:{1} が見つかりました。</value>
+  </data>
+  <data name="mcc.generator.done" xml:space="preserve">
+    <value>データセット {1} を使用して正常に {0} パレットが生成されました。</value>
+  </data>
+  <data name="mcc.generator.generating" xml:space="preserve">
+    <value>データセット {1} を使用して {0} パレットを生成しています。</value>
+  </data>
+  <data name="mcc.gen_new_config" xml:space="preserve">
+    <value>新しい設定ファイル「{0}」が生成されました。</value>
+  </data>
+  <data name="mcc.handshake" xml:space="preserve">
+    <value>Handshake に成功しました。(サーバー ID: {0})</value>
+  </data>
+  <data name="mcc.has_update" xml:space="preserve">
+    <value>新しい MCC のバージョンが利用できます。/upgrade を使用してダウンロードすることができます。
+また、手動でダウンロードすることもできます: {0}</value>
+  </data>
+  <data name="mcc.help_us_translate" xml:space="preserve">
+    <value>MCC の翻訳にご協力ください: {0}</value>
+  </data>
+  <data name="mcc.invaild_config" xml:space="preserve">
+    <value>設定ファイルを解析できませんでした。「{0}new」と入力して新しく設定を生成してください。</value>
+  </data>
+  <data name="mcc.ip" xml:space="preserve">
+    <value>サーバー IP: </value>
+  </data>
+  <data name="mcc.joined" xml:space="preserve">
+    <value>サーバーに参加しました。
+サーバーを退出するには「{0}quit」と入力してください。</value>
+  </data>
+  <data name="mcc.link" xml:space="preserve">
+    <value>リンク: {0}</value>
+  </data>
+  <data name="mcc.login" xml:space="preserve">
+    <value>ログイン:</value>
+  </data>
+  <data name="mcc.login_basic_io" xml:space="preserve">
+    <value>ユーザー名またはメールアドレスを入力してください。</value>
+  </data>
+  <data name="mcc.not_found" xml:space="preserve">
+    <value>{0} の SRV レコードを解析できませんでした。
+{1}: {2}</value>
+  </data>
+  <data name="mcc.offline" xml:space="preserve">
+    <value>オフライン モードを使用します。</value>
+  </data>
+  <data name="mcc.password_basic_io" xml:space="preserve">
+    <value>{0} のパスワードを入力してください。</value>
+  </data>
+  <data name="mcc.password_hidden" xml:space="preserve">
+    <value>パスワード (非表示中): </value>
+  </data>
+  <data name="mcc.player_dead" xml:space="preserve">
+    <value>死亡しました。リスポーンするには「{0}respawn」と入力してください。</value>
+  </data>
+  <data name="mcc.player_dead_respawn" xml:space="preserve">
+    <value>死亡しました。1 秒後にリスポーンされます。</value>
+  </data>
+  <data name="mcc.press_exit" xml:space="preserve">
+    <value>または、Enter キーを押して Minecraft Console Client を終了します。</value>
+  </data>
+  <data name="mcc.profile_key_invalid" xml:space="preserve">
+    <value>プロファイル キー キャッシュを更新する必要があります。</value>
+  </data>
+  <data name="mcc.profile_key_valid" xml:space="preserve">
+    <value>プロファイル キー キャッシュは引き続き {0} に対しては有効です。</value>
+  </data>
+  <data name="mcc.realms_available" xml:space="preserve">
+    <value>次の Realms ワールドにアクセスできます。</value>
+  </data>
+  <data name="mcc.realms_join" xml:space="preserve">
+    <value>Realms ワールドに参加するには、サーバー IP として「realms:&lt;index&gt;」を使用してください。</value>
+  </data>
+  <data name="mcc.reconnect" xml:space="preserve">
+    <value>5 秒間待機します (残り試行回数 {0} 回)...</value>
+  </data>
+  <data name="mcc.resolve" xml:space="preserve">
+    <value>{0} を解析しています...</value>
+  </data>
+  <data name="mcc.restart" xml:space="preserve">
+    <value>Minecraft Console Client を再起動しています...</value>
+  </data>
+  <data name="mcc.restart_delay" xml:space="preserve">
+    <value>{0} 秒後に再起動されます...</value>
+  </data>
+  <data name="mcc.retrieve" xml:space="preserve">
+    <value>サーバー情報を取得しています...</value>
+  </data>
+  <data name="mcc.run_with_default_settings" xml:space="preserve">
+    <value>
+MCC はデフォルト設定で実行されています。</value>
+  </data>
+  <data name="mcc.server_offline" xml:space="preserve">
+    <value>サーバーはオフライン モードです。</value>
+  </data>
+  <data name="mcc.server_protocol" xml:space="preserve">
+    <value>サーバーのバージョン: {0} (プロトコル v{1})</value>
+  </data>
+  <data name="mcc.server_version" xml:space="preserve">
+    <value>サーバーのバージョン: </value>
+  </data>
+  <data name="mcc.session" xml:space="preserve">
+    <value>セッションを確認しています...</value>
+  </data>
+  <data name="mcc.session_fail" xml:space="preserve">
+    <value>セッションを確認できませんでした。</value>
+  </data>
+  <data name="mcc.session_invalid" xml:space="preserve">
+    <value>セッション キャッシュが使用できないか、有効期限が切れています。</value>
+  </data>
+  <data name="mcc.session_valid" xml:space="preserve">
+    <value>セッション キャッシュは引き続き {0} に対しては有効です。</value>
+  </data>
+  <data name="mcc.settings_generated" xml:space="preserve">
+    <value>設定ファイル MinecraftClient.ini が生成されました。</value>
+  </data>
+  <data name="mcc.unknown_version" xml:space="preserve">
+    <value>Minecraft バージョン {0} が不明またはサポートされていません。
+自動検出モードに切り替えます。</value>
+  </data>
+  <data name="mcc.update.already_latest" xml:space="preserve">
+    <value>現在のバージョンはすでに最新であるか、開発ビルドです。</value>
+  </data>
+  <data name="mcc.update.already_running" xml:space="preserve">
+    <value>更新プログラムの確認はすでに開始されています。</value>
+  </data>
+  <data name="mcc.update.cancel" xml:space="preserve">
+    <value>ダウンロードがキャンセルされました。</value>
+  </data>
+  <data name="mcc.update.check_fail" xml:space="preserve">
+    <value>GitHub から更新プログラムを確認できません。インターネット接続を確認するか、プロキシを有効にしてください。</value>
+  </data>
+  <data name="mcc.update.download_complete" xml:space="preserve">
+    <value>自動更新: ダウンロードが完了しました。ダウンロードしたファイルを展開します。</value>
+  </data>
+  <data name="mcc.update.download_fail" xml:space="preserve">
+    <value>自動更新: ファイルのダウンロードまたは保存している際にエラーが発生しました:</value>
+  </data>
+  <data name="mcc.update.exist_update" xml:space="preserve">
+    <value>自動更新: 新しいバージョン「{0}」が検出されました。ダウンロードがまもなく開始されます。(プラットフォーム: {1})</value>
+  </data>
+  <data name="mcc.update.platform_not_support" xml:space="preserve">
+    <value>最新のリリースには、お使いのオペレーティング システムと CPU アーキテクチャに一致するビルドが含まれていません。</value>
+  </data>
+  <data name="mcc.update.progress" xml:space="preserve">
+    <value>自動更新: {0:00.00}%、{3:0.0} KB/秒 - {1:00.0} MB ({2:00.0} MB 中)、残り {4} 秒</value>
+  </data>
+  <data name="mcc.update.progress_type2" xml:space="preserve">
+    <value>自動更新: {1:0.0} KB/秒 - {0:00.0} MB</value>
+  </data>
+  <data name="mcc.update.promote_force" xml:space="preserve">
+    <value>強制的にダウンロードするには「-f」を追加してください。</value>
+  </data>
+  <data name="mcc.update.promote_force_cmd" xml:space="preserve">
+    <value>強制的にダウンロードするには「--force-upgrade」を使用してください。</value>
+  </data>
+  <data name="mcc.update.save_as" xml:space="preserve">
+    <value>自動更新: {0} にファイルを保存しました。</value>
+  </data>
+  <data name="mcc.update.start" xml:space="preserve">
+    <value>更新プログラムの確認を開始します。</value>
+  </data>
+  <data name="mcc.use_new_config" xml:space="preserve">
+    <value>新しく生成された MinecraftClient.ini を使用してください。</value>
+  </data>
+  <data name="mcc.use_version" xml:space="preserve">
+    <value>Minecraft バージョン {0} (プロトコル v{1}) を使用します。</value>
+  </data>
+  <data name="mcc.version_supported" xml:space="preserve">
+    <value>バージョンはサポートされています。
+ログインしています...</value>
+  </data>
+  <data name="mcc.with_forge" xml:space="preserve">
+    <value>、Forge あり</value>
+  </data>
+  <data name="proxy.connected" xml:space="preserve">
+    <value>プロキシ {0}:{1} に接続しました</value>
+  </data>
+  <data name="cmd.dig.end" xml:space="preserve">
+    <value>{0} に設置されているブロックを破壊しました。</value>
+  </data>
+  <data name="cmd.dig.cancel" xml:space="preserve">
+    <value>{0} に設置されているブロックの採掘をキャンセルします。</value>
+  </data>
+  <data name="bot.TelegramBridge.quit_disabled" xml:space="preserve">
+    <value>このコマンドは、Telegram のキャッシュに問題が発生したためオフになっています。クライアントを手動で停止してください。</value>
+  </data>
+  <data name="cmd.items.collector.desc" xml:space="preserve">
+    <value>地面に落ちているアイテムを集める</value>
+  </data>
+  <data name="cmd.items.collector.usage" xml:space="preserve">
+    <value>itemscollector &lt;start/stop&gt;</value>
+  </data>
+  <data name="cmd.items.collector.already.collecting" xml:space="preserve">
+    <value>Already collecting items!</value>
+  </data>
+  <data name="cmd.items.collector.started" xml:space="preserve">
+    <value>Started collecting items!</value>
+  </data>
+  <data name="cmd.items.collector.already.not.collecting" xml:space="preserve">
+    <value>Already not collecting items!</value>
+  </data>
+  <data name="cmd.items.collector.stopping" xml:space="preserve">
+    <value>Stopping item collection...</value>
+  </data>
+  <data name="cmd.items.collector.stopped" xml:space="preserve">
+    <value>Stopped collecting items.</value>
+  </data>
+  <data name="bot.WebSocketBot.failed_to_start.ip" xml:space="preserve">
+    <value>§cFailed to start a server! The provided IP address is not a valid one!</value>
+  </data>
+  <data name="bot.WebSocketBot.failed_to_start.port" xml:space="preserve">
+    <value>§cFailed to start a server! The provided port number {0} is out of the range, it must be 65535 or bellow it!</value>
+  </data>
+  <data name="ChatBot.WebSocketBot.DebugMode" xml:space="preserve">
+    <value/>
+  </data>
+  <data name="bot.WebSocketBot.starting" xml:space="preserve">
+    <value>Starting the Websocket server...</value>
+  </data>
+  <data name="bot.WebSocketBot.started" xml:space="preserve">
+    <value>§bServer started on ip §a{0}§b port: §a{1}</value>
+  </data>
+  <data name="bot.WebSocketBot.failed_to_start.custom" xml:space="preserve">
+    <value>§cFailed to start a server:\n\n{0}\n\n</value>
+  </data>
+  <data name="bot.WebSocketBot.new_session" xml:space="preserve">
+    <value>§bNew session connected: §a{0}</value>
+  </data>
+  <data name="bot.WebSocketBot.session_disconnected" xml:space="preserve">
+    <value>§bSession with an id §a{0}§b has disconnected!</value>
+  </data>
+  <data name="bot.WebSocketBot.session_id_changed" xml:space="preserve">
+    <value>§bSession with an id §a{0}§b has been renamed to: §a{1}§b!</value>
+  </data>
+  <data name="bot.WebSocketBot.session_id_failed_to_change" xml:space="preserve">
+    <value>§cSession with an id §a{0}§b failed to change the ID to: §c{1}§b!</value>
+  </data>
+  <data name="bot.WebSocketBot.session_authenticated" xml:space="preserve">
+    <value>§bSession with an id §a{0}§b has been successfully authenticated!</value>
+  </data>
+  <data name="cmd.nameitem.item.name.empty" xml:space="preserve">
+    <value>The item name cannot be empty!</value>
+  </data>
+  <data name="cmd.nameitem.no.anvil.inventory.open" xml:space="preserve">
+    <value>You need to have an Anvil inventory opened and active in order to use this command!</value>
+  </data>
+  <data name="cmd.nameitem.first.slot.empty" xml:space="preserve">
+    <value>You need to place an item in the first slot (slot id: 0) of the Anvil inventory!</value>
+  </data>
+  <data name="cmd.nameitem.failed" xml:space="preserve">
+    <value>Failed to send the packet for naming an item, try again!</value>
+  </data>
+  <data name="cmd.nameitem.successful" xml:space="preserve">
+    <value>Successfully sent the item name to the server, you can now click on the slot number 2 in the Anvil inventory to rename the item.</value>
+  </data>
+  <data name="cmd.nameitem.desc" xml:space="preserve">
+    <value>Set an item name when an Anvil inventory is active and the item is in the first slot.</value>
+  </data>
+  <data name="bot.antiafk.may.not.move" xml:space="preserve">
+    <value>Bot movement lock is held by bot {0}, so the Anti AFK bot might not move!</value>
+  </data>
+  <data name="bot.common.movement.lock.held" xml:space="preserve">
+    <value>You can not start/run/use the '{0}' bot because it requires movement, the movement is currently utilized by the '{1}' bot, stop it if you want to use this one.</value>
+  </data>
+  <data name="cmd.wait.random.min.bigger" xml:space="preserve">
+    <value>Minimum number that you have provided is bigger than the maximum, swapping them around!</value>
+  </data>
+  <data name="cmd.inventory.shiftrightclick" xml:space="preserve">
+    <value>Shift right-clicking slot {0} in window #{1}</value>
+  </data>
+  <data name="mcc.avaliable_profiles" xml:space="preserve">
+    <value>利用可能なプロファイル:</value>
+  </data>
+  <data name="mcc.selected_profile" xml:space="preserve">
+    <value>選択したプロファイル</value>
+  </data>
+  <data name="mcc.select_profile" xml:space="preserve">
+    <value>利用可能なプロファイルからプロファイルを選択します:</value>
+  </data>
+</root>
