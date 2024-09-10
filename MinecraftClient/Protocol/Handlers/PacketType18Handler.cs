@@ -48,7 +48,7 @@ namespace MinecraftClient.Protocol.Handlers
         {
             PacketTypePalette p = protocol switch
             {
-                > Protocol18Handler.MC_1_20_6_Version => throw new NotImplementedException(Translations
+                > Protocol18Handler.MC_1_21_Version => throw new NotImplementedException(Translations
                     .exception_palette_packet),
                 <= Protocol18Handler.MC_1_8_Version => new PacketPalette17(),
                 <= Protocol18Handler.MC_1_11_2_Version => new PacketPalette110(),
