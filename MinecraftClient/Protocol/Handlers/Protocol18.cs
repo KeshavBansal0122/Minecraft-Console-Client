@@ -2688,6 +2688,10 @@ namespace MinecraftClient.Protocol.Handlers
                     dataTypes.ReadNextFloat(packetData); // Player Motion Y
                     dataTypes.ReadNextFloat(packetData); // Player Motion Z
 
+                    // Cease processing the remaining content
+                    handler.OnExplosion(explosionLocation, explosionStrength, explosionBlockCount);
+                    break;
+
                     if (protocolVersion >= MC_1_20_4_Version)
                     {
                         dataTypes.ReadNextVarInt(packetData); // Block Interaction
