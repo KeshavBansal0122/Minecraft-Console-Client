@@ -128,6 +128,8 @@ public class PacketPalette1206 : PacketTypePalette
             { 0x77, PacketTypesIn.DeclareRecipes },             // (Wiki name: Update Recipes) (Unused)
             { 0x78, PacketTypesIn.Tags },                       // (Wiki name: Update Tags)
             { 0x79, PacketTypesIn.ProjectilePower },            // Added in 1.20.6
+            { 0x7A, PacketTypesIn.CustomReportDetails },        // Added in 1.21
+            { 0x7B, PacketTypesIn.ServerLinks },                // Added in 1.21
         };
 
         private readonly Dictionary<int, PacketTypesOut> typeOut = new()
