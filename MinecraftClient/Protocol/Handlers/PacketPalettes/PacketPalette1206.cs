@@ -210,7 +210,9 @@ public class PacketPalette1206 : PacketTypePalette
             { 0x0B, ConfigurationPacketTypesIn.Transfer },
             { 0x0C, ConfigurationPacketTypesIn.FeatureFlags },
             { 0x0D, ConfigurationPacketTypesIn.UpdateTags },
-            { 0x0E, ConfigurationPacketTypesIn.KnownDataPacks }
+            { 0x0E, ConfigurationPacketTypesIn.KnownDataPacks },
+            { 0x0F, ConfigurationPacketTypesIn.CustomReportDetails },
+            { 0x10, ConfigurationPacketTypesIn.ServerLinks }
         };
 
         private readonly Dictionary<int, ConfigurationPacketTypesOut> configurationTypesOut = new()
