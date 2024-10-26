@@ -511,7 +511,8 @@ namespace MinecraftClient.Protocol.Message
             if (nbt.Count == 1 && nbt.TryGetValue("", out object? rootMessage))
             {
                 // Nameless root tag
-                return (string)rootMessage;
+                // return (string)rootMessage;
+                return rootMessage.ToString();
             }
 
             string message = string.Empty;
