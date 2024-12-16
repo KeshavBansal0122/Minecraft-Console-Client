@@ -550,7 +550,7 @@ namespace MinecraftClient.Protocol.Handlers
 
                     // https://wiki.vg/Protocol#Play
                     case CurrentState.Play:
-                        return HandlePlayPackets(packetId, packetData); Caused error
+                        return HandlePlayPackets(packetId, packetData);
 
                     default:
                         return true;
