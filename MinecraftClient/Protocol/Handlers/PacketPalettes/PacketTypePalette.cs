@@ -73,7 +73,7 @@ namespace MinecraftClient.Protocol.Handlers.PacketPalettes
                 return PacketTypesIn.Unknown;
             }
             else
-                throw new KeyNotFoundException("Packet ID of 0x" + packetId.ToString("X2") + " doesn't exist!");
+                return PacketTypesIn.JoinGame; //ignore unknown packets
         }
 
         /// <summary>
