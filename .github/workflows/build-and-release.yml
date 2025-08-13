@@ -73,7 +73,7 @@ jobs:
         mv ${{ env.built-executable-path }} ${{ env.PROJECT }}-${{ env.build-version-info }}-${{ matrix.target }}${{ (startsWith(matrix.target, 'win') && '.exe') || ' ' }}
 
     - name: Upload Artifact
-      uses: actions/upload-artifact@v3
+      uses: actions/upload-artifact@v4
       with:
         name: ${{ env.PROJECT }}-${{ env.build-version-info }}-${{ matrix.target }}
         path: ${{ env.PROJECT }}-${{ env.build-version-info }}-${{ matrix.target }}*
@@ -88,7 +88,7 @@ jobs:
           echo "build-version-info=$(date +'%Y%m%d')-${{ github.run_number }}" >> $GITHUB_ENV
 
       - name: Download all artifacts
-        uses: actions/download-artifact@v3
+        uses: actions/download-artifact@v4
         with:
           path: ./artifacts
 
